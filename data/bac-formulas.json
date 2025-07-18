@@ -1,0 +1,396 @@
+{
+  "timestamp": "2025-07-18T16:43:43.734Z",
+  "source": "https://score.faccna.tn/",
+  "description": "Tunisian Baccalauréat calculation formulas and coefficients",
+  "specializations": {
+    "BAC MATHÉMATIQUES": {
+      "subjects": {
+        "mathématiques": {
+          "coefficient": 4,
+          "exam_coefficient": 3
+        },
+        "physique": {
+          "coefficient": 3,
+          "exam_coefficient": 2
+        },
+        "sciences_naturelles": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "français": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "arabe": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "anglais": {
+          "coefficient": 1.5,
+          "exam_coefficient": 1
+        },
+        "philosophie": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "histoire_géographie": {
+          "coefficient": 1.5,
+          "exam_coefficient": 1
+        },
+        "éducation_islamique": {
+          "coefficient": 1,
+          "exam_coefficient": 0.5
+        },
+        "sport": {
+          "coefficient": 1,
+          "exam_coefficient": 0.5
+        }
+      },
+      "calculation": "moyenne_generale = (sum(note * coefficient) + sum(note_exam * exam_coefficient)) / (sum(coefficients) + sum(exam_coefficients))",
+      "passing_grade": 10,
+      "rescue_conditions": [
+        "moyenne_generale >= 9 && moyenne_generale < 10",
+        "note_principale >= 8",
+        "moyenne_exam >= 10",
+        "no_subject_below_5"
+      ],
+      "total_coefficient": 20,
+      "total_exam_coefficient": 12,
+      "total_max_points": 640
+    },
+    "BAC SCIENCES EXP": {
+      "subjects": {
+        "sciences_naturelles": {
+          "coefficient": 4,
+          "exam_coefficient": 3
+        },
+        "mathématiques": {
+          "coefficient": 3,
+          "exam_coefficient": 2
+        },
+        "physique": {
+          "coefficient": 3,
+          "exam_coefficient": 2
+        },
+        "français": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "arabe": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "anglais": {
+          "coefficient": 1.5,
+          "exam_coefficient": 1
+        },
+        "philosophie": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "histoire_géographie": {
+          "coefficient": 1.5,
+          "exam_coefficient": 1
+        },
+        "éducation_islamique": {
+          "coefficient": 1,
+          "exam_coefficient": 0.5
+        },
+        "sport": {
+          "coefficient": 1,
+          "exam_coefficient": 0.5
+        }
+      },
+      "calculation": "moyenne_generale = (sum(note * coefficient) + sum(note_exam * exam_coefficient)) / (sum(coefficients) + sum(exam_coefficients))",
+      "passing_grade": 10,
+      "rescue_conditions": [
+        "moyenne_generale >= 9 && moyenne_generale < 10",
+        "note_principale >= 8",
+        "moyenne_exam >= 10",
+        "no_subject_below_5"
+      ],
+      "total_coefficient": 21,
+      "total_exam_coefficient": 13,
+      "total_max_points": 680
+    },
+    "BAC TECHNIQUE": {
+      "subjects": {
+        "technologie": {
+          "coefficient": 4,
+          "exam_coefficient": 3
+        },
+        "mathématiques": {
+          "coefficient": 3,
+          "exam_coefficient": 2
+        },
+        "physique": {
+          "coefficient": 2,
+          "exam_coefficient": 1.5
+        },
+        "français": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "arabe": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "anglais": {
+          "coefficient": 1.5,
+          "exam_coefficient": 1
+        },
+        "économie": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "histoire_géographie": {
+          "coefficient": 1.5,
+          "exam_coefficient": 1
+        },
+        "éducation_islamique": {
+          "coefficient": 1,
+          "exam_coefficient": 0.5
+        },
+        "sport": {
+          "coefficient": 1,
+          "exam_coefficient": 0.5
+        }
+      },
+      "calculation": "moyenne_generale = (sum(note * coefficient) + sum(note_exam * exam_coefficient)) / (sum(coefficients) + sum(exam_coefficients))",
+      "passing_grade": 10,
+      "rescue_conditions": [
+        "moyenne_generale >= 9 && moyenne_generale < 10",
+        "note_principale >= 8",
+        "moyenne_exam >= 10",
+        "no_subject_below_5"
+      ],
+      "total_coefficient": 20,
+      "total_exam_coefficient": 12.5,
+      "total_max_points": 650
+    },
+    "BAC ÉCONOMIE GESTION": {
+      "subjects": {
+        "économie_gestion": {
+          "coefficient": 4,
+          "exam_coefficient": 3
+        },
+        "mathématiques": {
+          "coefficient": 3,
+          "exam_coefficient": 2
+        },
+        "français": {
+          "coefficient": 2,
+          "exam_coefficient": 1.5
+        },
+        "arabe": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "anglais": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "philosophie": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "histoire_géographie": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "éducation_islamique": {
+          "coefficient": 1,
+          "exam_coefficient": 0.5
+        },
+        "sport": {
+          "coefficient": 1,
+          "exam_coefficient": 0.5
+        }
+      },
+      "calculation": "moyenne_generale = (sum(note * coefficient) + sum(note_exam * exam_coefficient)) / (sum(coefficients) + sum(exam_coefficients))",
+      "passing_grade": 10,
+      "rescue_conditions": [
+        "moyenne_generale >= 9 && moyenne_generale < 10",
+        "note_principale >= 8",
+        "moyenne_exam >= 10",
+        "no_subject_below_5"
+      ],
+      "total_coefficient": 19,
+      "total_exam_coefficient": 11.5,
+      "total_max_points": 610
+    },
+    "BAC INFORMATIQUE": {
+      "subjects": {
+        "informatique": {
+          "coefficient": 4,
+          "exam_coefficient": 3
+        },
+        "mathématiques": {
+          "coefficient": 3,
+          "exam_coefficient": 2
+        },
+        "français": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "arabe": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "anglais": {
+          "coefficient": 2,
+          "exam_coefficient": 1.5
+        },
+        "philosophie": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "économie": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "histoire_géographie": {
+          "coefficient": 1.5,
+          "exam_coefficient": 1
+        },
+        "éducation_islamique": {
+          "coefficient": 1,
+          "exam_coefficient": 0.5
+        },
+        "sport": {
+          "coefficient": 1,
+          "exam_coefficient": 0.5
+        }
+      },
+      "calculation": "moyenne_generale = (sum(note * coefficient) + sum(note_exam * exam_coefficient)) / (sum(coefficients) + sum(exam_coefficients))",
+      "passing_grade": 10,
+      "rescue_conditions": [
+        "moyenne_generale >= 9 && moyenne_generale < 10",
+        "note_principale >= 8",
+        "moyenne_exam >= 10",
+        "no_subject_below_5"
+      ],
+      "total_coefficient": 20.5,
+      "total_exam_coefficient": 12.5,
+      "total_max_points": 660
+    },
+    "BAC SPORT": {
+      "subjects": {
+        "sport": {
+          "coefficient": 4,
+          "exam_coefficient": 3
+        },
+        "sciences_naturelles": {
+          "coefficient": 2,
+          "exam_coefficient": 1.5
+        },
+        "mathématiques": {
+          "coefficient": 2,
+          "exam_coefficient": 1.5
+        },
+        "français": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "arabe": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "anglais": {
+          "coefficient": 1.5,
+          "exam_coefficient": 1
+        },
+        "philosophie": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "histoire_géographie": {
+          "coefficient": 1.5,
+          "exam_coefficient": 1
+        },
+        "éducation_islamique": {
+          "coefficient": 1,
+          "exam_coefficient": 0.5
+        }
+      },
+      "calculation": "moyenne_generale = (sum(note * coefficient) + sum(note_exam * exam_coefficient)) / (sum(coefficients) + sum(exam_coefficients))",
+      "passing_grade": 10,
+      "rescue_conditions": [
+        "moyenne_generale >= 9 && moyenne_generale < 10",
+        "note_principale >= 8",
+        "moyenne_exam >= 10",
+        "no_subject_below_5"
+      ],
+      "total_coefficient": 18,
+      "total_exam_coefficient": 11.5,
+      "total_max_points": 590
+    },
+    "BAC LETTRES": {
+      "subjects": {
+        "arabe": {
+          "coefficient": 4,
+          "exam_coefficient": 3
+        },
+        "français": {
+          "coefficient": 3,
+          "exam_coefficient": 2
+        },
+        "philosophie": {
+          "coefficient": 3,
+          "exam_coefficient": 2
+        },
+        "histoire_géographie": {
+          "coefficient": 3,
+          "exam_coefficient": 2
+        },
+        "anglais": {
+          "coefficient": 2,
+          "exam_coefficient": 1.5
+        },
+        "éducation_islamique": {
+          "coefficient": 2,
+          "exam_coefficient": 1
+        },
+        "mathématiques": {
+          "coefficient": 1.5,
+          "exam_coefficient": 1
+        },
+        "sciences_naturelles": {
+          "coefficient": 1,
+          "exam_coefficient": 0.5
+        },
+        "sport": {
+          "coefficient": 1,
+          "exam_coefficient": 0.5
+        }
+      },
+      "calculation": "moyenne_generale = (sum(note * coefficient) + sum(note_exam * exam_coefficient)) / (sum(coefficients) + sum(exam_coefficients))",
+      "passing_grade": 10,
+      "rescue_conditions": [
+        "moyenne_generale >= 9 && moyenne_generale < 10",
+        "note_principale >= 8",
+        "moyenne_exam >= 10",
+        "no_subject_below_5"
+      ],
+      "total_coefficient": 20.5,
+      "total_exam_coefficient": 13.5,
+      "total_max_points": 680
+    }
+  },
+  "calculationFunctions": "[object Object]",
+  "usage": {
+    "example": {
+      "grades": {
+        "mathématiques": 15,
+        "physique": 14,
+        "français": 12
+      },
+      "examGrades": {
+        "mathématiques": 16,
+        "physique": 15,
+        "français": 13
+      },
+      "specialization": "BAC MATHÉMATIQUES"
+    }
+  }
+}

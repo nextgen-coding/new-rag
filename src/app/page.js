@@ -3,7 +3,19 @@
 import { useChat } from 'ai/react';
 
 export default function Chat() {
-  const { messages, input, handleInputChange, handleSubmit, isLoading } = useChat();
+  const { messages, input, handleInputChange, handleSubmit, isLoading } = useChat({
+    api: '/api/chat',
+    onError: (error) => {
+      console.error('Chat error:', error);
+    },
+    onFinish: (message) => {
+      console.log('Message finished:', message);
+    },
+  });
+
+  // Debug logging
+  console.log('Messages state:', messages);
+  console.log('Is loading:', isLoading);
 
   return (
     <div className="flex flex-col h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800">
@@ -63,9 +75,41 @@ export default function Chat() {
                           : 'bg-white dark:bg-gray-700 text-gray-900 dark:text-white shadow-sm'
                       }`}
                     >
-                      <div className="whitespace-pre-wrap break-words">
-                        {message.content}
-                      </div>
+                      {/* Regular content */}
+                      {message.content && (
+                        <div className="whitespace-pre-wrap break-words">
+                          {message.content}
+                        </div>
+                      )}
+                      
+                      {/* Display tool calls if any */}
+                      {message.toolInvocations && message.toolInvocations.length > 0 && (
+                        <div className="mt-2 space-y-2">
+                          {message.toolInvocations.map((tool, index) => (
+                            <div key={index} className="bg-blue-50 dark:bg-gray-600 p-3 rounded-lg">
+                              <div className="flex items-center gap-2 mb-2">
+                                <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                                <span className="text-sm font-medium text-blue-700 dark:text-blue-300">
+                                  Searching Programs
+                                </span>
+                              </div>
+                              {tool.result && (
+                                <div className="whitespace-pre-wrap text-sm">{tool.result}</div>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                      
+                      {/* Debug: show raw message structure */}
+                      {process.env.NODE_ENV === 'development' && (
+                        <details className="mt-2 text-xs">
+                          <summary className="text-gray-500 cursor-pointer">Debug Info</summary>
+                          <pre className="mt-1 text-gray-400 overflow-auto">
+                            {JSON.stringify(message, null, 2)}
+                          </pre>
+                        </details>
+                      )}
                     </div>
                     {message.role === 'user' && (
                       <div className="w-8 h-8 bg-gray-600 rounded-lg flex items-center justify-center ml-3 flex-shrink-0">

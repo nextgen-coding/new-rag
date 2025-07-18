@@ -1,0 +1,1633 @@
+{
+  "Mathématiques": {
+    "inlineScripts": [
+      "\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'G-5G36B723DC');\n    ",
+      "\n\n         // sport disponse\n         function toggleInput() {\n             checkbox = document.getElementById(\"dispenserCheckbox\");\n             input = document.getElementById(\"sp\");\n\n            if (checkbox.checked) {\n                input.setAttribute(\"disabled\", \"disabled\");\n            } else {\n                input.removeAttribute(\"disabled\");\n            }\n        }\n        // l'action par défaut ne devrait pas être exécutée comme elle l'est normalement\n        document.getElementById(\"myForm\").onsubmit = function (e) {\n            e.preventDefault();\n            calcul_cntrl()\n        };\n        //Session principale\n        function calcul() {\n            //Récupérer les notes dans des variables\n            var math = parseFloat(document.getElementById(\"ma\").value),\n                physique = parseFloat(document.getElementById(\"phy\").value),\n                science = parseFloat(document.getElementById(\"sc\").value),\n                français = parseFloat(document.getElementById(\"fr\").value),\n                philo = parseFloat(document.getElementById(\"ph\").value),\n                arabe = parseFloat(document.getElementById(\"ar\").value),\n                sport = parseFloat(document.getElementById(\"sp\").value),\n                option = parseFloat(document.getElementById(\"op\").value),\n                anglais = parseFloat(document.getElementById(\"an\").value),\n                info = parseFloat(document.getElementById(\"in\").value),\n                checkbox = document.getElementById(\"dispenserCheckbox\"),\n                som_notes, som_coef, moy, fg, score7, fb, fs;\n            if (option > 10)\n                option = eval((option - 10))\n            else\n                option = 0\n\n            if (checkbox.checked) {\n                sport = 10;\n            }\n            //calculer la moyenne du session principale \n            som_notes = eval((math * 4) + (physique * 4) + science + français + philo + arabe + sport + option + anglais + info);\n            som_coef = 15;\n            moy = eval(som_notes / som_coef);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((2 * math) + (1.5 * physique) + (0.5 * science) + anglais + français);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy\").value = \"MOYENNE : \" + moy.toFixed(2);\n            document.getElementById(\"score\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }\n        // l'action par défaut ne devrait pas être exécutée comme elle l'est normalement\n        document.getElementById(\"myForm2\").onsubmit = function (e) {\n            e.preventDefault();\n            calcul()\n        };\n        //Session controle\n        function calcul_cntrl() {\n            //Récupérer les notes dans des variables\n            var math1 = parseFloat(document.getElementById(\"ma1\").value),\n                physique1 = parseFloat(document.getElementById(\"phy1\").value),\n                science1 = parseFloat(document.getElementById(\"sc1\").value),\n                français1 = parseFloat(document.getElementById(\"fr1\").value),\n                arabe1 = parseFloat(document.getElementById(\"ar1\").value),\n                anglais1 = parseFloat(document.getElementById(\"an1\").value),\n                math2 = parseFloat(document.getElementById(\"ma2\").value),\n                physique2 = parseFloat(document.getElementById(\"phy2\").value),\n                science2 = parseFloat(document.getElementById(\"sc2\").value),\n                français2 = parseFloat(document.getElementById(\"fr2\").value),\n                arabe2 = parseFloat(document.getElementById(\"ar2\").value),\n                anglais2 = parseFloat(document.getElementById(\"an2\").value),\n                philo_f = parseFloat(document.getElementById(\"ph_f\").value),\n                sport_f = parseFloat(document.getElementById(\"sp_f\").value),\n                option_f = parseFloat(document.getElementById(\"op_f\").value),\n                info_f = parseFloat(document.getElementById(\"in_f\").value),\n                math_f, physique_f, science_f, français_f, arabe_f, anglais_f,\n                math_s, physique_s, science_s, français_s, arabe_s, anglais_s,\n                som_notes2, som_notes1, som_coef, moy, moy1, moy2, fg, score7, fb, fs;\n            //obtenir la meilleure note entre session principale et session controle\n\n            math_f = Math.max(math1, math2);\n\n            physique_f = Math.max(physique1, physique2);\n\n            science_f = Math.max(science1, science2);\n\n            français_f = Math.max(français1, français2);\n\n            arabe_f = Math.max(arabe1, arabe2);\n\n            anglais_f = Math.max(anglais1, anglais2);\n\n            if (option_f > 10)\n                option_f = eval((option_f - 10));\n            else\n                option_f = 0;\n            //calculer la moyenne du session principale    \n            som_notes1 = eval((math1 * 4) + (physique1 * 4) + science1 + français1 + philo_f + arabe1 + sport_f + option_f + anglais1 + info_f);\n            som_coef = 15;\n            moy1 = eval(som_notes1 / som_coef);\n            //control de saisie \n            if (moy1 < 7){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est moins de 7\" ,  \"error\" )\n                return 0;\n            }\n            if (moy1 >= 10){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est plus de 10\" ,  \"error\" )\n                return 0;\n            }\n            //calculer la moyenne du session controle \n            som_notes2 = eval((math_f * 4) + (physique_f * 4) + science_f + français_f + philo_f + arabe_f + sport_f + option_f + anglais_f + info_f);\n            som_coef = 15;\n            moy2 = eval(som_notes2 / som_coef);\n            //moyenne generale\n            moy = eval(((moy1 * 2) + moy2) / 3);\n            //les notes pour calculer le score\n            math_s = eval(((math1 * 2) + math2) / 3);\n            physique_s = eval(((physique1 * 2) + physique2) / 3);\n            science_s = eval(((science1 * 2) + science2) / 3);\n            français_s = eval(((français1 * 2) + français2) / 3);\n            arabe_s = eval(((arabe1 * 2) + arabe2) / 3);\n            anglais_s = eval(((anglais1 * 2) + anglais2) / 3);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((2 * math_s) + (1.5 * physique_s) + (0.5 * science_s) + anglais_s + français_s);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy2\").value = \"MOYENNE : \" + moy2.toFixed(2);\n            document.getElementById(\"score2\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7_2\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }\n        //loading function\n        $(window).on(\"load\", function () {\n            $(\"#preloader #loader\").fadeOut(2000,\n                function () {\n                    $(this).parent().fadeOut(1000,\n                        function () {\n                            $(this).remove();\n                        });\n                });\n        });\n\n        // smooth scrolling \n\n         $('a[href*=\"#\"]').on('click',function(e){\n             e.preventDefault();\n                 $('html, body').animate({\n                 scrollTop : $($(this).attr('href')).offset().top,\n                 },\n                 500, \n                 'linear'\n                 );\n \n         });\n     "
+    ],
+    "eventHandlers": [
+      "function onclick(event) {\ntoggleInput()\n}",
+      "function onclick(event) {\ncalcul();\n}",
+      "function onclick(event) {\ncalcul_cntrl();\n}"
+    ],
+    "inputs": [
+      {
+        "id": "ma",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "sc",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ph",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "in",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "phy",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "dispenserCheckbox",
+        "name": "",
+        "placeholder": "",
+        "type": "checkbox"
+      },
+      {
+        "id": "sp",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "op",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "submit"
+      },
+      {
+        "id": "moy",
+        "name": "",
+        "placeholder": "VOTRE MOYENNE",
+        "type": "text"
+      },
+      {
+        "id": "score",
+        "name": "",
+        "placeholder": "VOTRE SCORE",
+        "type": "text"
+      },
+      {
+        "id": "score7",
+        "name": "",
+        "placeholder": "SCORE AVEC 7%",
+        "type": "text"
+      },
+      {
+        "id": "ma1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "sc1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ph_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "in_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "phy1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "sp_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "op_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ma2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "sc2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "phy2",
+        "name": "",
+        "placeholder": "Physique",
+        "type": "number"
+      },
+      {
+        "id": "ar2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "submit"
+      },
+      {
+        "id": "moy2",
+        "name": "",
+        "placeholder": "VOTRE MOYENNE",
+        "type": "text"
+      },
+      {
+        "id": "score2",
+        "name": "",
+        "placeholder": "VOTRE SCORE",
+        "type": "text"
+      },
+      {
+        "id": "score7_2",
+        "name": "",
+        "placeholder": "SCORE AVEC 7%",
+        "type": "text"
+      }
+    ],
+    "buttons": [],
+    "calculationFunctions": {
+      "calcul": "function calcul() {\n            //Récupérer les notes dans des variables\n            var math = parseFloat(document.getElementById(\"ma\").value),\n                physique = parseFloat(document.getElementById(\"phy\").value),\n                science = parseFloat(document.getElementById(\"sc\").value),\n                français = parseFloat(document.getElementById(\"fr\").value),\n                philo = parseFloat(document.getElementById(\"ph\").value),\n                arabe = parseFloat(document.getElementById(\"ar\").value),\n                sport = parseFloat(document.getElementById(\"sp\").value),\n                option = parseFloat(document.getElementById(\"op\").value),\n                anglais = parseFloat(document.getElementById(\"an\").value),\n                info = parseFloat(document.getElementById(\"in\").value),\n                checkbox = document.getElementById(\"dispenserCheckbox\"),\n                som_notes, som_coef, moy, fg, score7, fb, fs;\n            if (option > 10)\n                option = eval((option - 10))\n            else\n                option = 0\n\n            if (checkbox.checked) {\n                sport = 10;\n            }\n            //calculer la moyenne du session principale \n            som_notes = eval((math * 4) + (physique * 4) + science + français + philo + arabe + sport + option + anglais + info);\n            som_coef = 15;\n            moy = eval(som_notes / som_coef);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((2 * math) + (1.5 * physique) + (0.5 * science) + anglais + français);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy\").value = \"MOYENNE : \" + moy.toFixed(2);\n            document.getElementById(\"score\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }",
+      "calcul_cntrl": "function calcul_cntrl() {\n            //Récupérer les notes dans des variables\n            var math1 = parseFloat(document.getElementById(\"ma1\").value),\n                physique1 = parseFloat(document.getElementById(\"phy1\").value),\n                science1 = parseFloat(document.getElementById(\"sc1\").value),\n                français1 = parseFloat(document.getElementById(\"fr1\").value),\n                arabe1 = parseFloat(document.getElementById(\"ar1\").value),\n                anglais1 = parseFloat(document.getElementById(\"an1\").value),\n                math2 = parseFloat(document.getElementById(\"ma2\").value),\n                physique2 = parseFloat(document.getElementById(\"phy2\").value),\n                science2 = parseFloat(document.getElementById(\"sc2\").value),\n                français2 = parseFloat(document.getElementById(\"fr2\").value),\n                arabe2 = parseFloat(document.getElementById(\"ar2\").value),\n                anglais2 = parseFloat(document.getElementById(\"an2\").value),\n                philo_f = parseFloat(document.getElementById(\"ph_f\").value),\n                sport_f = parseFloat(document.getElementById(\"sp_f\").value),\n                option_f = parseFloat(document.getElementById(\"op_f\").value),\n                info_f = parseFloat(document.getElementById(\"in_f\").value),\n                math_f, physique_f, science_f, français_f, arabe_f, anglais_f,\n                math_s, physique_s, science_s, français_s, arabe_s, anglais_s,\n                som_notes2, som_notes1, som_coef, moy, moy1, moy2, fg, score7, fb, fs;\n            //obtenir la meilleure note entre session principale et session controle\n\n            math_f = Math.max(math1, math2);\n\n            physique_f = Math.max(physique1, physique2);\n\n            science_f = Math.max(science1, science2);\n\n            français_f = Math.max(français1, français2);\n\n            arabe_f = Math.max(arabe1, arabe2);\n\n            anglais_f = Math.max(anglais1, anglais2);\n\n            if (option_f > 10)\n                option_f = eval((option_f - 10));\n            else\n                option_f = 0;\n            //calculer la moyenne du session principale    \n            som_notes1 = eval((math1 * 4) + (physique1 * 4) + science1 + français1 + philo_f + arabe1 + sport_f + option_f + anglais1 + info_f);\n            som_coef = 15;\n            moy1 = eval(som_notes1 / som_coef);\n            //control de saisie \n            if (moy1 < 7){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est moins de 7\" ,  \"error\" )\n                return 0;\n            }\n            if (moy1 >= 10){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est plus de 10\" ,  \"error\" )\n                return 0;\n            }\n            //calculer la moyenne du session controle \n            som_notes2 = eval((math_f * 4) + (physique_f * 4) + science_f + français_f + philo_f + arabe_f + sport_f + option_f + anglais_f + info_f);\n            som_coef = 15;\n            moy2 = eval(som_notes2 / som_coef);\n            //moyenne generale\n            moy = eval(((moy1 * 2) + moy2) / 3);\n            //les notes pour calculer le score\n            math_s = eval(((math1 * 2) + math2) / 3);\n            physique_s = eval(((physique1 * 2) + physique2) / 3);\n            science_s = eval(((science1 * 2) + science2) / 3);\n            français_s = eval(((français1 * 2) + français2) / 3);\n            arabe_s = eval(((arabe1 * 2) + arabe2) / 3);\n            anglais_s = eval(((anglais1 * 2) + anglais2) / 3);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((2 * math_s) + (1.5 * physique_s) + (0.5 * science_s) + anglais_s + français_s);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy2\").value = \"MOYENNE : \" + moy2.toFixed(2);\n            document.getElementById(\"score2\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7_2\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }"
+    }
+  },
+  "Sciences Exp": {
+    "inlineScripts": [
+      "\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'G-5G36B723DC');\n    ",
+      "\n\n         // sport disponse\n         function toggleInput() {\n             checkbox = document.getElementById(\"dispenserCheckbox\");\n             input = document.getElementById(\"sp\");\n\n            if (checkbox.checked) {\n                input.setAttribute(\"disabled\", \"disabled\");\n            } else {\n                input.removeAttribute(\"disabled\");\n            }\n        }\n\n        // l'action par défaut ne devrait pas être exécutée comme elle l'est normalement\n        document.getElementById(\"myForm\").onsubmit = function (e) {\n            e.preventDefault();\n            calcul()\n        };\n        //Session principale\n        function calcul() {\n            //Récupérer les notes dans des variables\n            var math = parseFloat(document.getElementById(\"ma\").value),\n                physique = parseFloat(document.getElementById(\"phy\").value),\n                science = parseFloat(document.getElementById(\"sc\").value),\n                français = parseFloat(document.getElementById(\"fr\").value),\n                philo = parseFloat(document.getElementById(\"ph\").value),\n                arabe = parseFloat(document.getElementById(\"ar\").value),\n                sport = parseFloat(document.getElementById(\"sp\").value),\n                option = parseFloat(document.getElementById(\"op\").value),\n                anglais = parseFloat(document.getElementById(\"an\").value),\n                info = parseFloat(document.getElementById(\"in\").value),\n                checkbox = document.getElementById(\"dispenserCheckbox\"),\n                som_notes, som_coef, moy, fg, score7, fb, fs;\n            if (option > 10)\n                option = eval((option - 10))\n            else\n                option = 0\n\n            if (checkbox.checked) {\n                sport = 10;\n            }\n            //calculer la moyenne du session principale \n            som_notes = eval((math * 3) + (physique * 4) + (science * 4) + français + philo + arabe + sport + option + anglais + info);\n            som_coef = 17;\n            moy = eval(som_notes / som_coef);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1 * math) + (1.5 * physique) + (1.5 * science) + anglais + français);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy\").value = \"MOYENNE : \" + moy.toFixed(2);\n            document.getElementById(\"score\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }\n        // l'action par défaut ne devrait pas être exécutée comme elle l'est normalement\n        document.getElementById(\"myForm2\").onsubmit = function (e) {\n            e.preventDefault();\n            calcul_cntrl()\n        };\n        //Session controle\n        function calcul_cntrl() {\n            //Récupérer les notes dans des variables\n            var math1 = parseFloat(document.getElementById(\"ma1\").value),\n                physique1 = parseFloat(document.getElementById(\"phy1\").value),\n                science1 = parseFloat(document.getElementById(\"sc1\").value),\n                français1 = parseFloat(document.getElementById(\"fr1\").value),\n                arabe1 = parseFloat(document.getElementById(\"ar1\").value),\n                anglais1 = parseFloat(document.getElementById(\"an1\").value),\n                math2 = parseFloat(document.getElementById(\"ma2\").value),\n                physique2 = parseFloat(document.getElementById(\"phy2\").value),\n                science2 = parseFloat(document.getElementById(\"sc2\").value),\n                français2 = parseFloat(document.getElementById(\"fr2\").value),\n                arabe2 = parseFloat(document.getElementById(\"ar2\").value),\n                anglais2 = parseFloat(document.getElementById(\"an2\").value),\n                philo_f = parseFloat(document.getElementById(\"ph_f\").value),\n                sport_f = parseFloat(document.getElementById(\"sp_f\").value),\n                option_f = parseFloat(document.getElementById(\"op_f\").value),\n                info_f = parseFloat(document.getElementById(\"in_f\").value),\n                math_f, physique_f, science_f, français_f, arabe_f, anglais_f,\n                math_s, physique_s, science_s, français_s, arabe_s, anglais_s,\n                som_notes2, som_notes1, som_coef, moy, moy1, moy2, fg, score7, fb, fs;\n            //obtenir la meilleure note entre session principale et session controle\n\n            math_f = Math.max(math1, math2);\n\n            physique_f = Math.max(physique1, physique2);\n\n            science_f = Math.max(science1, science2);\n\n            français_f = Math.max(français1, français2);\n\n            arabe_f = Math.max(arabe1, arabe2);\n\n            anglais_f = Math.max(anglais1, anglais2);\n\n            if (option_f > 10)\n                option_f = eval((option_f - 10));\n            else\n                option_f = 0;\n            //calculer la moyenne du session principale    \n            som_notes1 = eval((math1 * 3) + (physique1 * 4) + (science1 * 4) + français1 + philo_f + arabe1 + sport_f + option_f + anglais1 + info_f);\n            som_coef = 17;\n            moy1 = eval(som_notes1 / som_coef);\n            //control de saisie \n            if (moy1 < 7){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est moins de 7\" ,  \"error\" )\n                return 0;\n            }\n            if (moy1 >= 10){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est plus de 10\" ,  \"error\" )\n                return 0;\n            }\n            //calculer la moyenne du session controle \n            som_notes2 = eval((math_f * 3) + (physique_f * 4) + (science_f * 4) + français_f + philo_f + arabe_f + sport_f + option_f + anglais_f + info_f);\n            som_coef = 17;\n            moy2 = eval(som_notes2 / som_coef);\n            //moyenne generale\n            moy = eval(((moy1 * 2) + moy2) / 3);\n            //les notes pour calculer le score\n            math_s = eval(((math1 * 2) + math2) / 3);\n            physique_s = eval(((physique1 * 2) + physique2) / 3);\n            science_s = eval(((science1 * 2) + science2) / 3);\n            français_s = eval(((français1 * 2) + français2) / 3);\n            arabe_s = eval(((arabe1 * 2) + arabe2) / 3);\n            anglais_s = eval(((anglais1 * 2) + anglais2) / 3);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1 * math_s) + (1.5 * physique_s) + (1.5 * science_s) + anglais_s + français_s);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy2\").value = \"MOYENNE : \" + moy2.toFixed(2);\n            document.getElementById(\"score2\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7_2\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }\n        //loading function\n        $(window).on(\"load\", function () {\n            $(\"#preloader #loader\").fadeOut(2000,\n                function () {\n                    $(this).parent().fadeOut(1000,\n                        function () {\n                            $(this).remove();\n                        });\n                });\n        });\n\n        // smooth scrolling \n\n        $('a[href*=\"#\"]').on('click',function(e){\n            e.preventDefault();\n                $('html, body').animate({\n                scrollTop : $($(this).attr('href')).offset().top,\n                },\n                500, \n                'linear'\n                );\n\n        });\n    "
+    ],
+    "eventHandlers": [
+      "function onclick(event) {\ntoggleInput()\n}",
+      "function onclick(event) {\ncalcul();\n}",
+      "function onclick(event) {\ncalcul_cntrl();\n}"
+    ],
+    "inputs": [
+      {
+        "id": "ma",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "sc",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ph",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "in",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "phy",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "dispenserCheckbox",
+        "name": "",
+        "placeholder": "",
+        "type": "checkbox"
+      },
+      {
+        "id": "sp",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "op",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "submit"
+      },
+      {
+        "id": "moy",
+        "name": "",
+        "placeholder": "VOTRE MOYENNE",
+        "type": "text"
+      },
+      {
+        "id": "score",
+        "name": "",
+        "placeholder": "VOTRE SCORE",
+        "type": "text"
+      },
+      {
+        "id": "score7",
+        "name": "",
+        "placeholder": "SCORE AVEC 7%",
+        "type": "text"
+      },
+      {
+        "id": "ma1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "sc1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ph_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "in_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "phy1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "sp_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "op_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ma2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "sc2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "phy2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "submit"
+      },
+      {
+        "id": "moy2",
+        "name": "",
+        "placeholder": "VOTRE MOYENNE",
+        "type": "text"
+      },
+      {
+        "id": "score2",
+        "name": "",
+        "placeholder": "VOTRE SCORE",
+        "type": "text"
+      },
+      {
+        "id": "score7_2",
+        "name": "",
+        "placeholder": "SCORE AVEC 7%",
+        "type": "text"
+      }
+    ],
+    "buttons": [],
+    "calculationFunctions": {
+      "calcul": "function calcul() {\n            //Récupérer les notes dans des variables\n            var math = parseFloat(document.getElementById(\"ma\").value),\n                physique = parseFloat(document.getElementById(\"phy\").value),\n                science = parseFloat(document.getElementById(\"sc\").value),\n                français = parseFloat(document.getElementById(\"fr\").value),\n                philo = parseFloat(document.getElementById(\"ph\").value),\n                arabe = parseFloat(document.getElementById(\"ar\").value),\n                sport = parseFloat(document.getElementById(\"sp\").value),\n                option = parseFloat(document.getElementById(\"op\").value),\n                anglais = parseFloat(document.getElementById(\"an\").value),\n                info = parseFloat(document.getElementById(\"in\").value),\n                checkbox = document.getElementById(\"dispenserCheckbox\"),\n                som_notes, som_coef, moy, fg, score7, fb, fs;\n            if (option > 10)\n                option = eval((option - 10))\n            else\n                option = 0\n\n            if (checkbox.checked) {\n                sport = 10;\n            }\n            //calculer la moyenne du session principale \n            som_notes = eval((math * 3) + (physique * 4) + (science * 4) + français + philo + arabe + sport + option + anglais + info);\n            som_coef = 17;\n            moy = eval(som_notes / som_coef);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1 * math) + (1.5 * physique) + (1.5 * science) + anglais + français);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy\").value = \"MOYENNE : \" + moy.toFixed(2);\n            document.getElementById(\"score\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }",
+      "calcul_cntrl": "function calcul_cntrl() {\n            //Récupérer les notes dans des variables\n            var math1 = parseFloat(document.getElementById(\"ma1\").value),\n                physique1 = parseFloat(document.getElementById(\"phy1\").value),\n                science1 = parseFloat(document.getElementById(\"sc1\").value),\n                français1 = parseFloat(document.getElementById(\"fr1\").value),\n                arabe1 = parseFloat(document.getElementById(\"ar1\").value),\n                anglais1 = parseFloat(document.getElementById(\"an1\").value),\n                math2 = parseFloat(document.getElementById(\"ma2\").value),\n                physique2 = parseFloat(document.getElementById(\"phy2\").value),\n                science2 = parseFloat(document.getElementById(\"sc2\").value),\n                français2 = parseFloat(document.getElementById(\"fr2\").value),\n                arabe2 = parseFloat(document.getElementById(\"ar2\").value),\n                anglais2 = parseFloat(document.getElementById(\"an2\").value),\n                philo_f = parseFloat(document.getElementById(\"ph_f\").value),\n                sport_f = parseFloat(document.getElementById(\"sp_f\").value),\n                option_f = parseFloat(document.getElementById(\"op_f\").value),\n                info_f = parseFloat(document.getElementById(\"in_f\").value),\n                math_f, physique_f, science_f, français_f, arabe_f, anglais_f,\n                math_s, physique_s, science_s, français_s, arabe_s, anglais_s,\n                som_notes2, som_notes1, som_coef, moy, moy1, moy2, fg, score7, fb, fs;\n            //obtenir la meilleure note entre session principale et session controle\n\n            math_f = Math.max(math1, math2);\n\n            physique_f = Math.max(physique1, physique2);\n\n            science_f = Math.max(science1, science2);\n\n            français_f = Math.max(français1, français2);\n\n            arabe_f = Math.max(arabe1, arabe2);\n\n            anglais_f = Math.max(anglais1, anglais2);\n\n            if (option_f > 10)\n                option_f = eval((option_f - 10));\n            else\n                option_f = 0;\n            //calculer la moyenne du session principale    \n            som_notes1 = eval((math1 * 3) + (physique1 * 4) + (science1 * 4) + français1 + philo_f + arabe1 + sport_f + option_f + anglais1 + info_f);\n            som_coef = 17;\n            moy1 = eval(som_notes1 / som_coef);\n            //control de saisie \n            if (moy1 < 7){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est moins de 7\" ,  \"error\" )\n                return 0;\n            }\n            if (moy1 >= 10){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est plus de 10\" ,  \"error\" )\n                return 0;\n            }\n            //calculer la moyenne du session controle \n            som_notes2 = eval((math_f * 3) + (physique_f * 4) + (science_f * 4) + français_f + philo_f + arabe_f + sport_f + option_f + anglais_f + info_f);\n            som_coef = 17;\n            moy2 = eval(som_notes2 / som_coef);\n            //moyenne generale\n            moy = eval(((moy1 * 2) + moy2) / 3);\n            //les notes pour calculer le score\n            math_s = eval(((math1 * 2) + math2) / 3);\n            physique_s = eval(((physique1 * 2) + physique2) / 3);\n            science_s = eval(((science1 * 2) + science2) / 3);\n            français_s = eval(((français1 * 2) + français2) / 3);\n            arabe_s = eval(((arabe1 * 2) + arabe2) / 3);\n            anglais_s = eval(((anglais1 * 2) + anglais2) / 3);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1 * math_s) + (1.5 * physique_s) + (1.5 * science_s) + anglais_s + français_s);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy2\").value = \"MOYENNE : \" + moy2.toFixed(2);\n            document.getElementById(\"score2\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7_2\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }"
+    }
+  },
+  "Technique": {
+    "inlineScripts": [
+      "\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'G-5G36B723DC');\n    ",
+      "\n\n         // sport disponse\n         function toggleInput() {\n             checkbox = document.getElementById(\"dispenserCheckbox\");\n             input = document.getElementById(\"sp\");\n\n            if (checkbox.checked) {\n                input.setAttribute(\"disabled\", \"disabled\");\n            } else {\n                input.removeAttribute(\"disabled\");\n            }\n        }\n        // l'action par défaut ne devrait pas être exécutée comme elle l'est normalement\n        document.getElementById(\"myForm\").onsubmit = function (e) {\n            e.preventDefault();\n            calcul()\n        };\n        //Session principale\n        function calcul() {\n            //Récupérer les notes dans des variables\n            var math = parseFloat(document.getElementById(\"ma\").value),\n                physique = parseFloat(document.getElementById(\"phy\").value),\n                Technologie = parseFloat(document.getElementById(\"te\").value),\n                Tec_tp = parseFloat(document.getElementById(\"tp\").value),\n                français = parseFloat(document.getElementById(\"fr\").value),\n                philo = parseFloat(document.getElementById(\"ph\").value),\n                arabe = parseFloat(document.getElementById(\"ar\").value),\n                sport = parseFloat(document.getElementById(\"sp\").value),\n                option = parseFloat(document.getElementById(\"op\").value),\n                anglais = parseFloat(document.getElementById(\"an\").value),\n                info = parseFloat(document.getElementById(\"in\").value),\n                checkbox = document.getElementById(\"dispenserCheckbox\"),\n                som_notes, som_coef, moy, fg, score7, fb, fs;\n            if (option > 10)\n                option = eval((option - 10))\n            else\n                option = 0\n\n            if (checkbox.checked) {\n                sport = 10;\n            }\n            //calculer la moyenne du session principale\n            som_notes = eval((math * 3) + (physique * 3) + (Technologie * 3) + français + Tec_tp + philo + arabe + sport + option + anglais + info);\n            som_coef = 16;\n            moy = eval(som_notes / som_coef);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1.5 * math) + (1 * physique) + (1.5 * Technologie) + anglais + français);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy\").value = \"MOYENNE : \" + moy.toFixed(2);\n            document.getElementById(\"score\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }\n        // l'action par défaut ne devrait pas être exécutée comme elle l'est normalement\n        document.getElementById(\"myForm2\").onsubmit = function (e) {\n            e.preventDefault();\n            calcul_cntrl()\n        };\n        //Session controle\n        function calcul_cntrl() {\n            //Récupérer les notes dans des variables\n            var math1 = parseFloat(document.getElementById(\"ma1\").value),\n                physique1 = parseFloat(document.getElementById(\"phy1\").value),\n                tech1 = parseFloat(document.getElementById(\"te1\").value),\n                français1 = parseFloat(document.getElementById(\"fr1\").value),\n                arabe1 = parseFloat(document.getElementById(\"ar1\").value),\n                anglais1 = parseFloat(document.getElementById(\"an1\").value),\n                math2 = parseFloat(document.getElementById(\"ma2\").value),\n                physique2 = parseFloat(document.getElementById(\"phy2\").value),\n                tech2 = parseFloat(document.getElementById(\"te2\").value),\n                français2 = parseFloat(document.getElementById(\"fr2\").value),\n                arabe2 = parseFloat(document.getElementById(\"ar2\").value),\n                anglais2 = parseFloat(document.getElementById(\"an2\").value),\n                philo_f = parseFloat(document.getElementById(\"ph_f\").value),\n                tp = parseFloat(document.getElementById(\"tp_f\").value),\n                sport_f = parseFloat(document.getElementById(\"sp_f\").value),\n                option_f = parseFloat(document.getElementById(\"op_f\").value),\n                info_f = parseFloat(document.getElementById(\"in_f\").value),\n                math_f, physique_f, tech_f, français_f, arabe_f, anglais_f,\n                math_s, physique_s, tech_s, français_s, arabe_s, anglais_s,\n                som_notes2, som_notes1, som_coef, moy, moy1, moy2, fg, score7, fb, fs;\n            //obtenir la meilleure note entre session principale et session controle\n\n            math_f = Math.max(math1, math2);\n\n            physique_f = Math.max(physique1, physique2);\n\n            tech_f = Math.max(tech1, tech2);\n\n            français_f = Math.max(français1, français2);\n\n            arabe_f = Math.max(arabe1, arabe2);\n\n            anglais_f = Math.max(anglais1, anglais2);\n\n            if (option_f > 10)\n                option_f = eval((option_f - 10));\n            else\n                option_f = 0;\n            //calculer la moyenne du session principale    \n            som_notes1 = eval((math1 * 3) + (physique1 * 3) + (tech1 * 3) + français1 + philo_f + arabe1 + tp + sport_f + option_f + anglais1 + info_f);\n            som_coef = 16;\n            moy1 = eval(som_notes1 / som_coef);\n            //control de saisie \n            if (moy1 < 7){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est moins de 7\" ,  \"error\" )\n                return 0;\n            }\n            if (moy1 >= 10){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est plus de 10\" ,  \"error\" )\n                return 0;\n            }\n            //calculer la moyenne du session controle \n            som_notes2 = eval((math_f * 3) + (physique_f * 3) + (tech_f * 3) + français_f + philo_f + tp + arabe_f + sport_f + option_f + anglais_f + info_f);\n            som_coef = 16;\n            moy2 = eval(som_notes2 / som_coef);\n            //moyenne generale\n            moy = eval(((moy1 * 2) + moy2) / 3);\n            //les notes pour calculer le score\n            math_s = eval(((math1 * 2) + math2) / 3);\n            physique_s = eval(((physique1 * 2) + physique2) / 3);\n            tech_s = eval(((tech1 * 2) + tech2) / 3);\n            français_s = eval(((français1 * 2) + français2) / 3);\n            arabe_s = eval(((arabe1 * 2) + arabe2) / 3);\n            anglais_s = eval(((anglais1 * 2) + anglais2) / 3);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1.5 * math_s) + (1 * physique_s) + (1.5 * tech_s) + anglais_s + français_s);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy2\").value = \"MOYENNE : \" + moy2.toFixed(2);\n            document.getElementById(\"score2\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7_2\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }\n        //loading function\n        $(window).on(\"load\", function () {\n            $(\"#preloader #loader\").fadeOut(2000,\n                function () {\n                    $(this).parent().fadeOut(1000,\n                        function () {\n                            $(this).remove();\n                        });\n                });\n        });\n\n        // smooth scrolling \n\n        $('a[href*=\"#\"]').on('click',function(e){\n            e.preventDefault();\n                $('html, body').animate({\n                scrollTop : $($(this).attr('href')).offset().top,\n                },\n                500, \n                'linear'\n                );\n\n        });\n    "
+    ],
+    "eventHandlers": [
+      "function onclick(event) {\ntoggleInput()\n}",
+      "function onclick(event) {\ncalcul();\n}",
+      "function onclick(event) {\ncalcul_cntrl();\n}"
+    ],
+    "inputs": [
+      {
+        "id": "ma",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "te",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ph",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "in",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "phy",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "tp",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "dispenserCheckbox",
+        "name": "",
+        "placeholder": "",
+        "type": "checkbox"
+      },
+      {
+        "id": "sp",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "op",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "submit"
+      },
+      {
+        "id": "moy",
+        "name": "",
+        "placeholder": "VOTRE MOYENNE",
+        "type": "text"
+      },
+      {
+        "id": "score",
+        "name": "",
+        "placeholder": "VOTRE SCORE",
+        "type": "text"
+      },
+      {
+        "id": "score7",
+        "name": "",
+        "placeholder": "SCORE AVEC 7%",
+        "type": "text"
+      },
+      {
+        "id": "ma1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "te1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ph_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "in_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "phy1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "tp_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "sp_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "op_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ma2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "te2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "phy2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "submit"
+      },
+      {
+        "id": "moy2",
+        "name": "",
+        "placeholder": "VOTRE MOYENNE",
+        "type": "text"
+      },
+      {
+        "id": "score2",
+        "name": "",
+        "placeholder": "VOTRE SCORE",
+        "type": "text"
+      },
+      {
+        "id": "score7_2",
+        "name": "",
+        "placeholder": "SCORE AVEC 7%",
+        "type": "text"
+      }
+    ],
+    "buttons": [],
+    "calculationFunctions": {
+      "calcul": "function calcul() {\n            //Récupérer les notes dans des variables\n            var math = parseFloat(document.getElementById(\"ma\").value),\n                physique = parseFloat(document.getElementById(\"phy\").value),\n                Technologie = parseFloat(document.getElementById(\"te\").value),\n                Tec_tp = parseFloat(document.getElementById(\"tp\").value),\n                français = parseFloat(document.getElementById(\"fr\").value),\n                philo = parseFloat(document.getElementById(\"ph\").value),\n                arabe = parseFloat(document.getElementById(\"ar\").value),\n                sport = parseFloat(document.getElementById(\"sp\").value),\n                option = parseFloat(document.getElementById(\"op\").value),\n                anglais = parseFloat(document.getElementById(\"an\").value),\n                info = parseFloat(document.getElementById(\"in\").value),\n                checkbox = document.getElementById(\"dispenserCheckbox\"),\n                som_notes, som_coef, moy, fg, score7, fb, fs;\n            if (option > 10)\n                option = eval((option - 10))\n            else\n                option = 0\n\n            if (checkbox.checked) {\n                sport = 10;\n            }\n            //calculer la moyenne du session principale\n            som_notes = eval((math * 3) + (physique * 3) + (Technologie * 3) + français + Tec_tp + philo + arabe + sport + option + anglais + info);\n            som_coef = 16;\n            moy = eval(som_notes / som_coef);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1.5 * math) + (1 * physique) + (1.5 * Technologie) + anglais + français);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy\").value = \"MOYENNE : \" + moy.toFixed(2);\n            document.getElementById(\"score\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }",
+      "calcul_cntrl": "function calcul_cntrl() {\n            //Récupérer les notes dans des variables\n            var math1 = parseFloat(document.getElementById(\"ma1\").value),\n                physique1 = parseFloat(document.getElementById(\"phy1\").value),\n                tech1 = parseFloat(document.getElementById(\"te1\").value),\n                français1 = parseFloat(document.getElementById(\"fr1\").value),\n                arabe1 = parseFloat(document.getElementById(\"ar1\").value),\n                anglais1 = parseFloat(document.getElementById(\"an1\").value),\n                math2 = parseFloat(document.getElementById(\"ma2\").value),\n                physique2 = parseFloat(document.getElementById(\"phy2\").value),\n                tech2 = parseFloat(document.getElementById(\"te2\").value),\n                français2 = parseFloat(document.getElementById(\"fr2\").value),\n                arabe2 = parseFloat(document.getElementById(\"ar2\").value),\n                anglais2 = parseFloat(document.getElementById(\"an2\").value),\n                philo_f = parseFloat(document.getElementById(\"ph_f\").value),\n                tp = parseFloat(document.getElementById(\"tp_f\").value),\n                sport_f = parseFloat(document.getElementById(\"sp_f\").value),\n                option_f = parseFloat(document.getElementById(\"op_f\").value),\n                info_f = parseFloat(document.getElementById(\"in_f\").value),\n                math_f, physique_f, tech_f, français_f, arabe_f, anglais_f,\n                math_s, physique_s, tech_s, français_s, arabe_s, anglais_s,\n                som_notes2, som_notes1, som_coef, moy, moy1, moy2, fg, score7, fb, fs;\n            //obtenir la meilleure note entre session principale et session controle\n\n            math_f = Math.max(math1, math2);\n\n            physique_f = Math.max(physique1, physique2);\n\n            tech_f = Math.max(tech1, tech2);\n\n            français_f = Math.max(français1, français2);\n\n            arabe_f = Math.max(arabe1, arabe2);\n\n            anglais_f = Math.max(anglais1, anglais2);\n\n            if (option_f > 10)\n                option_f = eval((option_f - 10));\n            else\n                option_f = 0;\n            //calculer la moyenne du session principale    \n            som_notes1 = eval((math1 * 3) + (physique1 * 3) + (tech1 * 3) + français1 + philo_f + arabe1 + tp + sport_f + option_f + anglais1 + info_f);\n            som_coef = 16;\n            moy1 = eval(som_notes1 / som_coef);\n            //control de saisie \n            if (moy1 < 7){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est moins de 7\" ,  \"error\" )\n                return 0;\n            }\n            if (moy1 >= 10){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est plus de 10\" ,  \"error\" )\n                return 0;\n            }\n            //calculer la moyenne du session controle \n            som_notes2 = eval((math_f * 3) + (physique_f * 3) + (tech_f * 3) + français_f + philo_f + tp + arabe_f + sport_f + option_f + anglais_f + info_f);\n            som_coef = 16;\n            moy2 = eval(som_notes2 / som_coef);\n            //moyenne generale\n            moy = eval(((moy1 * 2) + moy2) / 3);\n            //les notes pour calculer le score\n            math_s = eval(((math1 * 2) + math2) / 3);\n            physique_s = eval(((physique1 * 2) + physique2) / 3);\n            tech_s = eval(((tech1 * 2) + tech2) / 3);\n            français_s = eval(((français1 * 2) + français2) / 3);\n            arabe_s = eval(((arabe1 * 2) + arabe2) / 3);\n            anglais_s = eval(((anglais1 * 2) + anglais2) / 3);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1.5 * math_s) + (1 * physique_s) + (1.5 * tech_s) + anglais_s + français_s);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy2\").value = \"MOYENNE : \" + moy2.toFixed(2);\n            document.getElementById(\"score2\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7_2\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }"
+    }
+  },
+  "Économie Gestion": {
+    "inlineScripts": [
+      "\n        window.dataLayer = window.dataLayer || [];\n        function gtag() { dataLayer.push(arguments); }\n        gtag('js', new Date());\n\n        gtag('config', 'G-5G36B723DC');\n    ",
+      "\n\n        // sport disponse\n        function toggleInput() {\n            checkbox = document.getElementById(\"dispenserCheckbox\");\n            input = document.getElementById(\"sp\");\n\n            if (checkbox.checked) {\n                input.setAttribute(\"disabled\", \"disabled\");\n            } else {\n                input.removeAttribute(\"disabled\");\n            }\n        }\n\n        // l'action par défaut ne devrait pas être exécutée comme elle l'est normalement\n        document.getElementById(\"myForm\").onsubmit = function (e) {\n            e.preventDefault();\n            calcul()\n        };\n        //Session principale\n        function calcul() {\n            //Récupérer les notes dans des variables\n            var math = parseFloat(document.getElementById(\"ma\").value),\n                gestion = parseFloat(document.getElementById(\"ge\").value),\n                economie = parseFloat(document.getElementById(\"ec\").value),\n                hist_geo = parseFloat(document.getElementById(\"hg\").value),\n                français = parseFloat(document.getElementById(\"fr\").value),\n                philo = parseFloat(document.getElementById(\"ph\").value),\n                arabe = parseFloat(document.getElementById(\"ar\").value),\n                sport = parseFloat(document.getElementById(\"sp\").value),\n                option = parseFloat(document.getElementById(\"op\").value),\n                anglais = parseFloat(document.getElementById(\"an\").value),\n                info = parseFloat(document.getElementById(\"in\").value),\n                checkbox = document.getElementById(\"dispenserCheckbox\"),\n                som_notes, som_coef, moy, fg, score7, fb, fs;\n            if (option > 10)\n                option = eval((option - 10))\n            else\n                option = 0\n\n            if (checkbox.checked) {\n                sport = 10;\n            }\n            //calculer la moyenne du session principale\n            som_notes = eval((math * 2) + (gestion * 3) + (economie * 3) + français + (hist_geo * 2) + philo + arabe + sport + option + anglais + info);\n            som_coef = 16;\n            moy = eval(som_notes / som_coef);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((0.5 * math) + (1.5 * economie) + (1.5 * gestion) + (0.5 * hist_geo) + anglais + français);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy\").value = \"MOYENNE : \" + moy.toFixed(2);\n            document.getElementById(\"score\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }\n        // l'action par défaut ne devrait pas être exécutée comme elle l'est normalement\n        document.getElementById(\"myForm2\").onsubmit = function (e) {\n            e.preventDefault();\n            calcul_cntrl()\n        };\n        //Session controle\n        function calcul_cntrl() {\n            //Récupérer les notes dans des variables\n            var math1 = parseFloat(document.getElementById(\"ma1\").value),\n                gestion1 = parseFloat(document.getElementById(\"ge1\").value),\n                economie1 = parseFloat(document.getElementById(\"ec1\").value),\n                hist_geo1 = parseFloat(document.getElementById(\"hg1\").value),\n                français1 = parseFloat(document.getElementById(\"fr1\").value),\n                anglais1 = parseFloat(document.getElementById(\"an1\").value),\n                arabe1 = parseFloat(document.getElementById(\"ar1\").value),\n                math2 = parseFloat(document.getElementById(\"ma2\").value),\n                gestion2 = parseFloat(document.getElementById(\"ge2\").value),\n                economie2 = parseFloat(document.getElementById(\"ec2\").value),\n                hist_geo2 = parseFloat(document.getElementById(\"hg2\").value),\n                français2 = parseFloat(document.getElementById(\"fr2\").value),\n                anglais2 = parseFloat(document.getElementById(\"an2\").value),\n                arabe2 = parseFloat(document.getElementById(\"ar2\").value),\n                sport_f = parseFloat(document.getElementById(\"sp_f\").value),\n                option_f = parseFloat(document.getElementById(\"op_f\").value),\n                philo_f = parseFloat(document.getElementById(\"ph_f\").value),\n                info_f = parseFloat(document.getElementById(\"in_f\").value),\n                math_f, gestion_f, economie_f, hist_geo_f, français_f, anglais_f, arabe_f,\n                math_s, gestion_s, economie_s, hist_geo_s, français_s, anglais_s,\n                som_notes2, som_notes1, som_coef, moy, moy1, moy2, fg, score7, fb, fs;\n            //obtenir la meilleure note entre session principale et session controle\n\n            math_f = Math.max(math1, math2);\n\n            gestion_f = Math.max(gestion1, gestion2);\n\n            economie_f = Math.max(economie1, economie2);\n\n            hist_geo_f = Math.max(hist_geo1, hist_geo2);\n\n            français_f = Math.max(français1, français2);\n\n            arabe_f = Math.max(arabe1, arabe2);\n\n            anglais_f = Math.max(anglais1, anglais2);\n\n            if (option_f > 10)\n                option_f = eval((option_f - 10));\n            else\n                option_f = 0;\n            //calculer la moyenne du session principale\n            som_notes1 = eval((math1 * 2) + (gestion1 * 3) + (economie1 * 3) + français1 + (hist_geo1 * 2) + philo_f + arabe1 + sport_f + option_f + anglais1 + info_f);\n            som_coef = 16;\n            moy1 = eval(som_notes1 / som_coef);\n            //controle de saisie \n            if (moy1 < 7) {\n                swal(\"Oops verifier vos notes\", \"La moyenne de vos notes de principale est moins de 7\", \"error\")\n                return 0;\n            }\n            if (moy1 >= 10) {\n                swal(\"Oops verifier vos notes\", \"La moyenne de vos notes de principale est plus de 10\", \"error\")\n                return 0;\n            }\n            //calculer la moyenne du session controle\n            som_notes2 = eval((math_f * 2) + (gestion_f * 3) + (economie_f * 3) + français_f + (hist_geo_f * 2) + philo_f + arabe_f + sport_f + option_f + anglais_f + info_f);\n            som_coef = 16;\n            moy2 = eval(som_notes2 / som_coef);\n            //moyenne generale\n            moy = eval(((moy1 * 2) + moy2) / 3);\n            //les notes pour calculer le score\n            if (math2 == 0)\n                math_s = eval(((math1 * 2) + math1) / 3);\n            math_s = eval(((math1 * 2) + math2) / 3);\n            gestion_s = eval(((gestion1 * 2) + gestion2) / 3);\n            economie_s = eval(((economie1 * 2) + economie2) / 3);\n            français_s = eval(((français1 * 2) + français2) / 3);\n            if (hist_geo2 == 0)\n                hist_geo_s = eval(((hist_geo1 * 2) + hist_geo1) / 3);\n            hist_geo_s = eval(((hist_geo1 * 2) + hist_geo2) / 3);\n            anglais_s = eval(((anglais1 * 2) + anglais2) / 3);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((0.5 * math_s) + (1.5 * economie_s) + (1.5 * gestion_s) + (0.5 * hist_geo_s) + anglais_s + français_s);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy2\").value = \"MOYENNE : \" + moy2.toFixed(2);\n            document.getElementById(\"score2\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7_2\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n        }\n        //loading function\n        $(window).on(\"load\", function () {\n            $(\"#preloader #loader\").fadeOut(2000,\n                function () {\n                    $(this).parent().fadeOut(1000,\n                        function () {\n                            $(this).remove();\n                        });\n                });\n        });\n\n        // smooth scrolling \n\n        $('a[href*=\"#\"]').on('click', function (e) {\n            e.preventDefault();\n            $('html, body').animate({\n                scrollTop: $($(this).attr('href')).offset().top,\n            },\n                500,\n                'linear'\n            );\n\n        });\n    "
+    ],
+    "eventHandlers": [
+      "function onclick(event) {\ntoggleInput()\n}",
+      "function onclick(event) {\ncalcul();\n}",
+      "function onclick(event) {\ncalcul_cntrl();\n}"
+    ],
+    "inputs": [
+      {
+        "id": "ma",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ge",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ph",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "in",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ec",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "hg",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "dispenserCheckbox",
+        "name": "",
+        "placeholder": "",
+        "type": "checkbox"
+      },
+      {
+        "id": "sp",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "op",
+        "name": "",
+        "placeholder": "Option",
+        "type": "number"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "submit"
+      },
+      {
+        "id": "moy",
+        "name": "",
+        "placeholder": "VOTRE MOYENNE",
+        "type": "text"
+      },
+      {
+        "id": "score",
+        "name": "",
+        "placeholder": "VOTRE SCORE",
+        "type": "text"
+      },
+      {
+        "id": "score7",
+        "name": "",
+        "placeholder": "SCORE AVEC 7%",
+        "type": "text"
+      },
+      {
+        "id": "ma1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ge1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ph_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "in_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ec1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "hg1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an1",
+        "name": "",
+        "placeholder": "Anglais",
+        "type": "number"
+      },
+      {
+        "id": "sp_f",
+        "name": "",
+        "placeholder": "Sport",
+        "type": "number"
+      },
+      {
+        "id": "op_f",
+        "name": "",
+        "placeholder": "Option",
+        "type": "number"
+      },
+      {
+        "id": "ge2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ma2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "hg2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ec2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "submit"
+      },
+      {
+        "id": "moy2",
+        "name": "",
+        "placeholder": "VOTRE MOYENNE",
+        "type": "text"
+      },
+      {
+        "id": "score2",
+        "name": "",
+        "placeholder": "VOTRE SCORE",
+        "type": "text"
+      },
+      {
+        "id": "score7_2",
+        "name": "",
+        "placeholder": "SCORE AVEC 7%",
+        "type": "text"
+      }
+    ],
+    "buttons": [],
+    "calculationFunctions": {
+      "calcul": "function calcul() {\n            //Récupérer les notes dans des variables\n            var math = parseFloat(document.getElementById(\"ma\").value),\n                gestion = parseFloat(document.getElementById(\"ge\").value),\n                economie = parseFloat(document.getElementById(\"ec\").value),\n                hist_geo = parseFloat(document.getElementById(\"hg\").value),\n                français = parseFloat(document.getElementById(\"fr\").value),\n                philo = parseFloat(document.getElementById(\"ph\").value),\n                arabe = parseFloat(document.getElementById(\"ar\").value),\n                sport = parseFloat(document.getElementById(\"sp\").value),\n                option = parseFloat(document.getElementById(\"op\").value),\n                anglais = parseFloat(document.getElementById(\"an\").value),\n                info = parseFloat(document.getElementById(\"in\").value),\n                checkbox = document.getElementById(\"dispenserCheckbox\"),\n                som_notes, som_coef, moy, fg, score7, fb, fs;\n            if (option > 10)\n                option = eval((option - 10))\n            else\n                option = 0\n\n            if (checkbox.checked) {\n                sport = 10;\n            }\n            //calculer la moyenne du session principale\n            som_notes = eval((math * 2) + (gestion * 3) + (economie * 3) + français + (hist_geo * 2) + philo + arabe + sport + option + anglais + info);\n            som_coef = 16;\n            moy = eval(som_notes / som_coef);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((0.5 * math) + (1.5 * economie) + (1.5 * gestion) + (0.5 * hist_geo) + anglais + français);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy\").value = \"MOYENNE : \" + moy.toFixed(2);\n            document.getElementById(\"score\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }",
+      "calcul_cntrl": "function calcul_cntrl() {\n            //Récupérer les notes dans des variables\n            var math1 = parseFloat(document.getElementById(\"ma1\").value),\n                gestion1 = parseFloat(document.getElementById(\"ge1\").value),\n                economie1 = parseFloat(document.getElementById(\"ec1\").value),\n                hist_geo1 = parseFloat(document.getElementById(\"hg1\").value),\n                français1 = parseFloat(document.getElementById(\"fr1\").value),\n                anglais1 = parseFloat(document.getElementById(\"an1\").value),\n                arabe1 = parseFloat(document.getElementById(\"ar1\").value),\n                math2 = parseFloat(document.getElementById(\"ma2\").value),\n                gestion2 = parseFloat(document.getElementById(\"ge2\").value),\n                economie2 = parseFloat(document.getElementById(\"ec2\").value),\n                hist_geo2 = parseFloat(document.getElementById(\"hg2\").value),\n                français2 = parseFloat(document.getElementById(\"fr2\").value),\n                anglais2 = parseFloat(document.getElementById(\"an2\").value),\n                arabe2 = parseFloat(document.getElementById(\"ar2\").value),\n                sport_f = parseFloat(document.getElementById(\"sp_f\").value),\n                option_f = parseFloat(document.getElementById(\"op_f\").value),\n                philo_f = parseFloat(document.getElementById(\"ph_f\").value),\n                info_f = parseFloat(document.getElementById(\"in_f\").value),\n                math_f, gestion_f, economie_f, hist_geo_f, français_f, anglais_f, arabe_f,\n                math_s, gestion_s, economie_s, hist_geo_s, français_s, anglais_s,\n                som_notes2, som_notes1, som_coef, moy, moy1, moy2, fg, score7, fb, fs;\n            //obtenir la meilleure note entre session principale et session controle\n\n            math_f = Math.max(math1, math2);\n\n            gestion_f = Math.max(gestion1, gestion2);\n\n            economie_f = Math.max(economie1, economie2);\n\n            hist_geo_f = Math.max(hist_geo1, hist_geo2);\n\n            français_f = Math.max(français1, français2);\n\n            arabe_f = Math.max(arabe1, arabe2);\n\n            anglais_f = Math.max(anglais1, anglais2);\n\n            if (option_f > 10)\n                option_f = eval((option_f - 10));\n            else\n                option_f = 0;\n            //calculer la moyenne du session principale\n            som_notes1 = eval((math1 * 2) + (gestion1 * 3) + (economie1 * 3) + français1 + (hist_geo1 * 2) + philo_f + arabe1 + sport_f + option_f + anglais1 + info_f);\n            som_coef = 16;\n            moy1 = eval(som_notes1 / som_coef);\n            //controle de saisie \n            if (moy1 < 7) {\n                swal(\"Oops verifier vos notes\", \"La moyenne de vos notes de principale est moins de 7\", \"error\")\n                return 0;\n            }\n            if (moy1 >= 10) {\n                swal(\"Oops verifier vos notes\", \"La moyenne de vos notes de principale est plus de 10\", \"error\")\n                return 0;\n            }\n            //calculer la moyenne du session controle\n            som_notes2 = eval((math_f * 2) + (gestion_f * 3) + (economie_f * 3) + français_f + (hist_geo_f * 2) + philo_f + arabe_f + sport_f + option_f + anglais_f + info_f);\n            som_coef = 16;\n            moy2 = eval(som_notes2 / som_coef);\n            //moyenne generale\n            moy = eval(((moy1 * 2) + moy2) / 3);\n            //les notes pour calculer le score\n            if (math2 == 0)\n                math_s = eval(((math1 * 2) + math1) / 3);\n            math_s = eval(((math1 * 2) + math2) / 3);\n            gestion_s = eval(((gestion1 * 2) + gestion2) / 3);\n            economie_s = eval(((economie1 * 2) + economie2) / 3);\n            français_s = eval(((français1 * 2) + français2) / 3);\n            if (hist_geo2 == 0)\n                hist_geo_s = eval(((hist_geo1 * 2) + hist_geo1) / 3);\n            hist_geo_s = eval(((hist_geo1 * 2) + hist_geo2) / 3);\n            anglais_s = eval(((anglais1 * 2) + anglais2) / 3);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((0.5 * math_s) + (1.5 * economie_s) + (1.5 * gestion_s) + (0.5 * hist_geo_s) + anglais_s + français_s);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy2\").value = \"MOYENNE : \" + moy2.toFixed(2);\n            document.getElementById(\"score2\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7_2\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n        }"
+    }
+  },
+  "Informatique": {
+    "inlineScripts": [
+      "\n        window.dataLayer = window.dataLayer || [];\n        function gtag() { dataLayer.push(arguments); }\n        gtag('js', new Date());\n\n        gtag('config', 'G-5G36B723DC');\n    ",
+      "\n        // sport disponse\n        function toggleInput() {\n             checkbox = document.getElementById(\"dispenserCheckbox\");\n             input = document.getElementById(\"spNr\");\n\n            if (checkbox.checked) {\n                input.setAttribute(\"disabled\", \"disabled\");\n            } else {\n                input.removeAttribute(\"disabled\");\n            }\n        }\n\n        // l'action par défaut ne devrait pas être exécutée comme elle l'est normalement\n        document.getElementById(\"myFormNr\").onsubmit = function (e) {\n            e.preventDefault();\n            calculNr()\n        };\n        //Session principale nouveau regime\n        function calculNr() {\n\n\n            //Récupérer les notes dans des variables\n            var math = parseFloat(document.getElementById(\"maNr\").value),\n                physique = parseFloat(document.getElementById(\"phyNr\").value),\n                algo = parseFloat(document.getElementById(\"alNr\").value),\n                sti = parseFloat(document.getElementById(\"stiNr\").value),\n                français = parseFloat(document.getElementById(\"frNr\").value),\n                philo = parseFloat(document.getElementById(\"phNr\").value),\n                arabe = parseFloat(document.getElementById(\"arNr\").value),\n                sport = parseFloat(document.getElementById(\"spNr\").value),\n                option = parseFloat(document.getElementById(\"opNr\").value),\n                anglais = parseFloat(document.getElementById(\"anNr\").value),\n                checkbox = document.getElementById(\"dispenserCheckbox\"),\n\n                som_notes, som_coef, moy, fg, score7, fb, fs;\n            if (option > 10)\n                option = eval((option - 10))\n            else\n                option = 0\n\n            if (checkbox.checked) {\n                sport = 10;\n            }\n            //calculer la moyenne du session principale nouveau regime\n            som_notes = eval((math * 3) + (physique * 2) + (algo * 3) + français + (sti * 3) + philo + arabe + sport + option + anglais);\n            som_coef = 16;\n            moy = eval(som_notes / som_coef);\n            //calculer le score nouveau regime\n            fb = eval(moy * 4);\n            fs = eval((1.5 * math) + (0.5 * physique) + (1.5 * algo) + (0.5 * sti) + anglais + français);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moyNr\").value = \"MOYENNE : \" + moy.toFixed(2);\n            document.getElementById(\"scoreNr\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7Nr\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }\n        // l'action par défaut ne devrait pas être exécutée comme elle l'est normalement\n        document.getElementById(\"myForm2\").onsubmit = function (e) {\n            e.preventDefault();\n            calcul_cntrl()\n        };\n        //Session controle\n        function calcul_cntrl() {\n            //Récupérer les notes dans des variables\n            var math1 = parseFloat(document.getElementById(\"ma1\").value),\n                physique1 = parseFloat(document.getElementById(\"phy1\").value),\n                algo1 = parseFloat(document.getElementById(\"al1\").value),\n                français1 = parseFloat(document.getElementById(\"fr1\").value),\n                anglais1 = parseFloat(document.getElementById(\"an1\").value),\n                base1 = parseFloat(document.getElementById(\"ba1\").value),\n                arabe1 = parseFloat(document.getElementById(\"ar1\").value),\n                math2 = parseFloat(document.getElementById(\"ma2\").value),\n                physique2 = parseFloat(document.getElementById(\"phy2\").value),\n                algo2 = parseFloat(document.getElementById(\"al2\").value),\n                français2 = parseFloat(document.getElementById(\"fr2\").value),\n                anglais2 = parseFloat(document.getElementById(\"an2\").value),\n                base2 = parseFloat(document.getElementById(\"ba2\").value),\n                arabe2 = parseFloat(document.getElementById(\"ar2\").value),\n                sport_f = parseFloat(document.getElementById(\"sp_f\").value),\n                philo_f = parseFloat(document.getElementById(\"ph_f\").value),\n                tic_f = parseFloat(document.getElementById(\"ti_f\").value),\n                option_f = parseFloat(document.getElementById(\"op_f\").value),\n                math_f, physique_f, algo_f, base_f, français_f, anglais_f, arabe_f,\n                math_s, physique_s, algo_s, base_s, tic_s, français_s, anglais_s,\n                som_notes2, som_notes1, som_coef, moy, moy1, moy2, fg, score7, fb, fs;\n            //obtenir la meilleure note entre session principale et session controle\n\n            math_f = Math.max(math1, math2);\n\n            physique_f = Math.max(physique1, physique2);\n\n            algo_f = Math.max(algo1, algo2);\n\n            base_f = Math.max(base1, base2);\n\n            français_f = Math.max(français1, français2);\n\n            arabe_f = Math.max(arabe1, arabe2);\n\n            anglais_f = Math.max(anglais1, anglais2);\n\n            if (option_f > 10)\n                option_f = eval((option_f - 10));\n            else\n                option_f = 0;\n            //calculer la moyenne du session principale\n            som_notes1 = eval((math1 * 3) + (physique1 * 2) + (algo1 * 3) + français1 + (tic_f * 1.5) + philo_f + arabe1 + sport_f + option_f + anglais1 + (base1 * 1.5));\n            som_coef = 16;\n            moy1 = eval(som_notes1 / som_coef);\n            //controle de saisie \n            if (moy1 < 7) {\n                swal(\"Oops verifier vos notes\", \"La moyenne de vos notes de principale est moins de 7\", \"error\")\n                return 0;\n            }\n            if (moy1 >= 10) {\n                swal(\"Oops verifier vos notes\", \"La moyenne de vos notes de principale est plus de 10\", \"error\")\n                return 0;\n            }\n            //calculer la moyenne du session controle\n            som_notes2 = eval((math_f * 3) + (physique_f * 2) + (algo_f * 3) + français_f + (tic_f * 1.5) + philo_f + arabe_f + sport_f + option_f + anglais_f + (base_f * 1.5));\n            som_coef = 16;\n            moy2 = eval(som_notes2 / som_coef);\n            //moyenne generale\n            moy = eval(((moy1 * 2) + moy2) / 3);\n            //les notes pour calculer le score\n            math_s = eval(((math1 * 2) + math2) / 3);\n            if (physique2 == 0)\n                physique_s = eval(((physique1 * 2) + physique1) / 3);\n            physique_s = eval(((physique1 * 2) + physique2) / 3);\n            algo_s = eval(((algo1 * 2) + algo2) / 3);\n            français_s = eval(((français1 * 2) + français2) / 3);\n            if (base2 == 0)\n                base_s = eval(((base1 * 2) + base1) / 3);\n            base_s = eval(((base1 * 2) + base2) / 3);\n            tic_s = eval(((tic_f * 2) + tic_f) / 3);\n            anglais_s = eval(((anglais1 * 2) + anglais2) / 3);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1.5 * math_s) + (0.5 * physique_s) + (1.5 * algo_s) + (0.25 * (tic_s + base_s)) + anglais_s + français_s);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy2\").value = \"MOYENNE : \" + moy2.toFixed(2);\n            document.getElementById(\"score2\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7_2\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }\n        $(window).on(\"load\", function () {\n            $(\"#preloader #loader\").fadeOut(2000,\n                function () {\n                    $(this).parent().fadeOut(1000,\n                        function () {\n                            $(this).remove();\n                        });\n                });\n        });\n\n        // smooth scrolling \n\n        $('a[href*=\"#\"]').on('click', function (e) {\n            e.preventDefault();\n            $('html, body').animate({\n                scrollTop: $($(this).attr('href')).offset().top,\n            },\n                500,\n                'linear'\n            );\n\n        });\n    "
+    ],
+    "eventHandlers": [
+      "function onclick(event) {\ntoggleInput()\n}",
+      "function onclick(event) {\ncalculNr();\n}",
+      "function onclick(event) {\ncalcul_cntrl();\n}"
+    ],
+    "inputs": [
+      {
+        "id": "maNr",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "alNr",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "stiNr",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "frNr",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "phNr",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "arNr",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "phyNr",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "anNr",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "dispenserCheckbox",
+        "name": "",
+        "placeholder": "",
+        "type": "checkbox"
+      },
+      {
+        "id": "spNr",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "opNr",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "submit"
+      },
+      {
+        "id": "moyNr",
+        "name": "",
+        "placeholder": "VOTRE MOYENNE",
+        "type": "text"
+      },
+      {
+        "id": "scoreNr",
+        "name": "",
+        "placeholder": "VOTRE SCORE",
+        "type": "text"
+      },
+      {
+        "id": "score7Nr",
+        "name": "",
+        "placeholder": "SCORE AVEC 7%",
+        "type": "text"
+      },
+      {
+        "id": "ma1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "al1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ti_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ph_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "phy1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ba1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "sp_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "op_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ma2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "phy2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ba2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "al2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "submit"
+      },
+      {
+        "id": "moy2",
+        "name": "",
+        "placeholder": "VOTRE MOYENNE",
+        "type": "text"
+      },
+      {
+        "id": "score2",
+        "name": "",
+        "placeholder": "VOTRE SCORE",
+        "type": "text"
+      },
+      {
+        "id": "score7_2",
+        "name": "",
+        "placeholder": "SCORE AVEC 7%",
+        "type": "text"
+      }
+    ],
+    "buttons": [],
+    "calculationFunctions": {
+      "calculNr": "function calculNr() {\n\n\n            //Récupérer les notes dans des variables\n            var math = parseFloat(document.getElementById(\"maNr\").value),\n                physique = parseFloat(document.getElementById(\"phyNr\").value),\n                algo = parseFloat(document.getElementById(\"alNr\").value),\n                sti = parseFloat(document.getElementById(\"stiNr\").value),\n                français = parseFloat(document.getElementById(\"frNr\").value),\n                philo = parseFloat(document.getElementById(\"phNr\").value),\n                arabe = parseFloat(document.getElementById(\"arNr\").value),\n                sport = parseFloat(document.getElementById(\"spNr\").value),\n                option = parseFloat(document.getElementById(\"opNr\").value),\n                anglais = parseFloat(document.getElementById(\"anNr\").value),\n                checkbox = document.getElementById(\"dispenserCheckbox\"),\n\n                som_notes, som_coef, moy, fg, score7, fb, fs;\n            if (option > 10)\n                option = eval((option - 10))\n            else\n                option = 0\n\n            if (checkbox.checked) {\n                sport = 10;\n            }\n            //calculer la moyenne du session principale nouveau regime\n            som_notes = eval((math * 3) + (physique * 2) + (algo * 3) + français + (sti * 3) + philo + arabe + sport + option + anglais);\n            som_coef = 16;\n            moy = eval(som_notes / som_coef);\n            //calculer le score nouveau regime\n            fb = eval(moy * 4);\n            fs = eval((1.5 * math) + (0.5 * physique) + (1.5 * algo) + (0.5 * sti) + anglais + français);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moyNr\").value = \"MOYENNE : \" + moy.toFixed(2);\n            document.getElementById(\"scoreNr\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7Nr\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }",
+      "calcul_cntrl": "function calcul_cntrl() {\n            //Récupérer les notes dans des variables\n            var math1 = parseFloat(document.getElementById(\"ma1\").value),\n                physique1 = parseFloat(document.getElementById(\"phy1\").value),\n                algo1 = parseFloat(document.getElementById(\"al1\").value),\n                français1 = parseFloat(document.getElementById(\"fr1\").value),\n                anglais1 = parseFloat(document.getElementById(\"an1\").value),\n                base1 = parseFloat(document.getElementById(\"ba1\").value),\n                arabe1 = parseFloat(document.getElementById(\"ar1\").value),\n                math2 = parseFloat(document.getElementById(\"ma2\").value),\n                physique2 = parseFloat(document.getElementById(\"phy2\").value),\n                algo2 = parseFloat(document.getElementById(\"al2\").value),\n                français2 = parseFloat(document.getElementById(\"fr2\").value),\n                anglais2 = parseFloat(document.getElementById(\"an2\").value),\n                base2 = parseFloat(document.getElementById(\"ba2\").value),\n                arabe2 = parseFloat(document.getElementById(\"ar2\").value),\n                sport_f = parseFloat(document.getElementById(\"sp_f\").value),\n                philo_f = parseFloat(document.getElementById(\"ph_f\").value),\n                tic_f = parseFloat(document.getElementById(\"ti_f\").value),\n                option_f = parseFloat(document.getElementById(\"op_f\").value),\n                math_f, physique_f, algo_f, base_f, français_f, anglais_f, arabe_f,\n                math_s, physique_s, algo_s, base_s, tic_s, français_s, anglais_s,\n                som_notes2, som_notes1, som_coef, moy, moy1, moy2, fg, score7, fb, fs;\n            //obtenir la meilleure note entre session principale et session controle\n\n            math_f = Math.max(math1, math2);\n\n            physique_f = Math.max(physique1, physique2);\n\n            algo_f = Math.max(algo1, algo2);\n\n            base_f = Math.max(base1, base2);\n\n            français_f = Math.max(français1, français2);\n\n            arabe_f = Math.max(arabe1, arabe2);\n\n            anglais_f = Math.max(anglais1, anglais2);\n\n            if (option_f > 10)\n                option_f = eval((option_f - 10));\n            else\n                option_f = 0;\n            //calculer la moyenne du session principale\n            som_notes1 = eval((math1 * 3) + (physique1 * 2) + (algo1 * 3) + français1 + (tic_f * 1.5) + philo_f + arabe1 + sport_f + option_f + anglais1 + (base1 * 1.5));\n            som_coef = 16;\n            moy1 = eval(som_notes1 / som_coef);\n            //controle de saisie \n            if (moy1 < 7) {\n                swal(\"Oops verifier vos notes\", \"La moyenne de vos notes de principale est moins de 7\", \"error\")\n                return 0;\n            }\n            if (moy1 >= 10) {\n                swal(\"Oops verifier vos notes\", \"La moyenne de vos notes de principale est plus de 10\", \"error\")\n                return 0;\n            }\n            //calculer la moyenne du session controle\n            som_notes2 = eval((math_f * 3) + (physique_f * 2) + (algo_f * 3) + français_f + (tic_f * 1.5) + philo_f + arabe_f + sport_f + option_f + anglais_f + (base_f * 1.5));\n            som_coef = 16;\n            moy2 = eval(som_notes2 / som_coef);\n            //moyenne generale\n            moy = eval(((moy1 * 2) + moy2) / 3);\n            //les notes pour calculer le score\n            math_s = eval(((math1 * 2) + math2) / 3);\n            if (physique2 == 0)\n                physique_s = eval(((physique1 * 2) + physique1) / 3);\n            physique_s = eval(((physique1 * 2) + physique2) / 3);\n            algo_s = eval(((algo1 * 2) + algo2) / 3);\n            français_s = eval(((français1 * 2) + français2) / 3);\n            if (base2 == 0)\n                base_s = eval(((base1 * 2) + base1) / 3);\n            base_s = eval(((base1 * 2) + base2) / 3);\n            tic_s = eval(((tic_f * 2) + tic_f) / 3);\n            anglais_s = eval(((anglais1 * 2) + anglais2) / 3);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1.5 * math_s) + (0.5 * physique_s) + (1.5 * algo_s) + (0.25 * (tic_s + base_s)) + anglais_s + français_s);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy2\").value = \"MOYENNE : \" + moy2.toFixed(2);\n            document.getElementById(\"score2\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7_2\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }"
+    }
+  },
+  "Sport": {
+    "inlineScripts": [
+      "\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'G-5G36B723DC');\n    ",
+      "\n        // l'action par défaut ne devrait pas être exécutée comme elle l'est normalement\n        document.getElementById(\"myForm\").onsubmit = function (e) {\n            e.preventDefault();\n            calcul()\n        };\n        //Session principale\n        function calcul() {\n            //Récupérer les notes dans des variables\n            var math = parseFloat(document.getElementById(\"ma\").value),\n                physique = parseFloat(document.getElementById(\"phy\").value),\n                biologique = parseFloat(document.getElementById(\"bio\").value),\n                sport_theorique = parseFloat(document.getElementById(\"st\").value),\n                français = parseFloat(document.getElementById(\"fr\").value),\n                philo = parseFloat(document.getElementById(\"ph\").value),\n                arabe = parseFloat(document.getElementById(\"ar\").value),\n                sport_pratique = parseFloat(document.getElementById(\"sp\").value),\n                option = parseFloat(document.getElementById(\"op\").value),\n                anglais = parseFloat(document.getElementById(\"an\").value),\n                education_physique = parseFloat(document.getElementById(\"ep\").value),\n                som_notes, som_coef, moy, fg, score7, fb, fs;\n            if (option > 10)\n                option = eval((option - 10))\n            else\n                option = 0\n            //calculer la moyenne du session principale\n            som_notes = eval(math + physique + (biologique * 3) + (français * 1.5) + (sport_pratique * 2.5) + (philo * 1.5) + (arabe * 1) + (sport_theorique * 0.5) + option + (anglais * 1.5) + education_physique);\n            som_coef = 14.5;\n            moy = eval(som_notes / som_coef);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1.5 * biologique) + (0.5 * physique) + (0.5 * philo) + (0.5 * sport_pratique) + anglais + français +  sport_theorique);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy\").value = \"MOYENNE : \" + moy.toFixed(2);\n            document.getElementById(\"score\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n            //document.getElementById(\"mnt\").textContent = 'ADMIS  🎉🎉';\n\n        }\n        // l'action par défaut ne devrait pas être exécutée comme elle l'est normalement\n        document.getElementById(\"myForm2\").onsubmit = function (e) {\n            e.preventDefault();\n            calcul_cntrl()\n        };\n        //Session controle\n        function calcul_cntrl() {\n            //Récupérer les notes dans des variables\n            var math1 = parseFloat(document.getElementById(\"ma1\").value),\n                physique1 = parseFloat(document.getElementById(\"phy1\").value),\n                biologique1 = parseFloat(document.getElementById(\"bio1\").value),\n                sport_theorique1 = parseFloat(document.getElementById(\"st1\").value),\n                français1 = parseFloat(document.getElementById(\"fr1\").value),\n                anglais1 = parseFloat(document.getElementById(\"an1\").value),\n                arabe1 = parseFloat(document.getElementById(\"ar1\").value),\n                math2 = parseFloat(document.getElementById(\"ma2\").value),\n                physique2 = parseFloat(document.getElementById(\"phy2\").value),\n                biologique2 = parseFloat(document.getElementById(\"bio2\").value),\n                sport_theorique2 = parseFloat(document.getElementById(\"st2\").value),\n                français2 = parseFloat(document.getElementById(\"fr2\").value),\n                anglais2 = parseFloat(document.getElementById(\"an2\").value),\n                arabe2 = parseFloat(document.getElementById(\"ar2\").value),\n                sport_pratique_f = parseFloat(document.getElementById(\"sp_f\").value),\n                option_f = parseFloat(document.getElementById(\"op_f\").value),\n                philo_f = parseFloat(document.getElementById(\"ph_f\").value),\n                education_physique_f = parseFloat(document.getElementById(\"ep_f\").value),\n                math_f, physique_f, biologique_f, sport_theorique_f, français_f, anglais_f, arabe_f,\n                sport_pratique_s, physique_s, education_physique_s, biologique_s, philo_s, sport_theorique_s, français_s, anglais_s,\n                som_notes2, som_notes1, som_coef, moy, moy1, moy2, fg, score7, fb, fs;\n\n            //obtenir la meilleure note entre session principale et session controle\n\n            math_f = Math.max(math1, math2);\n\n            physique_f = Math.max(physique1, physique2);\n\n            biologique_f = Math.max(biologique1, biologique2);\n\n            sport_theorique_f = Math.max(sport_theorique1, sport_theorique2);\n\n            français_f = Math.max(français1, français2);\n\n            arabe_f = Math.max(arabe1, arabe2);\n\n            anglais_f = Math.max(anglais1, anglais2);\n\n            if (option_f > 10)\n                option_f = eval((option_f - 10));\n            else\n                option_f = 0;\n            //calculer la moyenne du session principale\n            som_notes1 = eval(math1 + physique1 + (biologique1 * 3) + (français1 * 1.5) + (sport_pratique_f * 2.5) + (philo_f * 1.5) + (arabe1 * 1) + (sport_theorique1 * 0.5) + option_f + (anglais1 * 1.5) + education_physique_f);\n            som_coef = 15;\n            moy1 = eval(som_notes1 / som_coef);\n            //controle de saisie \n            if (moy1 < 7){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est moins de 7\" ,  \"error\" )\n                return 0;\n            }\n            if (moy1 >= 10){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est plus de 10\" ,  \"error\" )\n                return 0;\n            }\n            //calculer la moyenne du session controle\n            som_notes2 = eval(math_f + physique_f + (biologique_f * 3) + (français_f * 1.5) + (sport_pratique_f * 2.5) + (philo_f * 1.5) + (arabe_f * 1) + (sport_theorique_f * 0.5) + option_f + (anglais_f * 1.5) + education_physique_f);\n            som_coef = 15;\n            moy2 = eval(som_notes2 / som_coef);\n            //moyenne generale\n            moy = eval(((moy1 * 2) + moy2) / 3);\n            //les notes pour calculer le score\n            biologique_s = eval(((biologique1 * 2) + biologique2) / 3);\n            if (physique2 == 0)\n                physique_s = eval(((physique1 * 2) + physique1) / 3);\n            physique_s = eval(((physique1 * 2) + physique2) / 3);\n            français_s = eval(((français1 * 2) + français2) / 3);\n            sport_pratique_s = eval(((sport_pratique_f * 2) + sport_pratique_f) / 3);\n            anglais_s = eval(((anglais1 * 2) + anglais2) / 3);\n            sport_theorique_s = eval(((sport_theorique1 * 2) + sport_theorique2) / 3);\n            philo_s = eval(((philo_f * 2) + philo_f) / 3);\n            education_physique_s = eval(((education_physique_f * 2) + education_physique_f) / 3);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1.5 * biologique_s) + (0.5 * physique_s) + (0.5 * philo_s) + (0.5 * sport_pratique_s) + anglais_s + français_s + education_physique_s + sport_theorique_s);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy2\").value = \"MOYENNE : \" + moy2.toFixed(2);\n            document.getElementById(\"score2\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7_2\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n        }\n\n        //loading function\n        $(window).on(\"load\", function () {\n            $(\"#preloader #loader\").fadeOut(2000,\n                function () {\n                    $(this).parent().fadeOut(1000,\n                        function () {\n                            $(this).remove();\n                        });\n                });\n        });\n \n     // smooth scrolling \n\n     $('a[href*=\"#\"]').on('click',function(e){\n         e.preventDefault();\n             $('html, body').animate({\n             scrollTop : $($(this).attr('href')).offset().top,\n             },\n             500, \n             'linear'\n             );\n\n     });\n "
+    ],
+    "eventHandlers": [
+      "function onclick(event) {\ncalcul();\n}",
+      "function onclick(event) {\ncalcul_cntrl();\n}"
+    ],
+    "inputs": [
+      {
+        "id": "bio",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "st",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ph",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ep",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "phy",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "sp",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ma",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "op",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "submit"
+      },
+      {
+        "id": "moy",
+        "name": "",
+        "placeholder": "VOTRE MOYENNE",
+        "type": "text"
+      },
+      {
+        "id": "score",
+        "name": "",
+        "placeholder": "VOTRE SCORE",
+        "type": "text"
+      },
+      {
+        "id": "score7",
+        "name": "",
+        "placeholder": "SCORE AVEC 7%",
+        "type": "text"
+      },
+      {
+        "id": "bio1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "st1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ph_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "phy1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "sp_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ma1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ep_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "op_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "bio2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ma2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "phy2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "st2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "submit"
+      },
+      {
+        "id": "moy2",
+        "name": "",
+        "placeholder": "VOTRE MOYENNE",
+        "type": "text"
+      },
+      {
+        "id": "score2",
+        "name": "",
+        "placeholder": "VOTRE SCORE",
+        "type": "text"
+      },
+      {
+        "id": "score7_2",
+        "name": "",
+        "placeholder": "SCORE AVEC 7%",
+        "type": "text"
+      }
+    ],
+    "buttons": [],
+    "calculationFunctions": {
+      "calcul": "function calcul() {\n            //Récupérer les notes dans des variables\n            var math = parseFloat(document.getElementById(\"ma\").value),\n                physique = parseFloat(document.getElementById(\"phy\").value),\n                biologique = parseFloat(document.getElementById(\"bio\").value),\n                sport_theorique = parseFloat(document.getElementById(\"st\").value),\n                français = parseFloat(document.getElementById(\"fr\").value),\n                philo = parseFloat(document.getElementById(\"ph\").value),\n                arabe = parseFloat(document.getElementById(\"ar\").value),\n                sport_pratique = parseFloat(document.getElementById(\"sp\").value),\n                option = parseFloat(document.getElementById(\"op\").value),\n                anglais = parseFloat(document.getElementById(\"an\").value),\n                education_physique = parseFloat(document.getElementById(\"ep\").value),\n                som_notes, som_coef, moy, fg, score7, fb, fs;\n            if (option > 10)\n                option = eval((option - 10))\n            else\n                option = 0\n            //calculer la moyenne du session principale\n            som_notes = eval(math + physique + (biologique * 3) + (français * 1.5) + (sport_pratique * 2.5) + (philo * 1.5) + (arabe * 1) + (sport_theorique * 0.5) + option + (anglais * 1.5) + education_physique);\n            som_coef = 14.5;\n            moy = eval(som_notes / som_coef);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1.5 * biologique) + (0.5 * physique) + (0.5 * philo) + (0.5 * sport_pratique) + anglais + français +  sport_theorique);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy\").value = \"MOYENNE : \" + moy.toFixed(2);\n            document.getElementById(\"score\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n            //document.getElementById(\"mnt\").textContent = 'ADMIS  🎉🎉';\n\n        }",
+      "calcul_cntrl": "function calcul_cntrl() {\n            //Récupérer les notes dans des variables\n            var math1 = parseFloat(document.getElementById(\"ma1\").value),\n                physique1 = parseFloat(document.getElementById(\"phy1\").value),\n                biologique1 = parseFloat(document.getElementById(\"bio1\").value),\n                sport_theorique1 = parseFloat(document.getElementById(\"st1\").value),\n                français1 = parseFloat(document.getElementById(\"fr1\").value),\n                anglais1 = parseFloat(document.getElementById(\"an1\").value),\n                arabe1 = parseFloat(document.getElementById(\"ar1\").value),\n                math2 = parseFloat(document.getElementById(\"ma2\").value),\n                physique2 = parseFloat(document.getElementById(\"phy2\").value),\n                biologique2 = parseFloat(document.getElementById(\"bio2\").value),\n                sport_theorique2 = parseFloat(document.getElementById(\"st2\").value),\n                français2 = parseFloat(document.getElementById(\"fr2\").value),\n                anglais2 = parseFloat(document.getElementById(\"an2\").value),\n                arabe2 = parseFloat(document.getElementById(\"ar2\").value),\n                sport_pratique_f = parseFloat(document.getElementById(\"sp_f\").value),\n                option_f = parseFloat(document.getElementById(\"op_f\").value),\n                philo_f = parseFloat(document.getElementById(\"ph_f\").value),\n                education_physique_f = parseFloat(document.getElementById(\"ep_f\").value),\n                math_f, physique_f, biologique_f, sport_theorique_f, français_f, anglais_f, arabe_f,\n                sport_pratique_s, physique_s, education_physique_s, biologique_s, philo_s, sport_theorique_s, français_s, anglais_s,\n                som_notes2, som_notes1, som_coef, moy, moy1, moy2, fg, score7, fb, fs;\n\n            //obtenir la meilleure note entre session principale et session controle\n\n            math_f = Math.max(math1, math2);\n\n            physique_f = Math.max(physique1, physique2);\n\n            biologique_f = Math.max(biologique1, biologique2);\n\n            sport_theorique_f = Math.max(sport_theorique1, sport_theorique2);\n\n            français_f = Math.max(français1, français2);\n\n            arabe_f = Math.max(arabe1, arabe2);\n\n            anglais_f = Math.max(anglais1, anglais2);\n\n            if (option_f > 10)\n                option_f = eval((option_f - 10));\n            else\n                option_f = 0;\n            //calculer la moyenne du session principale\n            som_notes1 = eval(math1 + physique1 + (biologique1 * 3) + (français1 * 1.5) + (sport_pratique_f * 2.5) + (philo_f * 1.5) + (arabe1 * 1) + (sport_theorique1 * 0.5) + option_f + (anglais1 * 1.5) + education_physique_f);\n            som_coef = 15;\n            moy1 = eval(som_notes1 / som_coef);\n            //controle de saisie \n            if (moy1 < 7){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est moins de 7\" ,  \"error\" )\n                return 0;\n            }\n            if (moy1 >= 10){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est plus de 10\" ,  \"error\" )\n                return 0;\n            }\n            //calculer la moyenne du session controle\n            som_notes2 = eval(math_f + physique_f + (biologique_f * 3) + (français_f * 1.5) + (sport_pratique_f * 2.5) + (philo_f * 1.5) + (arabe_f * 1) + (sport_theorique_f * 0.5) + option_f + (anglais_f * 1.5) + education_physique_f);\n            som_coef = 15;\n            moy2 = eval(som_notes2 / som_coef);\n            //moyenne generale\n            moy = eval(((moy1 * 2) + moy2) / 3);\n            //les notes pour calculer le score\n            biologique_s = eval(((biologique1 * 2) + biologique2) / 3);\n            if (physique2 == 0)\n                physique_s = eval(((physique1 * 2) + physique1) / 3);\n            physique_s = eval(((physique1 * 2) + physique2) / 3);\n            français_s = eval(((français1 * 2) + français2) / 3);\n            sport_pratique_s = eval(((sport_pratique_f * 2) + sport_pratique_f) / 3);\n            anglais_s = eval(((anglais1 * 2) + anglais2) / 3);\n            sport_theorique_s = eval(((sport_theorique1 * 2) + sport_theorique2) / 3);\n            philo_s = eval(((philo_f * 2) + philo_f) / 3);\n            education_physique_s = eval(((education_physique_f * 2) + education_physique_f) / 3);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1.5 * biologique_s) + (0.5 * physique_s) + (0.5 * philo_s) + (0.5 * sport_pratique_s) + anglais_s + français_s + education_physique_s + sport_theorique_s);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy2\").value = \"MOYENNE : \" + moy2.toFixed(2);\n            document.getElementById(\"score2\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7_2\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n        }"
+    }
+  },
+  "Lettres": {
+    "inlineScripts": [
+      "\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'G-5G36B723DC');\n    ",
+      "\n\n         // sport disponse\n         function toggleInput() {\n             checkbox = document.getElementById(\"dispenserCheckbox\");\n             input = document.getElementById(\"sp\");\n\n            if (checkbox.checked) {\n                input.setAttribute(\"disabled\", \"disabled\");\n            } else {\n                input.removeAttribute(\"disabled\");\n            }\n        }\n\n        // l'action par défaut ne devrait pas être exécutée comme elle l'est normalement\n        document.getElementById(\"myForm\").onsubmit = function (e) {\n            e.preventDefault();\n            calcul()\n        };\n        //Session principale\n        function calcul() {\n            //Récupérer les notes dans des variables\n            var Pnse = parseFloat(document.getElementById(\"pn\").value),\n                his_geo = parseFloat(document.getElementById(\"hg\").value),\n                français = parseFloat(document.getElementById(\"fr\").value),\n                philo = parseFloat(document.getElementById(\"ph\").value),\n                arabe = parseFloat(document.getElementById(\"ar\").value),\n                sport = parseFloat(document.getElementById(\"sp\").value),\n                option = parseFloat(document.getElementById(\"op\").value),\n                anglais = parseFloat(document.getElementById(\"an\").value),\n                info = parseFloat(document.getElementById(\"in\").value),\n                checkbox = document.getElementById(\"dispenserCheckbox\"),\n                som_notes, som_coef, moy, fg, score7, fb, fs;\n            if (option > 10)\n                option = eval((option - 10))\n            else\n                option = 0\n\n            if (checkbox.checked) {\n                sport = 10;\n            }\n            //calculer la moyenne du session principale\n            som_notes = eval(Pnse + (his_geo * 3) + (français * 2) + (philo * 4) + (arabe * 4) + sport + option + (anglais * 2) + info);\n            som_coef = 18;\n            moy = eval(som_notes / som_coef);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1.5 * arabe) + (1.5 * philo) + his_geo + anglais + français);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy\").value = \"MOYENNE : \" + moy.toFixed(2);\n            document.getElementById(\"score\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }\n        // l'action par défaut ne devrait pas être exécutée comme elle l'est normalement\n        document.getElementById(\"myForm2\").onsubmit = function (e) {\n            e.preventDefault();\n            calcul_cntrl()\n        };\n        //Session controle\n        function calcul_cntrl() {\n            //Récupérer les notes dans des variables\n            var Pnse_f = parseFloat(document.getElementById(\"pn_f\").value),\n                his_geo1 = parseFloat(document.getElementById(\"hg1\").value),\n                français1 = parseFloat(document.getElementById(\"fr1\").value),\n                philo1 = parseFloat(document.getElementById(\"ph1\").value),\n                arabe1 = parseFloat(document.getElementById(\"ar1\").value),\n                his_geo2 = parseFloat(document.getElementById(\"hg2\").value),\n                français2 = parseFloat(document.getElementById(\"fr2\").value),\n                philo2 = parseFloat(document.getElementById(\"ph2\").value),\n                arabe2 = parseFloat(document.getElementById(\"ar2\").value),\n                sport_f = parseFloat(document.getElementById(\"sp_f\").value),\n                option_f = parseFloat(document.getElementById(\"op_f\").value),\n                anglais1 = parseFloat(document.getElementById(\"an1\").value),\n                anglais2 = parseFloat(document.getElementById(\"an2\").value),\n                info_f = parseFloat(document.getElementById(\"in_f\").value),\n                his_geo_f, français_f, philo_f, arabe_f, anglais_f,\n                his_geo_s, français_s, philo_s, arabe_s, anglais_s,\n                som_notes2, som_notes1, som_coef, moy, moy1, moy2, fg, score7, fb, fs;\n            //obtenir la meilleure note entre session principale et session controle\n\n            his_geo_f = Math.max(his_geo1, his_geo2);\n\n            français_f = Math.max(français1, français2);\n\n            philo_f = Math.max(philo1, philo2);\n\n            arabe_f = Math.max(arabe1, arabe2);\n\n            anglais_f = Math.max(anglais1, anglais2);\n\n            if (option_f > 10)\n                option_f = eval((option_f - 10));\n            else\n                option_f = 0;\n            //calculer la moyenne du session principale\n            som_notes1 = eval(Pnse_f + (his_geo1 * 3) + (français1 * 2) + (philo1 * 4) + (arabe1 * 4) + sport_f + option_f + (anglais1 * 2) + info_f);\n            som_coef = 18;\n            moy1 = eval(som_notes1 / som_coef);\n            //calculer le score\n            if (moy1 < 7){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est moins de 7\" ,  \"error\" )\n                return 0;\n            }\n            if (moy1 >= 10){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est plus de 10\" ,  \"error\" )\n                return 0;\n            }\n            //calculer la moyenne du session controle \n            som_notes2 = eval(Pnse_f + (his_geo_f * 3) + (français_f * 2) + (philo_f * 4) + (arabe_f * 4) + sport_f + option_f + (anglais_f * 2) + info_f);\n            som_coef = 18;\n            moy2 = eval(som_notes2 / som_coef);\n            //moyenne generale\n            moy = eval(((moy1 * 2) + moy2) / 3);\n            //les notes pour calculer le score\n            his_geo_s = eval(((his_geo1 * 2) + his_geo2) / 3);\n            philo_s = eval(((philo1 * 2) + philo2) / 3);\n            français_s = eval(((français1 * 2) + français2) / 3);\n            arabe_s = eval(((arabe1 * 2) + arabe2) / 3);\n            anglais_s = eval(((anglais1 * 2) + anglais2) / 3);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1.5 * arabe_s) + (1.5 * philo_s) + his_geo_s + anglais_s + français_s);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy2\").value = \"MOYENNE : \" + moy2.toFixed(2);\n            document.getElementById(\"score2\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7_2\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n        }\n        //loading function\n        $(window).on(\"load\", function () {\n            $(\"#preloader #loader\").fadeOut(2000,\n                function () {\n                    $(this).parent().fadeOut(1000,\n                        function () {\n                            $(this).remove();\n                        });\n                });\n        });\n\n        // smooth scrolling \n\n         $('a[href*=\"#\"]').on('click',function(e){\n             e.preventDefault();\n                 $('html, body').animate({\n                 scrollTop : $($(this).attr('href')).offset().top,\n                 },\n                 500, \n                 'linear'\n                 );\n \n         });\n     "
+    ],
+    "eventHandlers": [
+      "function onclick(event) {\ntoggleInput()\n}",
+      "function onclick(event) {\ncalcul();\n}",
+      "function onclick(event) {\ncalcul_cntrl();\n}"
+    ],
+    "inputs": [
+      {
+        "id": "pn",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "hg",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ph",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "in",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "dispenserCheckbox",
+        "name": "",
+        "placeholder": "",
+        "type": "checkbox"
+      },
+      {
+        "id": "sp",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "op",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "submit"
+      },
+      {
+        "id": "moy",
+        "name": "",
+        "placeholder": "VOTRE MOYENNE",
+        "type": "text"
+      },
+      {
+        "id": "score",
+        "name": "",
+        "placeholder": "VOTRE SCORE",
+        "type": "text"
+      },
+      {
+        "id": "score7",
+        "name": "",
+        "placeholder": "SCORE AVEC 7%",
+        "type": "text"
+      },
+      {
+        "id": "pn_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "hg1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ph1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an1",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "in_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "sp_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "op_f",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "hg2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ph2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "fr2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "an2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "ar2",
+        "name": "",
+        "placeholder": "",
+        "type": "number"
+      },
+      {
+        "id": "",
+        "name": "",
+        "placeholder": "",
+        "type": "submit"
+      },
+      {
+        "id": "moy2",
+        "name": "",
+        "placeholder": "VOTRE MOYENNE",
+        "type": "text"
+      },
+      {
+        "id": "score2",
+        "name": "",
+        "placeholder": "VOTRE SCORE",
+        "type": "text"
+      },
+      {
+        "id": "score7_2",
+        "name": "",
+        "placeholder": "SCORE AVEC 7%",
+        "type": "text"
+      }
+    ],
+    "buttons": [],
+    "calculationFunctions": {
+      "calcul": "function calcul() {\n            //Récupérer les notes dans des variables\n            var Pnse = parseFloat(document.getElementById(\"pn\").value),\n                his_geo = parseFloat(document.getElementById(\"hg\").value),\n                français = parseFloat(document.getElementById(\"fr\").value),\n                philo = parseFloat(document.getElementById(\"ph\").value),\n                arabe = parseFloat(document.getElementById(\"ar\").value),\n                sport = parseFloat(document.getElementById(\"sp\").value),\n                option = parseFloat(document.getElementById(\"op\").value),\n                anglais = parseFloat(document.getElementById(\"an\").value),\n                info = parseFloat(document.getElementById(\"in\").value),\n                checkbox = document.getElementById(\"dispenserCheckbox\"),\n                som_notes, som_coef, moy, fg, score7, fb, fs;\n            if (option > 10)\n                option = eval((option - 10))\n            else\n                option = 0\n\n            if (checkbox.checked) {\n                sport = 10;\n            }\n            //calculer la moyenne du session principale\n            som_notes = eval(Pnse + (his_geo * 3) + (français * 2) + (philo * 4) + (arabe * 4) + sport + option + (anglais * 2) + info);\n            som_coef = 18;\n            moy = eval(som_notes / som_coef);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1.5 * arabe) + (1.5 * philo) + his_geo + anglais + français);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy\").value = \"MOYENNE : \" + moy.toFixed(2);\n            document.getElementById(\"score\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n\n        }",
+      "calcul_cntrl": "function calcul_cntrl() {\n            //Récupérer les notes dans des variables\n            var Pnse_f = parseFloat(document.getElementById(\"pn_f\").value),\n                his_geo1 = parseFloat(document.getElementById(\"hg1\").value),\n                français1 = parseFloat(document.getElementById(\"fr1\").value),\n                philo1 = parseFloat(document.getElementById(\"ph1\").value),\n                arabe1 = parseFloat(document.getElementById(\"ar1\").value),\n                his_geo2 = parseFloat(document.getElementById(\"hg2\").value),\n                français2 = parseFloat(document.getElementById(\"fr2\").value),\n                philo2 = parseFloat(document.getElementById(\"ph2\").value),\n                arabe2 = parseFloat(document.getElementById(\"ar2\").value),\n                sport_f = parseFloat(document.getElementById(\"sp_f\").value),\n                option_f = parseFloat(document.getElementById(\"op_f\").value),\n                anglais1 = parseFloat(document.getElementById(\"an1\").value),\n                anglais2 = parseFloat(document.getElementById(\"an2\").value),\n                info_f = parseFloat(document.getElementById(\"in_f\").value),\n                his_geo_f, français_f, philo_f, arabe_f, anglais_f,\n                his_geo_s, français_s, philo_s, arabe_s, anglais_s,\n                som_notes2, som_notes1, som_coef, moy, moy1, moy2, fg, score7, fb, fs;\n            //obtenir la meilleure note entre session principale et session controle\n\n            his_geo_f = Math.max(his_geo1, his_geo2);\n\n            français_f = Math.max(français1, français2);\n\n            philo_f = Math.max(philo1, philo2);\n\n            arabe_f = Math.max(arabe1, arabe2);\n\n            anglais_f = Math.max(anglais1, anglais2);\n\n            if (option_f > 10)\n                option_f = eval((option_f - 10));\n            else\n                option_f = 0;\n            //calculer la moyenne du session principale\n            som_notes1 = eval(Pnse_f + (his_geo1 * 3) + (français1 * 2) + (philo1 * 4) + (arabe1 * 4) + sport_f + option_f + (anglais1 * 2) + info_f);\n            som_coef = 18;\n            moy1 = eval(som_notes1 / som_coef);\n            //calculer le score\n            if (moy1 < 7){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est moins de 7\" ,  \"error\" )\n                return 0;\n            }\n            if (moy1 >= 10){\n                swal ( \"Oops verifier vos notes\" ,  \"La moyenne de vos notes de principale est plus de 10\" ,  \"error\" )\n                return 0;\n            }\n            //calculer la moyenne du session controle \n            som_notes2 = eval(Pnse_f + (his_geo_f * 3) + (français_f * 2) + (philo_f * 4) + (arabe_f * 4) + sport_f + option_f + (anglais_f * 2) + info_f);\n            som_coef = 18;\n            moy2 = eval(som_notes2 / som_coef);\n            //moyenne generale\n            moy = eval(((moy1 * 2) + moy2) / 3);\n            //les notes pour calculer le score\n            his_geo_s = eval(((his_geo1 * 2) + his_geo2) / 3);\n            philo_s = eval(((philo1 * 2) + philo2) / 3);\n            français_s = eval(((français1 * 2) + français2) / 3);\n            arabe_s = eval(((arabe1 * 2) + arabe2) / 3);\n            anglais_s = eval(((anglais1 * 2) + anglais2) / 3);\n            //calculer le score\n            fb = eval(moy * 4);\n            fs = eval((1.5 * arabe_s) + (1.5 * philo_s) + his_geo_s + anglais_s + français_s);\n            fg = eval(fb + fs);\n            scor7 = eval(fg + ((fg * 7) / 100));\n            //affichage des resultas\n            document.getElementById(\"moy2\").value = \"MOYENNE : \" + moy2.toFixed(2);\n            document.getElementById(\"score2\").value = \"SCORE : \" + fg.toFixed(2);\n            document.getElementById(\"score7_2\").value = \"SCORE AVEC 7% : \" + scor7.toFixed(2);\n        }"
+    }
+  }
+}
