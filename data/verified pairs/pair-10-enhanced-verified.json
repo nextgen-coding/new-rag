@@ -1,0 +1,1035 @@
+{
+  "metadata": {
+    "pair_id": "tunisian_higher_ed_2025_06_28",
+    "extraction_date": "2025-06-28",
+    "total_programs": 6,
+    "total_institutions": 21,
+    "enhanced_verification_date": "2025-06-29T23:43:29.612Z",
+    "enhanced_verification_stats": {
+      "csv_cross_references": 426,
+      "degree_name_corrections": 20,
+      "total_patches_applied": 428
+    }
+  },
+  "programs": [
+    {
+      "degree_name": "الإجازة في البيوتكنولوجيا 3 سنوات (امد)",
+      "field": "العلوم الفلاحية والبيو تكنولوجيا والبيئة",
+      "program_description": null,
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للبيوتكنولوجيا بسيدي ثابت",
+          "university": "جامعة منوبة",
+          "specialty": "مراقبة جودة الأغذية وحفظ الصحة",
+          "specialty_code": "10546",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 115.66,
+                "2023": 116.0629,
+                "2024": 117.732
+              },
+              "minimum_bac_average": 117.732,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 109.4255,
+                "2023": 114.5006,
+                "2024": 112.981
+              },
+              "minimum_bac_average": 112.981,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للعلوم البيولوجية التطبيقية بتونس",
+          "university": "جامعة تونس المنار",
+          "specialty": "-البيوتكنولوجيا النباتية -بيوتكنولوجيا الكائنات الدقيقة -مراقبة جودة الأغذية وحفظ الصحة",
+          "specialty_code": "11546",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 111.9685,
+                "2023": 117.1329,
+                "2024": 126.367
+              },
+              "minimum_bac_average": 126.367,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 103.6509,
+                "2023": 109.8249,
+                "2024": 109.782
+              },
+              "minimum_bac_average": 109.782,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "كلية العلوم ببنزرت",
+          "university": "جامعة قرطاج",
+          "specialty": "مراقبة جودة الأغذية وحفظ الصحة",
+          "specialty_code": "20546",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 113.97,
+                "2023": 122.9001,
+                "2024": 116.35
+              },
+              "minimum_bac_average": 116.35,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 103.0554,
+                "2023": 107.3033,
+                "2024": 103.066
+              },
+              "minimum_bac_average": 103.066,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للبيوتكنولوجيا بالمنستير",
+          "university": "جامعة المنستير",
+          "specialty": "-تحاليل وتجارب بيولوجية -مراقبة جودة الأغذية وحفظ الصحة",
+          "specialty_code": "34546",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 110.58,
+                "2023": 118.83,
+                "2024": 118.085
+              },
+              "minimum_bac_average": 118.085,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 109.6857,
+                "2023": 114.4188,
+                "2024": 112.685
+              },
+              "minimum_bac_average": 112.685,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للعلوم التطبيقية والتكنولوجيا بالمهدية",
+          "university": "جامعة المنستير",
+          "specialty": "مراقبة جودة الأغذية وحفظ الصحة",
+          "specialty_code": "36546",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 104.9035,
+                "2023": 107.4401,
+                "2024": 106.053
+              },
+              "minimum_bac_average": 106.053,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 103.74,
+                "2023": 106.0634,
+                "2024": 107.87
+              },
+              "minimum_bac_average": 107.87,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "كلية العلوم بصفاقس",
+          "university": "جامعة صفاقس",
+          "specialty": "مراقبة جودة الأغذية وحفظ الصحة",
+          "specialty_code": "40546",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 81.8766,
+                "2023": 108.32,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 101.7101,
+                "2023": 103.22,
+                "2024": 102.323
+              },
+              "minimum_bac_average": 102.323,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للبيوتكنولوجيا بصفاقس",
+          "university": "جامعة صفاقس",
+          "specialty": "-البيوتكنولوجيا النباتية -بيوتكنولوجيا الكائنات الدقيقة -تحاليل وتجارب بيولوجية -مراقبة جودة الأغذية وحفظ الصحة",
+          "specialty_code": "41546",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 106.1727,
+                "2023": 96.82,
+                "2024": 107.04
+              },
+              "minimum_bac_average":  107.04,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 99.0767,
+                "2023": 103.08,
+                "2024": 106.262
+              },
+              "minimum_bac_average": 106.262,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "كلية العلوم بقابس",
+          "university": "جامعة قابس",
+          "specialty": "تحاليل وتجارب بيولوجية",
+          "specialty_code": "50546",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 96.6334,
+                "2023": 88.95,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 98.6865,
+                "2023": 98.1737,
+                "2024": 99.667
+              },
+              "minimum_bac_average": 99.667,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للبيولوجيا التطبيقية بمدنين",
+          "university": "جامعة قابس",
+          "specialty": "مراقبة جودة الأغذية وحفظ الصحة",
+          "specialty_code": "54546",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 75.0836,
+                "2023": 73.7936,
+                "2024": 73.007
+              },
+              "minimum_bac_average": 73.007,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "كلية العلوم بقفصة",
+          "university": "جامعة قفصة",
+          "specialty": "تحاليل وتجارب بيولوجية",
+          "specialty_code": "60546",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 76.6016,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": 76.6016,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "matched"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 81.0901,
+                "2023": 80.8742,
+                "2024": 86.157
+              },
+              "minimum_bac_average":  86.157,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للبيوتكنولوجيا بباجة",
+          "university": "جامعة جندوبة",
+          "specialty": "-البيوتكنولوجيا النباتية -البيوتكنولوجيا الحيوانية",
+          "specialty_code": "84546",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": 82.8,
+                "2024": 80.517
+              },
+              "minimum_bac_average": 80.517,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 76.3769,
+                "2023": 79.1501,
+                "2024": 79.173
+              },
+              "minimum_bac_average": 79.173,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في الصناعات الغذائية 3 سنوات (امد)",
+      "field": "العلوم الفلاحية والبيو تكنولوجيا والبيئة",
+      "program_description": null,
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة العليا للصناعات الغذائية بتونس",
+          "university": "جامعة قرطاج",
+          "specialty": "الصناعات والأساليب الغذائية",
+          "specialty_code": "10840",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 103.8831,
+                "2023": 110.19,
+                "2024": 121.09
+              },
+              "minimum_bac_average": 121.09,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 110.33,
+                "2023": 110.19,
+                "2024": 106.8902
+              },
+              "minimum_bac_average": 106.8902,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في علوم وتقنيات الأغذية 3 سنوات (امد)",
+      "field": "العلوم الفلاحية والبيو تكنولوجيا والبيئة",
+      "program_description": null,
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للبيوتكنولوجيا بصفاقس",
+          "university": "جامعة صفاقس",
+          "specialty": "-هندسة الأساليب الغذائية -التغذية والصحة",
+          "specialty_code": "40841",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 101.9031,
+                "2023": 101.6176,
+                "2024": 105.78
+              },
+              "minimum_bac_average": 105.78,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 95.027,
+                "2023": 100.2874,
+                "2024": 101.979
+              },
+              "minimum_bac_average": 101.979,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للبيوتكنولوجيا بباجة",
+          "university": "جامعة جندوبة",
+          "specialty": "-مراقبة جودة الأغذية -الصناعات والأساليب الغذائية",
+          "specialty_code": "84841",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 86.2884,
+                "2023": 104.4676,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 81.7799,
+                "2023": 90.779,
+                "2024": 94.057
+              },
+              "minimum_bac_average": 94.057,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في التكنولوجيات الغذائية والمحيط 3 سنوات (امد) علوم الحياة والأرض إجبارية *",
+      "field": "العلوم الفلاحية والبيو تكنولوجيا والبيئة",
+      "program_description": "الصناعات الغذائية وتأثيراتها على المحيط",
+      "duration": "3 سنوات",
+      "admission_requirements": "علوم الحياة والأرض إجبارية",
+      "institutions": [
+        {
+          "institution_name": "كلية العلوم والتقنيات بسيدي بوزيد",
+          "university": "جامعة القيروان",
+          "specialty": "الصناعات الغذائية وتأثيراتها على المحيط",
+          "specialty_code": "75842",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب (*)",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 88.445,
+                "2023": 88.675,
+                "2024": 85.19
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "matched"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 85.1435,
+                "2023": 83.9301,
+                "2024": 91.15
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية (*)",
+              "formula": "FG+SP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 101.675,
+                "2023": null,
+                "2024": 86.15
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في العلوم الفلاحية 3 سنوات (امد)",
+      "field": "العلوم الفلاحية والبيو تكنولوجيا والبيئة",
+      "program_description": null,
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة العليا للفلاحة بمقرن",
+          "university": "جامعة قرطاج",
+          "specialty": "بعث والتصرف في المؤسسات الفلاحية",
+          "specialty_code": "20844",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 112.21,
+                "2023": 93.445,
+                "2024": 98.713
+              },
+              "minimum_bac_average": 98.713,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 95.7785,
+                "2023": 95.7586,
+                "2024": 92.931
+              },
+              "minimum_bac_average": 92.931,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+TE",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 102.8484,
+                "2023": 123.96,
+                "2024": 135.109
+              },
+              "minimum_bac_average":135.109,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا للفلاحة بماطر",
+          "university": "جامعة قرطاج",
+          "specialty": "الإنتاج الحيواني والموارد الغذائية",
+          "specialty_code": "21844",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 89.7883,
+                "2023": 95.2218,
+                "2024": 98.959
+              },
+              "minimum_bac_average": 98.959,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 86.4117,
+                "2023": 78.3402,
+                "2024": 83.185
+              },
+              "minimum_bac_average": 83.185,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+TE",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 110.0368,
+                "2023": 137.25,
+                "2024": 135.799
+              },
+              "minimum_bac_average": 135.799,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للعلوم الفلاحية بشط مريم",
+          "university": "جامعة سوسة",
+          "specialty": "-البستنة -تهيئة الفضاءات",
+          "specialty_code": "30844",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 114.8806,
+                "2023": 107.2511,
+                "2024": 112.585
+              },
+              "minimum_bac_average":112.585,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 101.3414,
+                "2023": 105.076,
+                "2024": 99.803
+              },
+              "minimum_bac_average": 99.803,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+TE",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 154.3315,
+                "2023": 148.3609,
+                "2024": 140.967
+              },
+              "minimum_bac_average": 140.967,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "معهد الغابات والمراعي بطبرقة",
+          "university": "جامعة جندوبة",
+          "specialty": "علوم وتقنيات الغابات",
+          "specialty_code": "80844",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 75.6233,
+                "2023": 78.0148,
+                "2024": 82.6
+              },
+              "minimum_bac_average": 82.6,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+TE",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": 111.955,
+                "2024": 112.73
+              },
+              "minimum_bac_average": 112.73,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "matched"
+            }
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا للفلاحة بالكاف",
+          "university": "جامعة جندوبة",
+          "specialty": "تقنيات الإنتاج الفلاحي",
+          "specialty_code": "82844",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 81.8467,
+                "2023": 124.6443,
+                "2024": null
+              },
+              "minimum_bac_average": 124.6443,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "matched"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 95.988,
+                "2023": 104.4748,
+                "2024": 95.341
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+TE",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 115.995,
+                "2023": 117.3202,
+                "2024": 112.625
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+  "institution_name": "المعهد العالي لعلوم البحار ببنزرت",
+  "university": "جامعة قرطاج",
+  "specialty": "الإجازة في علوم البحار 3 سنوات / ذكور (امد)",
+  "specialty_code": "21846",
+  "location": null,
+  "contact_info": null,
+  "bac_requirements": [
+    {
+      "bac_type": "رياضيات (ذكور)",
+      "formula": "FG+(SP+SVT)/2",
+      "formula_explanation": null,
+      "historical_scores": {
+        "2022": 103.25,
+        "2023": 93.0534,
+        "2024": 151.780
+      },
+      "minimum_bac_average":  151.780,
+      "additional_requirements": null,
+      "notes": null,
+      "data_source": "extracted"
+    },
+    {
+      "bac_type": "علوم تجريبية (ذكور)",
+      "formula": "FG+(SP+SVT)/2",
+      "formula_explanation": null,
+      "historical_scores": {
+        "2022": 81.7068,
+        "2023": 85.6968,
+        "2024": 96.494
+      },
+      "minimum_bac_average": 96.494,
+      "additional_requirements": null,
+      "notes": null,
+      "data_source": "extracted"
+    },
+    {
+      "bac_type": "العلوم التقنية (ذكور)",
+      "formula": "FG+SP",
+      "formula_explanation": null,
+      "historical_scores": {
+        "2022": 89.9701,
+        "2023": 80.51,
+        "2024": 82.498
+      },
+      "minimum_bac_average": 82.498,
+      "additional_requirements": null,
+      "notes": null,
+      "data_source": "extracted"
+    }
+  ]
+},
+    {
+      "degree_name": "الإجازة في علوم البحار 3 سنوات  / إناث (امد)",
+      "field": "العلوم الفلاحية والبيو تكنولوجيا والبيئة",
+      "program_description": null,
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي لعلوم البحار ببنزرت",
+          "university": "جامعة قرطاج",
+          "specialty": "-الصيد البحري وتربية الكائنات المائية -التبريد وتثمين المنتوجات المائية",
+          "specialty_code": "20846",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 85.3466,
+                "2023": 104.33,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 77.3666,
+                "2023": 82.71,
+                "2024": 85.41
+              },
+              "minimum_bac_average": 85.41,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+SP",
+              "formula_explanation": null,
+              "historical_scores": {  
+                "2022": 77.5102,
+                "2023": 86.97,
+                "2024": 83.412
+              },
+              "minimum_bac_average": 83.412,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+        
+           
+          
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2920 @@
+{
+  "metadata": {
+    "pair_id": "tunisian_higher_ed_2025_full_extract",
+    "extraction_date": "2024-06-29",
+    "total_programs": 39,
+    "total_institutions": 53,
+    "enhanced_verification_date": "2025-06-29T23:43:21.813Z",
+    "enhanced_verification_stats": {
+      "csv_cross_references": 413,
+      "degree_name_corrections": 20,
+      "total_patches_applied": 415
+    }
+  },
+  "programs": [
+    {
+      "degree_name": "الهندسة المعمارية 6 سنوات",
+      "field": "الهندسة المعمارية",
+      "program_description": null,
+      "duration": "6 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة الوطنية للهندسة المعمارية والتعمير بتونس",
+          "university": "جامعة قرطاج",
+          "specialty": "الهندسة المعمارية",
+          "specialty_code": "10203",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 162.065,
+                "2023": 161.135,
+                "2024": 155.16
+              },
+              "minimum_bac_average": 155.16,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 146.65,
+                "2023": 152.045,
+                "2024": 148.64
+              },
+              "minimum_bac_average": 148.64,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 163.245,
+                "2023": 156.045,
+                "2024": 147.33
+              },
+              "minimum_bac_average": 147.33,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":164.165,
+                "2023": 173.28,
+                "2024": 172.855
+              },
+              "minimum_bac_average": 172.855,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 155.125,
+                "2023": 151.475,
+                "2024": 144.905
+              },
+              "minimum_bac_average": 144.905,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 132.96,
+                "2023": 140.18,
+                "2024": 140.21
+              },
+              "minimum_bac_average": 140.21,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 170.15,
+                "2023": 176.79,
+                "2024": 181.31
+              },
+              "minimum_bac_average": 181.31,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في التعمير والتهيئة 3 سنوات (امد)",
+      "field": "التعمير والتهيئة",
+      "program_description": null,
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي لتكنولوجيات البيئة والعمران والبنيان",
+          "university": "جامعة قرطاج",
+          "specialty": "التعمير والتهيئة",
+          "specialty_code": "10244",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 126.115,
+                "2023": 135.61,
+                "2024": 130.095
+              },
+              "minimum_bac_average": 130.095,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 116.855,
+                "2023": 117.195,
+                "2024": 93.805
+              },
+              "minimum_bac_average": 93.805,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 116.96,
+                "2023": 113.075,
+                "2024": 111.415
+              },
+              "minimum_bac_average": 111.415,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 97.33,
+                "2023": 94.595,
+                "2024": 99.07
+              },
+              "minimum_bac_average": 99.07,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 91.475,
+                "2023": 94.1049,
+                "2024": 99.875
+              },
+              "minimum_bac_average":  99.875,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "المرحلة التحضيرية العلمية: رياضيات - فيزياء سنتان",
+      "field": "رياضيات - فيزياء",
+      "program_description": null,
+      "duration": "2 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للعلوم التطبيقية والتكنولوجيا بالمهدية",
+          "university": "جامعة المنستير",
+          "specialty": "رياضيات - فيزياء",
+          "specialty_code": "36322",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                 "2022": 123.555,
+            "2023": 131.94,
+            "2024": 136.845
+              },
+          "minimum_bac_average": 136.845,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 121.58,
+            "2023": 124.945,
+            "2024": 121.620
+          },
+          "minimum_bac_average": 121.620,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                 "2022": 111.235,
+            "2023": 119.65,
+            "2024": 119.600
+          },
+          "minimum_bac_average": 119.600,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "المرحلة التحضيرية العلمية: فيزياء - كيمياء سنتان",
+      "field": "فيزياء كيمياء",
+      "program_description": null,
+      "duration": "2 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "كلية العلوم بتونس",
+          "university": "جامعة تونس المنار",
+          "specialty": "فيزياء كيمياء",
+          "specialty_code": "11422",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 148.27,
+                "2023": 150.415,
+                "2024": 154.08
+              },
+              "minimum_bac_average": 154.08,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 146.505,
+                "2023": 138.025,
+                "2024": 123.495
+              },
+              "minimum_bac_average": 123.495,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 138.79,
+                "2023": 161.59,
+                "2024": 178.605
+              },
+              "minimum_bac_average": 178.605,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+  "degree_name": "مرحلة تحضيرية بيولوجيا - جيولوجيا",
+  "field": "بيولوجيا - جيولوجيا",
+  "program_description": null,
+  "duration": "سنتان",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد التحضيري للدراسات الهندسية بصفاقس",
+      "university": "جامعة صفاقس",
+      "specialty": "مرحلة تحضيرية بيولوجيا - جيولوجيا",
+      "specialty_code": "41832",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(M+SP+SVT)/3",
+          "formula_explanation": "La formule n'est pas explicitement listée pour cette entrée et est déduite des programmes similaires.",
+          "historical_scores": {
+            "2022": 94.0456,
+            "2023": 116.3167,
+            "2024": 128.9867
+          },
+          "minimum_bac_average": 128.9867,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(M+SP+SVT)/3",
+          "formula_explanation": "La formule n'est pas explicitement listée pour cette entrée et est déduite des programmes similaires.",
+          "historical_scores": {
+            "2022": 95.9308,
+            "2023": 98.7768,
+            "2024": 106.4776
+          },
+          "minimum_bac_average": 106.4776,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        }
+      ]
+    }
+  ]
+},
+    {
+      "degree_name": "مرحلة تحضيرية مندمجة في الهندسة البيولوجية والبيوطبية سنتان + 3 سنوات",
+      "field": "هندسة بيولوجية وبيوطبية",
+      "program_description": null,
+      "duration": "5 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد الوطني للتكنولوجيا والعلوم بالكاف",
+          "university": "جامعة جندوبة",
+          "specialty": "هندسة بيولوجية وبيوطبية",
+          "specialty_code": "82515",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP+SVT)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 88.5741,
+                "2023": 111.8789,
+                "2024": 125.442
+              },
+              "minimum_bac_average": 125.442,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP+SVT)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 105.58,
+                "2023": 115.96,
+                "2024": 115.418
+              },
+              "minimum_bac_average": 115.418,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":122.42,
+                "2023": 135.24,
+                "2024": 129.84
+              },
+              "minimum_bac_average": 129.84,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 82.6183,
+                "2023": 87.0898,
+                "2024": 88.77
+              },
+              "minimum_bac_average":  88.77,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "مرحلة تحضيرية مندمجة في الهندسة البيوطبية سنتان + 3 سنوات",
+      "field": "الهندسة البيوطبية",
+      "program_description": null,
+      "duration": "5 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للتكنولوجيات الطبية بتونس",
+          "university": "جامعة تونس المنار",
+          "specialty": "الهندسة البيوطبية",
+          "specialty_code": "10516",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP+SVT)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 140.48,
+                "2023": 153.465,
+                "2024": 158.615
+              },
+              "minimum_bac_average": 158.615,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP+SVT)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 148.48,
+                "2023": 153.465,
+                "2024": 145.563
+              },
+              "minimum_bac_average": 145.563,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 149.765,
+                "2023": 156.29,
+                "2024": 151.08
+              },
+              "minimum_bac_average": 151.08,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم  الإعلامية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 129.085,
+                "2023": 95.3948,
+                "2024": 116.965
+              },
+              "minimum_bac_average": 116.965,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "رياضيات - فيزياء - إعلامية",
+      "field": "مجال أكاديمي",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للهندسة الرقمية بتونس",
+          "university": "جامعة تونس",
+          "specialty": "رياضيات - فيزياء - إعلامية",
+          "specialty_code": "11518",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": 180.495
+              },
+              "minimum_bac_average": 180.495,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": 171.35
+              },
+              "minimum_bac_average": 171.35,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": 177.8083
+              },
+              "minimum_bac_average": 177.8083,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": 187.37
+              },
+              "minimum_bac_average": 187.37,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "المعهد الوطني للعلوم التطبيقية والتكنولوجيا بتونس",
+          "university": "جامعة قرطاج",
+          "specialty": "رياضيات - فيزياء - إعلامية, كيمياء - بيولوجيا تطبيقية",
+          "specialty_code": "10520",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإعلامية",
+      "field": "مجال أكاديمي",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+       {
+  "degree_name": "مرحلة تحضيرية مندمجة",
+  "field": "الإعلامية",
+  "program_description": null,
+  "duration": null,
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "كلية العلوم ببنزرت",
+      "university": "جامعة قرطاج",
+      "specialty": "الإعلامية",
+      "specialty_code": "20518",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(M+SP+Info)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 158.085,
+            "2023": 166.3583,
+            "2024": 174.040
+          },
+          "minimum_bac_average": 174.040,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(M+SP+Info)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 170.1267,
+            "2023": 168.5933,
+            "2024": 167.135
+          },
+          "minimum_bac_average": 167.135,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(M+SP+Info)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 168.995,
+            "2023": 174.4467,
+            "2024": 172.433
+          },
+          "minimum_bac_average": 172.433,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+(M+SP+Algo)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 173.9417,
+            "2023": 182.8483,
+            "2024": 182.533
+          },
+          "minimum_bac_average": 182.533,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        }
+      ]
+    }
+  ]
+},
+        {
+          "institution_name": "المعهد العالي للإعلامية والرياضيات بالمنستير",
+          "university": "جامعة المنستير",
+          "specialty": "الإعلامية",
+          "specialty_code": "34518",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 165.74,
+            "2023": 174.355,
+            "2024": 181.002
+              },
+              "minimum_bac_average": 181.002,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 174.4483,
+            "2023": 173.4717,
+            "2024": 169.847
+              },
+              "minimum_bac_average": 169.847,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(M+SP+Info)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 176.335,
+            "2023": 179.05,
+            "2024": 178.443
+          },
+          "minimum_bac_average": 178.443,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+(M+SP+Algo)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 174.4633,
+            "2023": 184.4267,
+            "2024": 185.652
+          },
+          "minimum_bac_average": 185.652,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "institution_name": "كلية العلوم بصفاقس",
+          "university": "جامعة صفاقس",
+          "specialty": "الإعلامية, رياضيات فيزياء /فيزياء كيمياء",
+          "specialty_code": "40518",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 154.8267,
+                "2023": 157.055,
+                "2024":  161.095
+              },
+              "minimum_bac_average":  161.095,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 160.9083,
+                "2023": 162.5667,
+                "2024": 165.907
+              },
+              "minimum_bac_average": 165.907,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": " العلوم التقنية",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":  164.97,
+                "2023": 161.6783,
+                "2024": 161.678
+              },
+              "minimum_bac_average": 161.678,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+             {
+              "bac_type": " العلوم الإعلامية",
+              "formula": "FG+(M+SP+Algo)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":  163.41,
+                "2023": 167.8217,
+                "2024": 170.865
+              },
+              "minimum_bac_average":  170.865,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للإعلامية والملتميديا بصفاقس",
+          "university": "جامعة صفاقس",
+          "specialty": "الإعلامية",
+          "specialty_code": "41518",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":154.8267,
+                "2023": 157.055,
+                "2024":  161.095 
+              },
+              "minimum_bac_average": 161.095,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 160.9083,
+                "2023": 162.5667,
+                "2024": 165.907
+              },
+              "minimum_bac_average": 165.907,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم التقنية ",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 167.97,
+                "2023": 161.6783,
+                "2024": 161.678
+              },
+              "minimum_bac_average": 161.678,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم الإعلامية",
+              "formula": "FG+(M+SP+Algo)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 163.41,
+                "2023": 167.8217,
+                "2024": 170.865
+              },
+              "minimum_bac_average": 170.865,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للإعلامية والملتيميديا بقابس",
+          "university": "جامعة قابس",
+          "specialty": "الإعلامية",
+          "specialty_code": "50518",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+  "degree_name": "مرحلة تحضيرية مندمجة",
+  "field": "الإعلامية",
+  "program_description": null,
+  "duration": null,
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للإعلامية والملتيميديا بقابس",
+      "university": "جامعة قابس",
+      "specialty": "الإعلامية",
+      "specialty_code": "50518",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(M+SP+Info)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 129.61,
+            "2023": 140.1067,
+            "2024": 151.960
+          },
+          "minimum_bac_average": 151.960,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(M+SP+Info)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 132.9567,
+            "2023": 145.25,
+            "2024": 151.620
+          },
+          "minimum_bac_average": 151.620,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(M+SP+Info)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 145.05,
+            "2023": 153.49,
+            "2024": 151.908
+          },
+          "minimum_bac_average": 151.908,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+(M+SP+Algo)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 138.4533,
+            "2023": 157.9617,
+            "2024": 161.172
+          },
+          "minimum_bac_average": 161.172,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        }
+      ]
+    }
+  ]
+},
+    
+    {
+  "degree_name": "مرحلة تحضيرية بيولوجيا - جيولوجيا",
+  "field": "بيولوجيا - جيولوجيا",
+  "program_description": null,
+  "duration": "سنتان",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "كلية العلوم بصفاقس",
+      "university": "جامعة صفاقس",
+      "specialty": "مرحلة تحضيرية بيولوجيا - جيولوجيا",
+      "specialty_code": "40832",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(M+SP+SVT)/3",
+          "formula_explanation": "La formule n'est pas explicitement listée pour cette entrée et est déduite des programmes similaires.",
+          "historical_scores": {
+             "2022": 156.8833,
+            "2023": 161.9267,
+            "2024": 167.383
+          },
+          "minimum_bac_average": 167.383,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(M+SP+SVT)/3",
+          "formula_explanation": "La formule n'est pas explicitement listée pour cette entrée et est déduite des programmes similaires.",
+          "historical_scores": {
+            "2022": 160.9817,
+            "2023": 166.0017,
+            "2024": 165.892
+          },
+          "minimum_bac_average": 165.892,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(M+SP+Info)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 166.815,
+            "2023": 164.8467,
+            "2024": 168.922
+          },
+          "minimum_bac_average": 168.922,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+         {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+(M+SP+Algo)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 162.7833,
+            "2023": 171.05,
+            "2024": 175.263
+          },
+          "minimum_bac_average": 175.263,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        }
+      ]
+    }
+  ]
+},
+    {
+      "degree_name": "مرحلة تحضيرية مندمجة (علمية)",
+      "field": "مجال أكاديمي",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للعلوم التطبيقية والتكنولوجيا بسوسة",
+          "university": "جامعة سوسة",
+          "specialty": "مرحلة تحضيرية مندمجة (علمية)",
+          "specialty_code": "30519",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+             "bac_type": "رياضيات",
+          "formula": "FG+(M+SP+Info)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 177.4783,
+            "2023": 182.1433,
+            "2024": 183.408
+          },
+          "minimum_bac_average": 183.408,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+            },
+            {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(M+SP+Info)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 178.9533,
+            "2023": 175.065,
+            "2024": 169.812
+          },
+          "minimum_bac_average": 169.812,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(M+SP+Info)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 182.005,
+            "2023": 182.6517,
+            "2024": 181.063
+          },
+          "minimum_bac_average": 181.063,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+(M+SP+Algo)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 178.5233,
+            "2023": 188.3083,
+            "2024": 189.778
+          },
+          "minimum_bac_average": 189.778,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "رياضيات فيزياء/فيزياء كيمياء",
+      "field": "مجال أكاديمي",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+       {
+          "degree_name": "مرحلة تحضيرية علمية",
+          "field": "رياضيات فيزياء/فيزياء كيمياء",
+          "program_description": null,
+          "duration": "سنتان",
+          "admission_requirements": null,
+          "institutions": [
+            {
+      "institution_name": "المعهد التحضيري للدراسات الهندسية ببنزرت",
+      "university": "جامعة قرطاج",
+      "specialty": "رياضيات فيزياء/فيزياء كيمياء",
+      "specialty_code": "20522",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+         "formula": "FG+(M+SP)/2",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 141.24,
+           "2023": 146.015,
+            "2024": 147.435
+          },
+         "minimum_bac_average": 147.435,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(M+SP)/2",
+          "formula_explanation": null,
+          "historical_scores": {
+           "2022": 127.53,
+            "2023": 126.805,
+           "2024": 118.845 
+          },
+          "minimum_bac_average": 118.845,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+         "bac_type": "علوم الإعلامية",
+          "formula": "( 2   FG )",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 93.7417,
+            "2023": 132.98,
+           "2024": 148.160 
+          },
+          "minimum_bac_average": 148.160,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        }
+      ]
+    }
+  ]
+},
+  
+        {
+          "institution_name": "المعهد التحضيري للدراسات الهندسية بنابل",
+          "university": "جامعة قرطاج",
+          "specialty": "رياضيات فيزياء/فيزياء كيمياء, تكنولوجيا",
+          "specialty_code": "22522",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "المعهد التحضيري للدراسات الهندسية بصفاقس",
+          "university": "جامعة صفاقس",
+          "specialty": "رياضيات فيزياء/فيزياء كيمياء, تكنولوجيا",
+          "specialty_code": "41522",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 160.865,
+                "2023": 161.43,
+                "2024": 164.815
+              },
+              "minimum_bac_average": 164.815,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 142.665,
+                "2023": 121.985,
+                "2024": 129.385
+              },
+              "minimum_bac_average": 129.385,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+            ,
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 116.36,
+                "2023": 139.065,
+                "2024": 151.510
+              },
+              "minimum_bac_average": 151.510,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+  "degree_name": "مرحلة تحضيرية علمية",
+  "field": "رياضيات فيزياء/فيزياء كيمياء",
+  "program_description": null,
+  "duration": "سنتان",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد التحضيري للدراسات الهندسية بقابس",
+      "university": "جامعة قابس",
+      "specialty": "رياضيات فيزياء/فيزياء كيمياء, تكنولوجيا",
+      "specialty_code": "50522",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+          "formula": "$FG+(M+SP)/2$",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 104.685,
+            "2023": 115.785,
+            "2024": 123.000
+          },
+          "minimum_bac_average": 123.000,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "$FG+(M+SP)/2$",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 94.09,
+            "2023": 105.5,
+            "2024": 108.010
+          },
+          "minimum_bac_average": 108.010,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "$FG+(M+SP)/2$",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 123.385,
+            "2023": 95.8317,
+            "2024": 101.775
+          },
+          "minimum_bac_average": 101.775,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "مرحلة تحضيرية علمية",
+  "field": "رياضيات فيزياء/فيزياء كيمياء",
+  "program_description": null,
+  "duration": "سنتان",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد التحضيري للدراسات الهندسية بقفصة",
+      "university": "جامعة قفصة",
+      "specialty": "رياضيات فيزياء/فيزياء كيمياء, تكنولوجيا",
+      "specialty_code": "60522",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+          "formula": "$FG+(M+SP)/2$",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 80.5818,
+            "2023": 87.7185,
+            "2024": 81.787
+          },
+          "minimum_bac_average": 81.787,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(M+SP)/2",
+          "formula_explanation": "La formule '$FG\\div(M+SP)/2$' indiquée dans le document source semble être une coquille. La formule corrigée 'FG+(M+SP)/2' est utilisée ici.",
+          "historical_scores": {
+            "2022": 75.6084,
+            "2023": 86.2952,
+            "2024": 96.177
+          },
+          "minimum_bac_average": 96.177,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "enhanced"
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "$FG+(M+SP)/2$",
+          "formula_explanation": "La formule '( $FG+(M+SP)/2$' indiquée dans le document source semble être une coquille. La formule corrigée '$FG+(M+SP)/2$' est utilisée ici.",
+          "historical_scores": {
+            "2022": 93.4068,
+            "2023": 90.0119,
+            "2024": 92.955
+          },
+          "minimum_bac_average": 92.955,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "enhanced"
+        }
+      ]
+    }
+  ]
+}
+        ,
+       {
+  "degree_name": "مرحلة تحضيرية علمية",
+  "field": "رياضيات فيزياء/فيزياء كيمياء",
+  "program_description": null,
+  "duration": "سنتان",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد التحضيري للدراسات الهندسية بالقيروان",
+      "university": "جامعة القيروان",
+      "specialty": "رياضيات فيزياء/فيزياء كيمياء, تكنولوجيا",
+      "specialty_code": "70522",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(M+SP)/2",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 110.68,
+            "2023": 123.66,
+            "2024": 136.325
+          },
+          "minimum_bac_average": 136.325,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(M+SP)/2",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 91.7067,
+            "2023": 111.435,
+            "2024": 110.660
+          },
+          "minimum_bac_average": 110.660,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": null,
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 98.7051,
+            "2023": 95.845,
+            "2024": null
+          },
+          "minimum_bac_average": null,
+          "additional_requirements": null,
+          "notes": "Le score pour l'année 2024 n'est pas disponible dans les documents fournis.",
+          "data_source": "main_csv"
+        }
+      ]
+    }
+  ]
+}
+      ]
+    },
+    {
+      "degree_name": "رياضيات فيزياء /فيزياء كيمياء",
+      "field": "مجال أكاديمي",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد التحضيري للدراسات الهندسية بالمنار",
+          "university": "جامعة تونس المنار",
+          "specialty": "رياضيات فيزياء /فيزياء كيمياء, تكنولوجيا",
+          "specialty_code": "13522",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 165.48,
+                "2023": 170.02,
+                "2024": 175.295
+              },
+              "minimum_bac_average": 175.295,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 167.48,
+                "2023": 158.33,
+                "2024": 154.335
+              },
+              "minimum_bac_average": 154.335,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 142.19,
+                "2023": 164.73,
+                "2024": 178.665
+              },
+              "minimum_bac_average": 178.665,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا للعلوم والتكنولوجيا بحمام سوسة",
+          "university": "جامعة سوسة",
+          "specialty": "رياضيات فيزياء /فيزياء كيمياء",
+          "specialty_code": "30522",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+          "formula": "FG+(M+SP)/2",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 141.94,
+            "2023": 145.84,
+            "2024": 147.235
+          },
+          "minimum_bac_average": 147.235,
+          "additional_requirements": null,
+          "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(M+SP)/2",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 132.69,
+            "2023": 133.255,
+            "2024": 124.165
+          },
+          "minimum_bac_average": 124.165,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            } ,{
+          "bac_type": "علوم الإعلامية",
+          "formula": "( 2  FG  )",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 113.605,
+            "2023": 128.645,
+            "2024": 129.600
+          },
+          "minimum_bac_average": 129.600,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+            }
+            
+          ]
+        },
+        {
+          "institution_name": "كلية العلوم بالمنستير",
+          "university": "جامعة المنستير",
+          "specialty": "رياضيات فيزياء /فيزياء كيمياء",
+          "specialty_code": "34522",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "المعهد التحضيري للدراسات الهندسية بالمنستير",
+          "university": "جامعة المنستير",
+          "specialty": "رياضيات فيزياء /فيزياء كيمياء, تكنولوجيا",
+          "specialty_code": "35522",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 158.125,
+                "2023": 162.945,
+                "2024": 167.61
+              },
+              "minimum_bac_average": 167.61,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 160.95,
+                "2023":159.475,
+                "2024": 156.21
+              },
+              "minimum_bac_average":  156.21,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },{
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 140.955,
+                "2023":156.345,
+                "2024": 154.585
+              },
+              "minimum_bac_average":  154.585,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+            
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "هندسة إيكولوجية",
+      "field": "مجال أكاديمي",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة الوطنية للمهندسين بمنوبة",
+          "university": "جامعة منوبة",
+          "specialty": "هندسة إيكولوجية, الجيوماتيك",
+          "specialty_code": "11525",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+Info+2Ang)/ 4",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 163.2375,
+                "2023": 162.045,
+                "2024": 165.585
+              },
+              "minimum_bac_average":165.585,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+Info+2Ang)/ 4",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 157.9375,
+                "2023": 158.94,
+                "2024": 154.2325
+              },
+              "minimum_bac_average": 154.2325,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+(M+Info+2Ang)/ 4",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 147.4325,
+                "2023": 165.91,
+                "2024": 170.465
+              },
+              "minimum_bac_average": 170.465,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم  الإعلامية",
+              "formula": "FG+(M+Info+2Ang)/ 4",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 106.6408,
+                "2023": 165.645,
+                "2024": 173.3475
+              },
+              "minimum_bac_average": 173.3475,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "مرحلة تحضيرية مندمجة في هندسة بيوتكنولوجيات الصحة سنتان + 3 سنوات",
+      "field": "هندسة بيوتكنولوجيات الصحة",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للتكنولوجيات الطبية بتونس (جامعة تونس المنار)",
+          "university": "جامعة",
+          "specialty": "مرحلة تحضيرية مندمجة في هندسة بيوتكنولوجيات الصحة سنتان + 3 سنوات",
+          "specialty_code": "10517",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP+SVT)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 137.855,
+                "2023": 143.1667,
+                "2024": 144.775
+              },
+              "minimum_bac_average": 144.775,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP+SVT)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "مرحلة تحضيرية مندمجة سنتان + 3 سنوات",
+      "field": "رياضيات - فيزياء - إعلامية",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "كلية العلوم بتونس (جامعة تونس المنار)",
+          "university": "جامعة",
+          "specialty": "مرحلة تحضيرية مندمجة سنتان + 3 سنوات",
+          "specialty_code": "10518",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 178.07,
+                "2023": 183.775,
+                "2024": 184.0333
+              },
+              "minimum_bac_average": 184.0333,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 142.7017,
+                "2023": 145.3467,
+                "2024": 140.3933
+              },
+              "minimum_bac_average": 140.3933,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "degree_name": "مرحلة تحضيرية مندمجة: رياضيات- فيزياء وإعلامية سنتان + 3 سنوات",
+      "field": "رياضيات - فيزياء - إعلامية",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد الوطني للعلوم التطبيقية والتكنولوجيا بتونس (جامعة قرطاج)",
+          "university": "جامعة",
+          "specialty": "مرحلة تحضيرية مندمجة: رياضيات- فيزياء وإعلامية سنتان + 3 سنوات",
+          "specialty_code": "10520",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 187.58,
+                "2023": 191.7283,
+                "2024": 191.9817
+              },
+              "minimum_bac_average": 191.9817,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 184.4317,
+                "2023": 180.425,
+                "2024": 176.37
+              },
+              "minimum_bac_average": 176.37,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+             {
+              "bac_type": "علوم  التقنية",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 186.4117,
+                "2023": 187.3184,
+                "2024": 186.2
+              },
+              "minimum_bac_average": 186.2,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+             {
+              "bac_type": "العلوم  الإعلامية",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 187.03,
+                "2023": 195.485,
+                "2024": 196.0567
+              },
+              "minimum_bac_average": 196.0567,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "مرحلة تحضيرية مندمجة: كيمياء - بيولوجيا تطبيقية سنتان + 3 سنوات",
+      "field": "كيمياء - بيولوجيا تطبيقية",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد الوطني للعلوم التطبيقية والتكنولوجيا بتونس (جامعة قرطاج)",
+          "university": "جامعة",
+          "specialty": "مرحلة تحضيرية مندمجة: كيمياء - بيولوجيا تطبيقية سنتان + 3 سنوات",
+          "specialty_code": "10521",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP+SVT)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 148.04,
+                "2023": 163.3067,
+                "2024": 176.655
+              },
+              "minimum_bac_average": 176.655,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP+SVT)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 163.355,
+                "2023": 160.6633,
+                "2024": 158.83
+              },
+              "minimum_bac_average":158.83,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "مرحلة تحضيرية علمية سنتان + 3 سنوات",
+      "field": "رياضيات فيزياء/فيزياء كيمياء",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد التحضيري للدراسات الهندسية بتونس (جامعة تونس)",
+          "university": "جامعة",
+          "specialty": "مرحلة تحضيرية علمية سنتان + 3 سنوات",
+          "specialty_code": "10522",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 156.61,
+                "2023":160.47,
+                "2024": 159.065
+              },
+              "minimum_bac_average": 159.065,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":153.465,
+                "2023": 145.365,
+                "2024": 110.015
+              },
+              "minimum_bac_average": 110.015,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+             {
+              "bac_type": "العلوم  الإعلامية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":100.5667,
+                "2023": 153.88,
+                "2024": 163.99
+              },
+              "minimum_bac_average": 163.99,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+  "degree_name": "مرحلة تحضيرية بيولوجيا - جيولوجيا",
+  "field": "بيولوجيا - جيولوجيا",
+  "duration": "سنتان",
+  "institutions": [
+    {
+      "institution_name": "المعهد التحضيري للدراسات الهندسية ببنزرت",
+      "university": "جامعة قرطاج",
+      "specialty": "مرحلة تحضيرية بيولوجيا - جيولوجيا",
+      "specialty_code": "20832",
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(M+SP+SVT)/3",
+          "historical_scores": {
+            "2022": 118.415,
+            "2023": 129.2417,
+            "2024": 133.005
+          },
+          "minimum_bac_average": 133.005
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(M+SP+SVT)/3",
+          "historical_scores": {
+            "2022": 104.9883,
+            "2023": 110.4805,
+            "2024": 109.3417
+          },
+          "minimum_bac_average": 109.3417
+        }
+      ]
+    }
+  ]
+},
+    
+    {
+      "degree_name": "مرحلة تحضيرية علمية سنتان + 3 سنوات",
+      "field": "رياضيات فيزياء/فيزياء كيمياء",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+  "degree_name": "مرحلة تحضيرية علمية",
+  "field": "رياضيات فيزياء/فيزياء كيمياء",
+  "program_description": null,
+  "duration": "سنتان",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد التحضيري للدراسات الهندسية بنابل",
+      "university": "جامعة قرطاج",
+      "specialty": "رياضيات فيزياء/فيزياء كيمياء",
+      "specialty_code": "22522",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(M+SP)/2",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 150.255,
+            "2023": 158.69,
+            "2024": 160.605
+          },
+          "minimum_bac_average": 160.605,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(M+SP)/2",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 145.235,
+            "2023": 150.425,
+            "2024": 147.545
+          },
+          "minimum_bac_average": 147.545,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": null,
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 112.88,
+            "2023": 151.77,
+            "2024": null
+          },
+          "minimum_bac_average": null,
+          "additional_requirements": null,
+          "notes": "Le score pour l'année 2024 n'est pas disponible dans les documents fournis.",
+          "data_source": "main_csv"
+        }
+      ]
+    }
+  ]
+}
+      ]
+    },
+  
+    {
+      "degree_name": "مرحلة تحضيرية علمية سنتان + 3 سنوات",
+      "field": "رياضيات فيزياء /فيزياء كيمياء",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "كلية العلوم بصفاقس (جامعة صفاقس)",
+          "university": "جامعة",
+          "specialty": "مرحلة تحضيرية علمية سنتان + 3 سنوات",
+          "specialty_code": "40522",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 129.875,
+            "2023": 133.59,
+            "2024": 141.135
+              },
+              "minimum_bac_average": 141.135,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 102.785,
+            "2023": 111.41,
+            "2024": 110.560
+              },
+              "minimum_bac_average": 110.560,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+(M+SP)/2",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 111.54,
+            "2023": 98.1334,
+            "2024": 114.175
+          },
+          "minimum_bac_average": 114.175,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        }
+          ]
+        }
+      ]
+    },
+    
+    {
+      "degree_name": "مرحلة تحضيرية علمية سنتان + 3 سنوات",
+      "field": "رياضيات فيزياء/فيزياء كيمياء",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد التحضيري للدراسات الهندسية بقفصة (جامعة قفصة)",
+          "university": "جامعة",
+          "specialty": "مرحلة تحضيرية علمية سنتان + 3 سنوات",
+          "specialty_code": "60522",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "مرحلة تحضيرية علمية سنتان + 3 سنوات",
+      "field": "رياضيات فيزياء/فيزياء كيمياء",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد التحضيري للدراسات الهندسية بالقيروان (جامعة القيروان)",
+          "university": "جامعة",
+          "specialty": "مرحلة تحضيرية علمية سنتان + 3 سنوات",
+          "specialty_code": "70522",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "مرحلة تحضيرية مندمجة: رياضيات- فيزياء - كيمياء سنتان + 3 سنوات",
+      "field": "هندسة إيكولوجية",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة الوطنية للمهندسين بمنوبة (جامعة منوبة)",
+          "university": "جامعة",
+          "specialty": "مرحلة تحضيرية مندمجة: رياضيات- فيزياء - كيمياء سنتان + 3 سنوات",
+          "specialty_code": "11525",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+Info+2Ang)/ 4",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+Info+2Ang)/ 4",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "مرحلة تحضيرية مندمجة: رياضيات- فيزياء وإعلامية سنتان +3 سنوات",
+      "field": "الجيوماتيك",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة الوطنية للمهندسين بمنوبة (جامعة منوبة)",
+          "university": "جامعة منوبة",
+          "specialty": "مرحلة تحضيرية مندمجة: رياضيات- فيزياء وإعلامية سنتان +3 سنوات",
+          "specialty_code": "11526",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+Info+2Ang)/ 4",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 171.5775,
+                "2023": 175.67,
+                "2024": 177.9475
+              },
+              "minimum_bac_average": 177.9475,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+Info+2Ang)/ 4",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 172.325,
+                "2023": 170.0575,
+                "2024": 160.4725
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+(M+Info+2Ang)/ 4",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 172.2175,
+                "2023": 178.3025,
+                "2024": 165.735
+              },
+              "minimum_bac_average": 165.735,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+(M+Info+2Ang)/ 4",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 173.96,
+                "2023": 188.4775,
+                "2024": 187.76
+              },
+              "minimum_bac_average": 187.76,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "مرحلة تحضيرية - تكنولوجيا سنتان",
+      "field": "تكنولوجيا",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد التحضيري للدراسات الهندسية بالمنار (جامعة تونس المنار)",
+          "university": "جامعة تونس المنار",
+          "specialty": "مرحلة تحضيرية - تكنولوجيا سنتان",
+          "specialty_code": "10532",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+(M+SP+TE)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 152.405,
+                "2023": 157.8633,
+                "2024": 154.9633
+              },
+              "minimum_bac_average": 154.9633,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+            
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "مرحلة تحضيرية - تكنولوجيا سنتان",
+      "field": "تكنولوجيا",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+  "degree_name": "مرحلة تحضيرية - تكنولوجيا",
+  "field": "تكنولوجيا",
+  "program_description": null,
+  "duration": "سنتان",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد التحضيري للدراسات الهندسية بنابل",
+      "university": "جامعة قرطاج",
+      "specialty": "تكنولوجيا",
+      "specialty_code": "22532",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(M+SP+TE)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 148.53,
+            "2023": 160.7517,
+            "2024": 158.972
+          },
+          "minimum_bac_average": 158.972,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        }
+      ]
+    }
+  ]
+}
+      ]
+    },
+    {
+      "degree_name": "مرحلة تحضيرية - تكنولوجيا سنتان",
+      "field": "تكنولوجيا",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد التحضيري للدراسات الهندسية بالمنستير (جامعة المنستير)",
+          "university": "جامعة المنستير",
+          "specialty": "مرحلة تحضيرية - تكنولوجيا سنتان",
+          "specialty_code": "34532",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+(M+SP+Info)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 155.6283,
+                "2023":163.3233,
+                "2024": 162.5267
+              },
+              "minimum_bac_average": 162.5267,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "مرحلة تحضيرية - تكنولوجيا سنتان",
+      "field": "تكنولوجيا",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد التحضيري للدراسات الهندسية بصفاقس (جامعة صفاقس)",
+          "university": "جامعة",
+          "specialty": "مرحلة تحضيرية - تكنولوجيا سنتان",
+          "specialty_code": "40532",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            
+            {
+              "bac_type": "علوم تقنية",
+              "formula": "FG+(M+SP+TE)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":145.2783,
+                "2023": 153.7233,
+                "2024": 153.25
+              },
+              "minimum_bac_average": 153.25,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+  "degree_name": "مرحلة تحضيرية - تكنولوجيا",
+  "field": "تكنولوجيا",
+  "program_description": null,
+  "duration": "سنتان",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد التحضيري للدراسات الهندسية بقابس",
+      "university": "جامعة قابس",
+      "specialty": "تكنولوجيا",
+      "specialty_code": "50532",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(M+SP+TE)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 133.25,
+            "2023": 137.2967,
+            "2024": 143.767
+          },
+          "minimum_bac_average": 143.767,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        }
+      ]
+    }
+  ]
+},
+    {
+      "degree_name": "مرحلة تحضيرية - تكنولوجيا سنتان",
+      "field": "تكنولوجيا",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد التحضيري للدراسات الهندسية بقفصة (جامعة قفصة)",
+          "university": "جامعة",
+          "specialty": "مرحلة تحضيرية - تكنولوجيا سنتان",
+          "specialty_code": "60532",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            
+            {
+              "bac_type": "علوم تقنية",
+              "formula": "FG+(M+SP+TE)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 104.69,
+                "2023": 113.0267,
+                "2024": 126.9033
+              },
+              "minimum_bac_average": 126.9033,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "مرحلة تحضيرية - تكنولوجيا سنتان",
+      "field": "تكنولوجيا",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد التحضيري للدراسات الهندسية بالقيروان (جامعة القيروان)",
+          "university": "جامعة",
+          "specialty": "مرحلة تحضيرية - تكنولوجيا سنتان",
+          "specialty_code": "70532",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+           
+            {
+              "bac_type": "علوم تقنية",
+              "formula": "FG+(M+SP+TE)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 110.60,
+                "2023": 123.66,
+                "2024": 1007.7
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+  "degree_name": "مرحلة تحضيرية بيولوجيا - جيولوجيا",
+  "field": "بيولوجيا - جيولوجيا",
+  "program_description": null,
+  "duration": "سنتان",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للتكنولوجيات الطبية بتونس",
+      "university": "جامعة تونس المنار",
+      "specialty": "مرحلة تحضيرية بيولوجيا - جيولوجيا",
+      "specialty_code": "11832",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(M+SP+SVT)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 124.0633,
+            "2023": 152.125,
+            "2024": 158.0833
+          },
+          "minimum_bac_average": 158.0833,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(M+SP+SVT)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 113.9767,
+            "2023": 120.3283,
+            "2024": 119.5633
+          },
+          "minimum_bac_average": 119.5633,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "مرحلة تحضيرية بيولوجيا - جيولوجيا",
+  "field": "بيولوجيا - جيولوجيا",
+  "program_description": null,
+  "duration": "سنتان",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد العالى للدراسات التحضيرية في البيولوجيا و الجولوجيا بسكرة",
+      "university": "جامعة قرطاج",
+      "specialty": "مرحلة تحضيرية بيولوجيا - جيولوجيا",
+      "specialty_code": "12832",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(M+SP+SVT)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 90.6238,
+            "2023": 141.0367,
+            "2024": 156.5433
+          },
+          "minimum_bac_average": 156.5433,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(M+SP+SVT)/3",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 107.2544,
+            "2023": 114.1867,
+            "2024": 110.7689
+          },
+          "minimum_bac_average": 110.7689,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "مرحلة تحضيرية بيولوجيا - جيولوجيا",
+  "field": "بيولوجيا - جيولوجيا",
+  "program_description": null,
+  "duration": "سنتان",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد التحضيري للدراسات الهندسية بقابس",
+      "university": "جامعة قابس",
+      "specialty": "مرحلة تحضيرية بيولوجيا - جيولوجيا",
+      "specialty_code": "50832",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(M+SP+SVT)/3",
+          "formula_explanation": "La formule n'est pas explicitement listée pour cette entrée et est déduite des programmes similaires.",
+          "historical_scores": {
+            "2022": 88.1635,
+            "2023": 106.8018,
+            "2024": 108.4183
+          },
+          "minimum_bac_average": 108.4183,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(M+SP+SVT)/3",
+          "formula_explanation": "La formule n'est pas explicitement listée pour cette entrée et est déduite des programmes similaires.",
+          "historical_scores": {
+            "2022": 99.3205,
+            "2023": 74.3832,
+            "2024": 87.5173
+          },
+          "minimum_bac_average": 87.5173,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "main_csv"
+        }
+      ]
+    }
+  ]
+},
+
+    {
+      "degree_name": "مرحلة تحضيرية: بيولوجيا - جيولوجيا سنتان",
+      "field": "بيولوجيا - جيولوجيا",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "كلية العلوم بتونس (جامعة تونس المنار)",
+          "university": "جامعة تونس المنار",
+          "specialty": "مرحلة تحضيرية: بيولوجيا - جيولوجيا سنتان",
+          "specialty_code": "10832",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP+SVT)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 127.49,
+                "2023": 141.0383,
+                "2024": 150.1283
+              },
+              "minimum_bac_average": 150.1283,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP+SVT)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 116.8267,
+                "2023": 121.7667,
+                "2024": 120.78
+              },
+              "minimum_bac_average": 120.78,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

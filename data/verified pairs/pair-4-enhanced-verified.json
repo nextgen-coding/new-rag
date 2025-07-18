@@ -1,0 +1,925 @@
+{
+  "metadata": {
+    "pair_id": "4",
+    "extraction_date": "2025-06-29T22:08:56.987Z",
+    "total_programs": 6,
+    "total_institutions": 9,
+    "enhanced_verification_date": "2025-06-29T23:42:59.112Z",
+    "enhanced_verification_stats": {
+      "csv_cross_references": 166,
+      "degree_name_corrections": 13,
+      "total_patches_applied": 168
+    }
+  },
+  "programs": [
+    {
+      "degree_name": "الإجازة في التنشيط السياحي",
+      "field": "مجال أكاديمي",
+      "program_description": null,
+      "duration": "3 سنوات (آمد)",
+      "admission_requirements": "تربية بدنية إجبارية",
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للدراسات التطبيقية في الانسانيات بسبيطلة (جامعة القيروان)",
+          "university": "جامعة القيروان",
+          "specialty": "التنشيط السياحي",
+          "specialty_code": "73440",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+(F+Ang+EP)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 97.7017,
+                "2023": 98.0727,
+                "2024": 100.362
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(F+Ang+EP)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(F+Ang+EP)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 97.7863,
+                "2023": 106.7467,
+                "2024": 113.3117
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+(F+Ang+EP)",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 94.4896,
+                "2023": 90.0146,
+                "2024": 85.119
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+(F+Ang+EP)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 80.3361,
+                "2023": 99.9682,
+                "2024": 99.403
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+(F+Ang+EP)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+(F+Ang+EP)/3",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 99.1209,
+                "2023": 100.9517,
+                "2024": 87.823
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في الوساطة والتنشيط",
+      "field": "مجال أكاديمي",
+      "program_description": null,
+      "duration": "3 سنوات (امد)",
+      "admission_requirements": "تربية بدنية إجبارية, شعبة تتطلب اختبار",
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للتنشيط الشبابي والثقافي ببئر الباي (جامعة تونس)",
+          "university": "جامعة تونس",
+          "specialty": "الوساطة والتنشيط الثقافي, التنشيط الشبابي",
+          "specialty_code": "10443",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 103.105,
+                "2023": 100.36,
+                "2024": 104.335
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": 101.875,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 107.3032,
+                "2023": 117.81,
+                "2024": 131.82
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 104.845,
+                "2023": 97.895,
+                "2024": 110.250
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 110.365,
+                "2023": 125.57,
+                "2024": 113.410
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 90.1409,
+                "2023": 98.585,
+                "2024": 118.425
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 98.9667,
+                "2023": 81.81,
+                "2024": 92.238
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في علوم وتقنيات الأنشطة البدنية والرياضة",
+      "field": "مجال أكاديمي",
+      "program_description": null,
+      "duration": "3 سنوات (آمد)",
+      "admission_requirements": "عدد مادة الرياضة >= 16 من 20, شعبة تتطلب اختبار طبي",
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للرياضة والتربية البدنية بقصر السعيد (جامعة منوبة)",
+          "university": "جامعة منوبة",
+          "specialty": "- التربية والحركية - التدريب الرياضي",
+          "specialty_code": "10450",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 142.8183,
+                "2023": 153.8821,
+                "2024": 151.865
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 150.725,
+                "2023": 129.17,
+                "2024": 146.788
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 150.9931,
+                "2023": 163.8919,
+                "2024": 138.394
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 167.7814,
+                "2023": 153.5022,
+                "2024": 173.495
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+               "2022": 146.115,
+               "2023": 141.6787,
+               "2024": 150.271
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 125.7518,
+                "2023": 133.3755,
+                "2024": 160.548
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+SB",
+              "formula_explanation": null,
+              "historical_scores": {
+                 "2022": 125.695,
+                 "2023": 120.5,
+                 "2024": 123.762
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للرياضة والتربية البدنية بصفاقس",
+          "university": "جامعة صفاقس",
+          "specialty": "- التربية والحركية - الأنشطة البدنية الملائمة والصحة",
+          "specialty_code": "40450",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 134.7933,
+                "2023": 127.74,
+                "2024": 154.529
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 123.6832,
+                "2023": 126.1102,
+                "2024": 132.910
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 148.088,
+                "2023": 132.6319,
+                "2024": 145.725
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 145.9962,
+                "2023": 140.2449,
+                "2024": 172.575
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 139.4478,
+                "2023": 160.0613,
+                "2024": 142.380
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+               "2022": 107.795,
+               "2023": 115.92,
+               "2024": 143.428
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+SB",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 100.136,
+                "2023": 81.2548,
+                "2024": 76.572
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للرياضة والتربية البدنية بقفصة",
+          "university": "جامعة قفصة",
+          "specialty": "- التربية والحركية - الأنشطة البدنية الملائمة",
+          "specialty_code": "60450",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 130.0799,
+                "2023": 135.4085,
+                "2024": 144.263
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 115.19,
+                "2023": 115.93,
+                "2024": 112.093
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+               "2022": 126.6131,
+               "2023": 130.6577,
+               "2024": 138.805
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 137.0724,
+                "2023": 144.0113,
+                "2024": 148.565
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 129.0099,
+                "2023": 143.0537,
+                "2024": 132.320
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 123.8651,
+                "2023": 122.4241,
+                "2024": 122.471
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+SB",
+              "formula_explanation": null,
+              "historical_scores": {
+               "2022": 87.725,
+               "2023": 80.4949,
+               "2024": 82.044  
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للرياضة والتربية البدنية بالكاف",
+          "university": "جامعة جندوبة",
+          "specialty": "- التربية والحركية - التسيير الرياضي",
+          "specialty_code": "82450",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                 "2022": 131.0697,
+                 "2023": 129.9355,
+                 "2024": 136.890
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 116.715,
+                "2023": 113.505,
+                "2024": 122.780
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+               "2022": 125.875,
+               "2023": 140.55,
+               "2024": 156.980
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+               "2022": 142.21,
+               "2023": 137.195,
+               "2024": 169.269
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 126.425,
+                "2023": 131.15,
+                "2024": 141.780
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+EP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 115.745,
+                "2023": 115,
+                "2024": 137.785
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+SB",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 94.61,
+                 "2023": 76.4248,
+                 "2024": 88.160
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في السياحة",
+      "field": "مجال أكاديمي",
+      "program_description": null,
+      "duration": "3 سنوات (آمد)",
+      "admission_requirements": "شعبة تتطلب اختبار",
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للدراسات السياحية والفندقية بسيدي الظريف",
+          "university": "جامعة قرطاج",
+          "specialty": "الإدارة والتصرف السياحي, دليل سياحي",
+          "specialty_code": "10452",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+(F+Ang)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                  "2022": 107.9117,
+                  "2023": 106.45,
+                  "2024": 109.773
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(F+Ang)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 113.095,
+                "2023": 117.0715,
+                "2024": 102.077
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(F+Ang)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 116.695,
+                "2023": 134.285,
+                "2024": 117.315
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+(F+Ang)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 96.915,
+                "2023": 95.74,
+                "2024": 100.582
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+(F+Ang)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 92.6932,
+                "2023": 149.415,
+                "2024": 100.230
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+(F+Ang)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 93.54,
+                "2023": 99.6235,
+                "2024": 89.527
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+(F+Ang)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 112.445,
+                "2023": 109.48,
+                "2024": 118.185
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في الفندقة",
+      "field": "مجال أكاديمي",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للدراسات السياحية والفندقية بسيدي الظريف",
+          "university": "جامعة قرطاج",
+          "specialty": null,
+          "specialty_code": "10453",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": null,
+              "formula_explanation": null,
+              "historical_scores": {
+                "2024": 106.43,
+                "2023": 103.775,
+                "2022": 107.735
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": null,
+              "formula_explanation": null,
+              "historical_scores": {
+                "2024": 108.8602,
+                "2023": 118.445,
+                "2022": 95.01
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": null,
+              "formula_explanation": null,
+              "historical_scores": {
+                "2024": 118.64,
+                "2023": 120.41,
+                "2022": 118.15
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": null,
+              "formula_explanation": null,
+              "historical_scores": {
+                "2024": 92.745,
+                "2023": 95.5699,
+                "2022": 97.9399
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": null,
+              "formula_explanation": null,
+              "historical_scores": {
+                "2024": 89.0568,
+                "2023": 125.675,
+                "2022": 100.875
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": null,
+              "formula_explanation": null,
+              "historical_scores": {
+                "2024": 96.58,
+                "2023": 95.35,
+                "2022": 90.955
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": null,
+              "formula_explanation": null,
+              "historical_scores": {
+                "2024": 107.305,
+                "2023": 98.637,
+                "2022": 119.655
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

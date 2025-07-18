@@ -1,0 +1,880 @@
+{
+  "metadata": {
+    "pair_id": "tunisian_higher_ed_2025_full_extract_complete",
+    "extraction_date": "2025-06-30",
+    "total_programs_extracted": 7,
+    "enhanced_verification_date": "2025-06-30T20:45:00.000Z"
+  },
+  "programs": [
+    {
+      "degree_name": "الاجازة في العلوم الاقتصادية",
+      "field": "العلوم الاقتصادية وعلوم التصرف",
+      "duration": "3 سنوات (امد)",
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للتصرف بتونس", "university": "جامعة تونس", "specialty": "إقتصاديات الأعمال, الهندسة الاقتصادية والمالية", "specialty_code": "10312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 177.3311, "2023": 138.87, "2024": 147.8312}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 166.905, "2023": 166.7328, "2024": 143.701}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ec)/2", "historical_scores": {"2022": 133.4879, "2023": 137.8588, "2024": 151.8651}}
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا للعلوم الإقتصادية والتجارية بتونس", "university": "جامعة تونس", "specialty": "الهندسة الاقتصادية والمالية, إقتصاديات الأعمال, نقد - مالية - بنك - تأمين, التحليل والسياسة الإقتصادية", "specialty_code": "11312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 154.3689, "2023": 113.4896, "2024": 128.43}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 152.32, "2023": 162.7417, "2024": 96.8713}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ec)/2", "historical_scores": {"2022": 115.345, "2023": 112.1146, "2024": 124.095}}
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا للتجارة بمنوبة", "university": "جامعة منوبة", "specialty": "التجارة والمالية الدولية, اقتصاديات النقل واللوجستية, نقد - مالية - بنك - تأمين, الهندسة الاقتصادية والمالية", "specialty_code": "12312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 151.9828, "2023": 111.815, "2024": 128.9564}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 156.2842, "2023": 145.3274, "2024": 132.1504}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ec)/2", "historical_scores": {"2022": 122.3866, "2023": 117.6251, "2024": 127.2444}}
+          ]
+        },
+        {
+          "institution_name": "كلية العلوم الإقتصادية والتصرف بتونس", "university": "جامعة تونس المنار", "specialty": "التجارة والمالية الدولية, نقد - مالية - بنك - تأمين, التحليل والسياسة الإقتصادية, الهندسة الاقتصادية والمالية", "specialty_code": "13312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 148.5107, "2023": 140.9939, "2024": 141.6306}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 150.2708, "2023": 146.1246, "2024": 136.385}},
+            {"bac_type": "إقتصاد وتصرف", "formula": "FG+(M+Ec)/2", "historical_scores": {"2022": 115.025, "2023": 112.715, "2024": 120.8512}}
+          ]
+        },
+        {
+          "institution_name": "المعهد الوطني للشغل والدراسات الإجتماعية بتونس", "university": "جامعة قرطاج", "specialty": "التحليل والسياسة الإقتصادية : اقتصاد الشغل", "specialty_code": "14312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 137.4469, "2023": 118.725, "2024": 128.2449}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 137.035, "2023": 129.454, "2024": 136.3394}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ec)/2", "historical_scores": {"2022": 106.3259, "2023": 110.0388, "2024": 114.3937}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للتصرف ببنزرت", "university": "جامعة قرطاج", "specialty": "الهندسة الاقتصادية والمالية", "specialty_code": "20312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 141.7322, "2023": 97.8333, "2024": 110.9411}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 132.6319, "2023": 132.2039, "2024": 90.4782}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ec)/2", "historical_scores": {"2022": 104.8262, "2023": 109.9211, "2024": 110.815}}
+          ]
+        },
+        {
+          "institution_name": "كلية العلوم الإقتصادية والتصرف بنابل", "university": "جامعة قرطاج", "specialty": "التجارة والمالية الدولية, نقد - مالية - بنك - تأمين, التحليل والسياسة الإقتصادية", "specialty_code": "22312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 123.1035, "2023": 117.965, "2024": 115.1962}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 122.41, "2023": 132.015, "2024": 122.1}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ec)/2", "historical_scores": {"2022": 101.215, "2023": 100.17, "2024": 101.285}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للتصرف بسوسة", "university": "جامعة سوسة", "specialty": "نقد - مالية - بنك - تأمين", "specialty_code": "30312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 147.644, "2023": 110.622, "2024": 109.765}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 150.319, "2023": 145.5949, "2024": 90.0901}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ec)/2", "historical_scores": {"2022": 106.915, "2023": 114.4847, "2024": 127.1214}}
+          ]
+        },
+        {
+          "institution_name": "معهد الدراسات التجارية العليا بسوسة", "university": "جامعة سوسة", "specialty": "نقد - مالية - بنك-  تأمين", "specialty_code": "31312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 168.01, "2023": 151.9668, "2024": 108.7262}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 174.005, "2023": 173.1046, "2024": 83.1452}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ec)/2", "historical_scores": {"2022": 133.8838, "2023": 128.063, "2024": 139.595}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للمالية والجباية بسوسة", "university": "جامعة سوسة", "specialty": "نقد - مالية - بنك- تأمين", "specialty_code": "32312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 131.0697, "2023": 102.47, "2024": 109.5286}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 130.7112, "2023": 136.1094, "2024": 106.829}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ec)/2", "historical_scores": {"2022": 102.9017, "2023": 103.9612, "2024": 109.6108}}
+          ]
+        },
+        {
+          "institution_name": "كلية العلوم الإقتصادية والتصرف بسوسة", "university": "جامعة سوسة", "specialty": "إقتصاديات الأعمال, التجارة والمالية الدولية, نقد - مالية - بنك - تأمين, الهندسة الاقتصادية والمالية", "specialty_code": "33312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 125.5, "2023": 121.715, "2024": 105.8264}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 122.6969, "2023": 137.6662, "2024": 107.8025}},
+            {"bac_type": "إقتصاد وتصرف", "formula": "FG+(M+Ec)/2", "historical_scores": {"2022": 98.8306, "2023": 99.74, "2024": 101.1471}}
+          ]
+        },
+        {
+          "institution_name": "كلية العلوم الإقتصادية والتصرف بالمهدية", "university": "جامعة المنستير", "specialty": "إقتصاديات الأعمال, التجارة والمالية الدولية, نقد - مالية - بنك - تأمين, الهندسة الاقتصادية والمالية", "specialty_code": "36312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 113.92, "2023": 113.535, "2024": 98.2664}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 118.425, "2023": 127.855, "2024": 123.88}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ec)/2", "historical_scores": {"2022": 96.4839, "2023": 98.8733, "2024": 102.03}}
+          ]
+        },
+        {
+          "institution_name": "كلية العلوم الإقتصادية والتصرف بصفاقس", "university": "جامعة صفاقس", "specialty": "إقتصاديات الأعمال, التجارة والمالية الدولية, اقتصاديات النقل واللوجستية, نقد - مالية - بنك - تأمين, التحليل والسياسة الإقتصادية, الهندسة الاقتصادية والمالية", "specialty_code": "40312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 110.1137, "2023": 113.4377, "2024": 89.735}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 112.845, "2023": 121.6858, "2024": 118.17}},
+            {"bac_type": "إقتصاد وتصرف", "formula": "FG+(M+EC)/2", "historical_scores": {"2022": 85.7086, "2023": 88.3852, "2024": 88.4833}}
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا للتجارة بصفاقس", "university": "جامعة صفاقس", "specialty": "إقتصاديات الأعمال, اقتصاديات النقل واللوجستية, نقد - مالية - بنك - تأمين, الهندسة الاقتصادية والمالية", "specialty_code": "41312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 123.615, "2023": 109.033, "2024": 113.7731}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 125.6555, "2023": 123.05, "2024": 130.31}},
+            {"bac_type": "إقتصاد وتصرف", "formula": "FG+(M+EC)/2", "historical_scores": {"2022": 95.9049, "2023": 95.4199, "2024": 99.915}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي لادارة الاعمال بصفاقس", "university": "جامعة صفاقس", "specialty": "إقتصاديات الأعمال, التحليل والسياسة الإقتصادية", "specialty_code": "42312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 112.2751, "2023": 105.4234, "2024": 106.925}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 112.18, "2023": 117.5074, "2024": 120.8244}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+EC)/2", "historical_scores": {"2022": 77.1934, "2023": 85.9716, "2024": 85.1384}}
+          ]
+        },
+        {
+          "institution_name": "معهد الدراسات العليا التجارية بصفاقس", "university": "جامعة صفاقس", "specialty": "الهندسة الاقتصادية والمالية", "specialty_code": "43312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 153.5236, "2023": 111.05, "2024": 106.0694}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 133.735, "2023": 138.7469, "2024": 100.6496}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+EC)/2", "historical_scores": {"2022": 89.0419, "2023": 93.1884, "2024": 94.36}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للتصرف بقابس", "university": "جامعة قابس", "specialty": "التجارة والمالية الدولية, نقد - مالية - بنك - تأمين, التحليل والسياسة الإقتصادية", "specialty_code": "50312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 100.8, "2023": 92.9603, "2024": null}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 108.39, "2023": 114.8413, "2024": 98.5645}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ec)/2", "historical_scores": {"2022": 86.813, "2023": 89.3541, "2024": 92.6888}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي لإدارة المؤسسات بقفصة", "university": "جامعة قفصة", "specialty": "إقتصاديات - الأعمال, نقد - مالية - بنك - تأمين", "specialty_code": "60312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 96.2581, "2023": 83.6134, "2024": 87.9233}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 98.3667, "2023": 110.9769, "2024": 122.3545}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ec)/2", "historical_scores": {"2022": 70.5949, "2023": 68.2118, "2024": 71.9434}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للإعلامية والتصرف بالقيروان", "university": "جامعة القيروان", "specialty": "نقد - مالية- بنك - تأمين, الهندسة الاقتصادية والمالية", "specialty_code": "70312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 102.0567, "2023": 98.8815, "2024": 97.57}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 110.63, "2023":110.3224, "2024": 113.19}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ec)/2", "historical_scores": {"2022": 72.6984, "2023": 86.1637, "2024": 83.2716}}
+          ]
+        },
+        {
+          "institution_name": "كلية العلوم القانونية والإقتصادية والتصرف بجندوبة", "university": "جامعة جندوبة", "specialty": "إقتصاديات الأعمال, التجارة والمالية الدولية, نقد - مالية - بنك - تأمين, التحليل والسياسة الإقتصادية", "specialty_code": "80312",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 88.4401, "2023": 94.7149, "2024": 90.2698}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 98.8787, "2023": 107.6902, "2024": 109.0865}},
+            {"bac_type": "إقتصاد وتصرف", "formula": "FG+(M+Ec)/2", "historical_scores": {"2022": 71.7502, "2023": 78.3833, "2024": 70.5317}}
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في علوم التصرف",
+      "field": "علوم التصرف",
+      "duration": "3 سنوات (امد)",
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للتصرف بتونس", "university": "جامعة تونس", "specialty": "إدارة الأعمال, التسويق, المالية, المحاسبة, التصرف في الموارد البشرية", "specialty_code": "10318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 175.4319, "2023": 143.01, "2024": 157.4024}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 180.7444, "2023": 175.0413, "2024": 144.575}},
+            {"bac_type": "إقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 162.665, "2023": 154.7167, "2024": 171.4461}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 169.785, "2023": 171.0288, "2024": 119.4816}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 129.3684, "2023": 153.5183, "2024": 149.5646}}
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا للعلوم الإقتصادية والتجارية بتونس", "university": "جامعة تونس", "specialty": "إدارة الأعمال, التسويق, المالية, المحاسبة, التصرف في الموارد البشرية", "specialty_code": "11318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 161.57, "2023": 94.0958, "2024": 134.804}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 169.5629, "2023": 163.275, "2024": 129.2774}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 145.199, "2023": 133.3755, "2024": 153.155}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 133.635, "2023": 154.0265, "2024": 156.2414}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 130.6898, "2023": 126.4901, "2024": 136.7407}}
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا للتجارة بمنوبة", "university": "جامعة منوبة", "specialty": "إدارة الأعمال, التسويق, المالية", "specialty_code": "12318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 160.745, "2023": 110.64, "2024": 131.6314}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 160.215, "2023": 156.7015, "2024": 119.7221}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 135.645, "2023": 124.63, "2024": 144.52}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 122.071, "2023": 153.6467, "2024": 155.7064}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 126.5168, "2023": 130.1923, "2024": 136.5695}}
+          ]
+        },
+        {
+          "institution_name": "كلية العلوم الإقتصادية والتصرف بتونس", "university": "جامعة تونس المنار", "specialty": "إدارة الأعمال, التسويق, المالية, المحاسبة", "specialty_code": "13318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 158.9111, "2023": 109.231, "2024": 131.2997}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 156.5517, "2023": 152.1112, "2024": 143.1125}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 137.855, "2023": 125.62, "2024": 142.1281}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 104.7993, "2023": 160.48, "2024": 133.4504}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 116.844, "2023": 129.1597, "2024": 145.0278}}
+          ]
+        },
+        {
+          "institution_name": "معهد الدراسات العليا التجارية بقرطاج", "university": "جامعة قرطاج", "specialty": "إدارة الأعمال, التسويق, المالية, المحاسبة", "specialty_code": "14318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 182.756, "2023": 168.0649, "2024": 173.55}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 187.2072, "2023": 186.4261, "2024": 166.5295}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 173.2705, "2023": 166.265, "2024": 179.545}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 186.85, "2023": 184.74, "2024": 173.5487}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 167.44, "2023": 173.4042, "2024": 150.0194}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للمحاسبة وإدارة المؤسسات بمنوبة", "university": "جامعة منوبة", "specialty": "إدارة الأعمال, المالية, المحاسبة, التصرف في الموارد البشرية", "specialty_code": "15318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 158.788, "2023": 117.845, "2024": 138.2173}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 163.373, "2023": 164.3627, "2024": 123.9756}},
+            {"bac_type": "إقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 135.88, "2023": 127.2979, "2024": 149.675}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 136.55, "2023": 154.8, "2024": 139.7848}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 123.97, "2023": 130.631, "2024": 139.0251}}
+          ]
+        },
+        {
+          "institution_name": "المعهد الوطني للشغل والدراسات الإجتماعية بتونس", "university": "جامعة قرطاج", "specialty": "إدارة أعمال منظمات الإقتصاد الإجتماعي والتضامني, التصرف في الموارد البشرية", "specialty_code": "16318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 153.1331, "2023": 113.5484, "2024": 126.4312}},
+            {"bac_type": "علوم تجريبية", "formula": "FGM", "historical_scores": {"2022": 139.1107, "2023": 137.3506, "2024": 135.9168}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 118.9947, "2023": 118.0531, "2024": 131.7543}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 135.6707, "2023": 146.875, "2024": 110.317}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 121.8302, "2023": 119.8614, "2024": 122.5525}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للتصرف ببنزرت", "university": "جامعة قرطاج", "specialty": "إدارة الأعمال, التسويق, المالية, المحاسبة, التصرف اللوجستي والإنتاج", "specialty_code": "20318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 145.71, "2023": 125.125, "2024": 116.84}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 141.195, "2023": 139.43, "2024": 120.8084}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 124.8904, "2023": 119.59, "2024": 131.63}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 126.21, "2023": 128.18, "2024": 150.435}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 118.029, "2023": 123.0768, "2024": 115.61}}
+          ]
+        },
+        {
+          "institution_name": "كلية العلوم الاقتصادية والتصرف بنابل", "university": "جامعة قرطاج", "specialty": "إدارة الأعمال, التسويق, المالية, المحاسبة, التصرف في الموارد البشرية", "specialty_code": "22318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 128.83, "2023": 124.045, "2024": 121.2096}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 129.555, "2023": 134.975, "2024": 132.125}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 110.25, "2023": 105.455, "2024": 117.36}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 126.61, "2023": 136.8851, "2024": 144.4126}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 104.4275, "2023": 113.41, "2024": 116.3197}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للتصرف بسوسة", "university": "جامعة سوسة", "specialty": "إدارة الأعمال, التسويق, المالية, المحاسبة", "specialty_code": "30318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 153.465, "2023": 105.9871, "2024": 125.835}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 160.1844, "2023": 155.97, "2024": 127.505}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 134.225, "2023": 127.845, "2024": 146.7131}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 158.2316, "2023": 180.6214, "2024": 167.1233}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 110.1, "2023": 112.7, "2024": 116.38}}
+          ]
+        },
+        {
+          "institution_name": "معهد الدراسات التجارية العليا بسوسة", "university": "جامعة سوسة", "specialty": "إدارة الأعمال, التسويق, المالية, المحاسبة, التصرف اللوجستي والإنتاج", "specialty_code": "31318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 168.9049, "2023": 158.6168, "2024": 155.5994}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 181.1564, "2023": 166.165, "2024": 159.075}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 152.545, "2023": 146.8789, "2024": 160.285}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 175.385, "2023": 183.9865, "2024": 185.0298}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 125.6073, "2023": 144.415, "2024": 103.315}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للمالية والجباية بسوسة", "university": "جامعة سوسة", "specialty": "المالية, المحاسبة", "specialty_code": "32318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 131.475, "2023": 94.2632, "2024": 105.1134}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 130.47, "2023": 135.248, "2024": 123.0821}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 118.32, "2023": 113.2629, "2024": 127.315}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 132.236, "2023": 135.16, "2024": 157.9374}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 102.765, "2023": 102.72, "2024": 105.275}}
+          ]
+        },
+        {
+          "institution_name": "كلية العلوم الاقتصادية والتصرف بسوسة", "university": "جامعة سوسة", "specialty": "إدارة الأعمال, التسويق, المالية, المحاسبة", "specialty_code": "33318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 131.74, "2023": 111.575, "2024": 110.31}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 133.5895, "2023": 139.25, "2024": 112.21}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 111.17, "2023": 104.9259, "2024": 117.985}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 134.7451, "2023": 158.8469, "2024": 106.1219}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 106.4249, "2023": 108.07, "2024": 108.845}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للموضة بالمنستير", "university": "جامعة المنستير", "specialty": "التسويق", "specialty_code": "34318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 121.03, "2023": 106.1202, "2024": 104.58}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 122.7076, "2023": 127.421, "2024": 121.31}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 104.9, "2023": 103.565, "2024": 112.805}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 113.925, "2023": 121.415, "2024": 140.2128}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 103.655, "2023": 110.4133, "2024": 115.15}}
+          ]
+        },
+        {
+          "institution_name": "كلية العلوم الإقتصادية والتصرف بالمهدية", "university": "جامعة المنستير", "specialty": "إدارة الأعمال, التسويق, المالية, المحاسبة", "specialty_code": "36318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 121.77, "2023": 114.72, "2024": 100.9799}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 124.475, "2023": 131.895, "2024": 121.24}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 109.895, "2023": 106.29, "2024": 123.49}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 132.565, "2023": 136.0612, "2024": 137.56}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 109.0075, "2023": 110.805, "2024": 108.565}}
+          ]
+        },
+        {
+          "institution_name": "كلية العلوم الإقتصادية والتصرف بصفاقس", "university": "جامعة صفاقس", "specialty": "إدارة الأعمال, التسويق, المالية, المحاسبة, التصرف في الموارد البشرية, التصرف اللوجستي والإنتاج", "specialty_code": "40318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 123.9221, "2023": 103.6491, "2024": 101.9315}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 122.36, "2023": 124.135, "2024": 123.4727}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 107.8614, "2023": 102.9967, "2024": 116.63}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 118.5774, "2023": 124.2377, "2024": 129.6038}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 85.6534, "2023": 84.535, "2024": 96.9451}}
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا للتجارة بصفاقس", "university": "جامعة صفاقس", "specialty": "إدارة الأعمال, التسويق, المالية, المحاسبة, التصرف في الموارد البشرية", "specialty_code": "41318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 148.3341, "2023": 112.4823, "2024": 129.2079}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 161.5968, "2023": 149.6395, "2024": 164.4376}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 145.9587, "2023": 133.1883, "2024": 150.5116}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 111.8577, "2023": 143.4228, "2024": 148.2057}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 91.5225, "2023": 100.53, "2024": 106.875}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي لادارة الاعمال بصفاقس", "university": "جامعة صفاقس", "specialty": "إدارة الأعمال, التسويق, المالية, المحاسبة", "specialty_code": "42318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 121.9907, "2023": 100.6441, "2024": 98.5099}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 116.99, "2023": 120.395, "2024": 124.96}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 102.625, "2023": 98.0281, "2024": 110.0014}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 110.3919, "2023": 122.2475, "2024": 129.23}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 91.6301, "2023": 91.8883, "2024": 95.685}}
+          ]
+        },
+        {
+          "institution_name": "معهد الدراسات العليا التجارية بصفاقس", "university": "جامعة صفاقس", "specialty": "التسويق, المالية, المحاسبة, التصرف في الموارد البشرية", "specialty_code": "43318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 144.5035, "2023": 151.1964, "2024": 94.0317}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 167.7921, "2023": 153.2829, "2024": 132.2681}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 122.9, "2023": 108.5783, "2024": 125.215}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 139.3622, "2023": 159.67, "2024": 147.635}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 81.8183, "2023": 89.1564, "2024": 97.5214}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للتصرف بقابس", "university": "جامعة قابس", "specialty": "إدارة الأعمال, التسويق, المالية, المحاسبة, التصرف اللوجستي والإنتاج", "specialty_code": "50318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 115.7633, "2023": 89.9717, "2024": 92.4132}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 113.3024, "2023": 116.83, "2024": 112.7761}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 101.4253, "2023": 97.4075, "2024": 110.9162}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 107.365, "2023": 124.8851, "2024": 147.0822}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 85.685, "2023": 103.815, "2024": 90.9195}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي لإدارة المؤسسات بقفصة", "university": "جامعة قفصة", "specialty": "إدارة الأعمال, التسويق, المالية, المحاسبة, التصرف في الموارد البشرية, التصرف اللوجستي والإنتاج", "specialty_code": "60318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 94.7901, "2023": 79.7559, "2024": 92.2668}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 106.9341, "2023": 119.5565, "2024": 116.6568}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 84.6768, "2023": 83.3384, "2024": 96.7334}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 88.01, "2023": 105.5662, "2024": 125.2703}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": null, "2023": 91.26, "2024": 87.7068}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للإعلامية والتصرف بالقيروان", "university": "جامعة القيروان", "specialty": "إدارة الأعمال, التسويق, المالية, المحاسبة", "specialty_code": "70318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 111.1887, "2023": 97.3414, "2024": 92.6268}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 110.1185, "2023": 109.62, "2024": 115.365}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 95.115, "2023": 95.37, "2024": 100.4249}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 101.7252, "2023": 118.995, "2024": 129.9515}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 71.8183, "2023": 111.485, "2024": 100.905}}
+          ]
+        },
+        {
+          "institution_name": "كلية العلوم القانونية والإقتصادية والتصرف بجندوبة", "university": "جامعة جندوبة", "specialty": "إدارة الأعمال, التسويق, المالية, المحاسبة", "specialty_code": "80318",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 107.519, "2023": 90.9248, "2024": 95}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 109.57, "2023": 111.6438, "2024": 112.2216}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 98.355, "2023": 94.47, "2024": 97.71}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 91.3068, "2023": 106.3045, "2024": 106.865}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 89.766, "2023": 91.93, "2024": 98.135}}
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الاجازة في علوم الشغل",
+      "field": "علوم الشغل",
+      "duration": "3 سنوات (امد)",
+      "institutions": [
+        {
+          "institution_name": "المعهد الوطني للشغل والدراسات الاجتماعية بتونس", "university": "جامعة قرطاج", "specialty": "علوم الشغل", "specialty_code": "10347",
+          "bac_requirements": [
+            {"bac_type": "آداب", "formula": "FG+HG", "historical_scores": {"2022": 106.2785, "2023": 102.5334, "2024": 102.44}},
+            {"bac_type": "رياضيات", "formula": "FG+PH", "historical_scores": {"2022": 110.18, "2023": 116.595, "2024": 121.665}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+PH", "historical_scores": {"2022": 131.44, "2023": 123.335, "2024": 118.3767}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+HG", "historical_scores": {"2022": 103.91, "2023": 103.3151, "2024": 106.455}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+PH", "historical_scores": {"2022": 118.665, "2023": 127.74, "2024": 91.7}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+PH", "historical_scores": {"2022": 105.76, "2023": 100.7602, "2024": 107.92}}
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "البكالوريوس في إدارة الأعمال",
+      "field": "إدارة الأعمال",
+      "duration": "4 سنوات",
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للأعمال بتونس", "university": "جامعة تونس", "specialty": "التسويق, المالية, المحاسبة, تحليل الأعمال, تكنولوجيا المعلومات", "specialty_code": "10377",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+Max((Ang-15),0)+Max((M-12),0)", "historical_scores": {"2022": 161.015, "2023": 163.27, "2024": 166.185}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+Max((Ang-15),0)+Max((M-12),0)", "historical_scores": {"2022": 169.295, "2023": 165.175, "2024": 163.255}},
+            {"bac_type": "إقتصاد وتصرف", "formula": "FG+Max((Ang-15),0)+Max((M-12),0)", "historical_scores": {"2022": 167.4, "2023": 159.385, "2024": 173.875}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+Max((Ang-15),0)+Max((M-12),0)", "historical_scores": {"2022": null, "2023": 162.57, "2024": 164.795}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+Max((Ang-15),0)+Max((M-12),0)", "historical_scores": {"2022": 166.455, "2023": 173.28, "2024": 170.935}}
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في إدارة الأعمال",
+      "field": "إدارة الأعمال",
+      "duration": "3 سنوات (امد)",
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية برادس", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "التصرف الصناعي, النقل والخدمات اللوجستية, إدارة الأعمال", "specialty_code": "10391",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 162.4849, "2023": 169.35, "2024": 171.475}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 156.969, "2023": 147.7617, "2024": 137.6341}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 118.6523, "2023": 113.9283, "2024": 129.27}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 121.7, "2023": 151.15, "2024": 133.9426}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 141.668, "2023": 140.2717, "2024": 140.5231}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بالشرقية", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "  التصرف الصناعي, النقل والخدمات اللوجستية, التصرف في الجودة، الصحة، السلامة والمحيط ،ادارة الاعمال", "specialty_code": "11391",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 159.2, "2023": 152.9084, "2024": 156.2842}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 144.9208, "2023": 146.6275, "2024": 134.3706}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 114.5542, "2023": 111.4546, "2024": 125.8588}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 153.2026, "2023": 152.5071, "2024": 133.0813}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 94.5567, "2023": 134.0122, "2024": 161.0297}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية ببنزرت", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "إدارة الأعمال, النقل والخدمات اللوجستية", "specialty_code": "21391",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 142.87, "2023": 135.52, "2024": 155.99}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 132.72, "2023": 135.767, "2024": 124.86}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 107.7383, "2023": 110.2635, "2024": 118.1013}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 127.75, "2023": 125.425, "2024": 136.9}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 131.5, "2023": 113.1686, "2024": 145.4933}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بنابل", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "التصرف الصناعي, التصرف في الجودة، الصحة، السلامة والمحيط", "specialty_code": "22391",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 142.945, "2023": 130.41, "2024": 132.68}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 147.7082, "2023": 144.44, "2024": 102.5345}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 106.9912, "2023": 104.9955, "2024": 113.515}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 136.4785, "2023": 127.785, "2024": 136.2806}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 103.1982, "2023": 120.8137, "2024": 127.7045}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بزغوان", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "التصرف الصناعي, التصرف في الجودة، الصحة، السلامة والمحيط", "specialty_code": "24391",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 118.505, "2023": 128.155, "2024": 121.08}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 112.07, "2023": 115.155, "2024": 115.255}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 95.64, "2023": 97.315, "2024": 104.37}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 111.535, "2023": 130.6417, "2024": 126.88}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 102.895, "2023": 112.925, "2024": 129.08}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بسوسة", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "إدارة الأعمال", "specialty_code": "30391",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 141.668, "2023": 141.6359, "2024": 155.005}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 146.685, "2023": 151.75, "2024": 105.7909}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 112.775, "2023": 109.1721, "2024": 122.8521}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 153.055, "2023": 162.4367, "2024": 158.8201}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 118.6898, "2023": 130.285, "2024": 133.395}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بالمهدية", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "التصرف الصناعي", "specialty_code": "36391",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 125.297, "2023": 108.455, "2024": 124.815}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 131.425, "2023": 132.35, "2024": 117.09}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 104.7423, "2023": 107.125, "2024": 121.32}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 115.49, "2023": 129.24, "2024": 146.9324}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 102.455, "2023": 121.29, "2024": 119.8026}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بصفاقس", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "التصرف الصناعي, النقل والخدمات اللوجستية, التصرف في الجودة، الصحة، السلامة والمحيط, إدارة الأعمال", "specialty_code": "40391",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 126.9288, "2023": 122.1031, "2024": 123.8311}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 132.055, "2023": 121.515, "2024": 121.98}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 100.28, "2023": 96.53, "2024": 107.765}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 132.9689, "2023": 148.072, "2024": 152.4269}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 117.85, "2023": 107.519, "2024": 100.545}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بجربة", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "إدارة الأعمال", "specialty_code": "54391",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 108.3416, "2023": 109.89, "2024": 149.7572}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 123.64, "2023": 121.36, "2024": 117.8124}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 105.716, "2023": 93.03, "2024": 104.3732}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 105.5, "2023": 117.3897, "2024": 128.0362}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 130.2137, "2023": 134.115, "2024": 116.6782}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بمدنين", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "إدارة الأعمال", "specialty_code": "55391",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 127.945, "2023": 105.6716, "2024": null}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 120.2038, "2023": 94.3061, "2024": 118.4847}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 74.1884, "2023": 72.4901, "2024": 73.18}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 98.0959, "2023": 111.285, "2024": 100.72}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 91.79, "2023": 104.2306, "2024": 105.1222}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بقبلي", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "إدارة الأعمال", "specialty_code": "56391",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 105.1269, "2023": 100.905, "2024": null}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 103.0586, "2023": 88.4884, "2024": 95.455}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 73.8018, "2023": 67.4098, "2024": 73.9852}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 102.91, "2023": 96.2056, "2024": 93.4465}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": null, "2023": 87.725, "2024": 88.9284}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بقفصة", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "التصرف الصناعي, إدارة الأعمال", "specialty_code": "60391",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 102.7014, "2023": 100.3234, "2024": 118.4918}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 109.1275, "2023": 101.6072, "2024": 108.4623}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 69.0952, "2023": 72.8048, "2024": 66.0069}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 108.179, "2023": 91.4398, "2024": 115.239}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 103.2825, "2023": 100.595, "2024": 98.8933}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بالقيروان", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "التصرف الصناعي", "specialty_code": "70391",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 105.2899, "2023": 115.5707, "2024": null}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 130.4437, "2023": 108.482, "2024": 110.365}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 87.5186, "2023": 91.605, "2024": 96.66}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 97.345, "2023": 108.885, "2024": 116.115}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 108.82, "2023": 84.9419, "2024": 98.975}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بالقصرين", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "إدارة الأعمال, التصرف الصناعي", "specialty_code": "73391",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 116.925, "2023": null, "2024": null}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 91.035, "2023": 97.2968, "2024": 122.549}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 79.1247, "2023": 78.5299, "2024": 87.9168}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 95.5599, "2023": 80.0128, "2024": 106.893}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 102.6123, "2023": 120.235, "2024": 112.555}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بالكاف", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "التصرف الصناعي, إدارة الأعمال", "specialty_code": "82391",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 106.39, "2023": 113.355, "2024": 106.875}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 117.405, "2023": 119.87, "2024": 116.3786}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 88.3868, "2023": 99.67, "2024": 104.0147}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 106.97, "2023": 103.7348, "2024": 131.3639}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 94.3452, "2023": 97.645, "2024": 107.9647}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بسليانة", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "إدارة الأعمال", "specialty_code": "86391",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 110.735, "2023": 107.85, "2024": 89.6831}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 113.595, "2023": 112.075, "2024": 116.523}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 87.8535, "2023": 94.5284, "2024": 98.815}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 144.865, "2023": 155.46, "2024": 113.225}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 100.07, "2023": 105.89, "2024": 104.3}}
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الاجازة في المحاسبة والمالية",
+      "field": "المحاسبة والمالية",
+      "duration": "3 سنوات (امد)",
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية برادس", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات المحاسبة والمالية, المالية الإسلامية", "specialty_code": "10394",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 151.1268, "2023": 138.575, "2024": 152.3413}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 137.44, "2023": 142.1763, "2024": 141.4219}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 116.6889, "2023": 117.3951, "2024": 136.8102}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 142.5989, "2023": 146.788, "2024": 128.3572}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 122.4241, "2023": 129.0046, "2024": 140.4857}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية ببنزرت", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات المحاسبة والمالية", "specialty_code": "21394",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 140.2877, "2023": 113.415, "2024": 116.3698}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 130.8343, "2023": 118.475, "2024": 128.7959}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 114.062, "2023": 111.325, "2024": 120.0808}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 116.3186, "2023": 120.161, "2024": 125.93}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 112.2975, "2023": 124.455, "2024": 118.0371}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بنابل", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات المحاسبة والمالية", "specialty_code": "22394",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 132.038, "2023": 121.1561, "2024": 122.585}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 130.995, "2023": 113.9497, "2024": 121.97}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 111.8508, "2023": 108.8137, "2024": 121.7232}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 145.092, "2023": 144.075, "2024": 127.4424}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 115.49, "2023": 111.405, "2024": 123.41}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بزغوان", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات المحاسبة والمالية", "specialty_code": "24394",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 108.8716, "2023": 111.525, "2024": 87.1752}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 118.055, "2023": 111.93, "2024": 120.74}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 102.78, "2023": 101.235, "2024": 111.7}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 122.165, "2023": 120.2, "2024": 121.65}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 114.5703, "2023": 110.63, "2024": 111.49}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية قصر هلال", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات المحاسبة والمالية", "specialty_code": "34394",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 120.06, "2023": 133.092, "2024": 103.4235}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 114.82, "2023": 121.7232, "2024": 126.4259}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 106.358, "2023": 108.53, "2024": 117.5877}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 142.4705, "2023": 123.9488, "2024": 141.9034}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 97.484, "2023": 109.01, "2024": 107.38}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بالمهدية", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات المحاسبة والمالية", "specialty_code": "36394",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 117.44, "2023": 121.735, "2024": 130.685}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 120.715, "2023": 125.135, "2024": 127.095}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 106.8502, "2023": 111.3389, "2024": 127.09}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 116.94, "2023": 133.7928, "2024": 120.53}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 107.44, "2023": 123.37, "2024": 115.5298}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بصفاقس", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات المحاسبة والمالية", "specialty_code": "40394",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 122.3331, "2023": 112.685, "2024": 100.2834}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 121.1775, "2023": 117.9301, "2024": 120.055}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 102.2813, "2023": 99.35, "2024": 111.385}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 122.622, "2023": 110.5899, "2024": 128.17}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 95.7083, "2023": 105.745, "2024": 102.825}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بقابس", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات المحاسبة والمالية", "specialty_code": "50394",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 93.2699, "2023": 96.6064, "2024": 91.9567}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 109.2219, "2023": 111.93, "2024": 109.57}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 94.365, "2023": 94.0602, "2024": 105.74}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 111.7348, "2023": 110.735, "2024": 116.08}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 88.9602, "2023": 112.65, "2024": 108.135}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بمدنين", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات المحاسبة والمالية", "specialty_code": "55394",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 131.46, "2023": null, "2024": null}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 107.46, "2023": 82.9464, "2024": 113.6929}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 69.7118, "2023": 72.2867, "2024": 90.4936}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 154.66, "2023": 117.9247, "2024": 97.2379}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 89.0748, "2023": null, "2024": 89.9899}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بتطاوين", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات المحاسبة والمالية", "specialty_code": "57394",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 97.9168, "2023": 84.6283, "2024": null}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 110.6434, "2023": 101.003, "2024": 93.6683}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 78.8587, "2023": 74.5136, "2024": 76.3985}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 82.8931, "2023": 93.265, "2024": 109.82}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": null, "2023": null, "2024": 91.7019}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بالقيروان", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات المحاسبة والمالية", "specialty_code": "70394",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 108.195, "2023": 95.1869, "2024": 96.0601}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 110.155, "2023": 105.4536, "2024": 115.22}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 90.5217, "2023": 94.5898, "2024": 99.97}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 114.6398, "2023": 89.0835, "2024": 104.53}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 88.9709, "2023": 86.3603, "2024": 101.3572}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بالقصرين", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات المحاسبة والمالية", "specialty_code": "73394",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 97.7667, "2023": 97.1203, "2024": null}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 82.2953, "2023": 106.3615, "2024": 113.5664}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 72.0267, "2023": 91.5955, "2024": 100.5816}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 97.0597, "2023": 76.55, "2024": 99.305}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": null, "2023": null, "2024": 108.39}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بجندوبة", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات المحاسبة والمالية", "specialty_code": "80394",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 104.63, "2023": 109.7373, "2024": 94.7103}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 91.0605, "2023": 112.355, "2024": 115.245}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 95.7118, "2023": 98.7914, "2024": 105.2007}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 106.4864, "2023": 99.0767, "2024": 107.9844}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 106.7533, "2023": 118.565, "2024": 102.1101}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بالكاف", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات المحاسبة والمالية", "specialty_code": "82394",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 96.695, "2023": 109.9907, "2024": 106.2776}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 103.865, "2023":  115.2622, "2024": 113.3451}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 91.3552, "2023": 101, "2024": 106.88}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 106.89, "2023": 126.4954, "2024": 121.7928}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 100.855, "2023": 93.147, "2024": 97.08}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بسليانة", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات المحاسبة والمالية", "specialty_code": "86394",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 97.2032, "2023": 104.965, "2024": 114.295}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 105.9, "2023": 112.785, "2024": 104.6334}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 89.915, "2023": 96.03, "2024": 101.125}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 105.175, "2023": 91.8117, "2024": 104.2547}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 81.6167, "2023": 98.6128, "2024": 90.5099}}
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الاجازة في التجارة والتوزيع",
+      "field": "التجارة والتوزيع",
+      "duration": "3 سنوات (امد)",
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية برادس", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات البيع, التسويق الرقمي, تقنيات التجارة الدولية", "specialty_code": "10396",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 160.4251, "2023": 132.3323, "2024": 141.1972}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 156.0328, "2023": 120.3001, "2024": 133.643}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 115.239, "2023": 113.848, "2024": 124.4143}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 127.845, "2023": 134.8468, "2024": 142.1281}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 134.7665, "2023": 139.42, "2024": 143.6261}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية ببنزرت", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "التسويق الرقمي", "specialty_code": "21396",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 135.1036, "2023": 126.165, "2024": 135.455}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 120.38, "2023": 126.775, "2024": 119.875}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 117.272, "2023": 111.51, "2024": 118.2029}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 127.425, "2023": 129.882, "2024": 147.6814}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 111.26, "2023": 116.91, "2024": 123.815}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بنابل", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "التسويق الرقمي", "specialty_code": "22396",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 137.3024, "2023": 138.1745, "2024": 130.1067}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 133.4, "2023": 128.725, "2024": 129.5182}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 109.5697, "2023": 105.005, "2024": 115.87}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 134.1941, "2023": 164.5286, "2024": 132.32}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 126.2175, "2023": 130.3795, "2024": 143.1339}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية قصر هلال", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات البيع, التسويق الرقمي", "specialty_code": "34396",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 116.855, "2023": 112.805, "2024": 114.5382}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 120.9796, "2023": 123.48, "2024": 126.0086}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 103.1285, "2023": 101.324, "2024": 111.2977}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 124.1628, "2023": 118.235, "2024": 143.8615}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 112.46, "2023": 97.64, "2024": 117.66}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بالمهدية", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات البيع", "specialty_code": "36396",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 116.025, "2023": 116.11, "2024": 122.45}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 116.775, "2023": 124.855, "2024": 115.4835}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 102.4182, "2023": 103.9719, "2024": 112.9439}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 116.085, "2023": 122.435, "2024": 135.92}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 97.5382, "2023": 109.78, "2024": 105.71}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بصفاقس", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات البيع", "specialty_code": "40396",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 123.1303, "2023": 111.8257, "2024": 111.9419}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 118.7593, "2023": 113.0276, "2024": 117.0259}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 97.295, "2023": 94.37, "2024": 102.795}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 144.2628, "2023": 123.8418, "2024": 123.0607}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 98.175, "2023": 133.26, "2024": 98.8269}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بجربة", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "التسويق الرقمي", "specialty_code": "54396",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 93.6917, "2023": 100.3301, "2024": 98.295}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 122.1887, "2023": 96.2895, "2024": 123.0768}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 105.3235, "2023": 97.5787, "2024": 102.2867}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 103.7954, "2023": 112.83, "2024": 123.355}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 99.2442, "2023": 111.3496, "2024": 105.8391}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بالقيروان", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات البيع", "specialty_code": "70396",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 100.5465, "2023": 94.2553, "2024": 101.995}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 113.6715, "2023": 97.4415, "2024": 108.926}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 82.7667, "2023": 88.7017, "2024": 93.45}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 96.095, "2023": 97.52, "2024": 99.705}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 101.1917, "2023": 102.8732, "2024": 112.6978}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بجندوبة", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات البيع, التسويق الرقمي", "specialty_code": "80396",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 112.385, "2023": 109.7392, "2024": null}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 113.735, "2023": 104.4816, "2024": 110.7343}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 93.54, "2023": 91.945, "2024": 94.4185}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 106.3633, "2023": 101.485, "2024": 99.8364}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 91.3967, "2023": 106.79, "2024": 98.7682}}
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للدراسات التكنولوجية بسليانة", "university": "الإدارة العامة للدراسات التكنولوجية", "specialty": "تقنيات البيع", "specialty_code": "86396",
+          "bac_requirements": [
+            {"bac_type": "رياضيات", "formula": "FG+M", "historical_scores": {"2022": 98.155, "2023": 89.0765, "2024": 89.5581}},
+            {"bac_type": "علوم تجريبية", "formula": "FG+M", "historical_scores": {"2022": 102.9366, "2023": 105.9249, "2024": 98.7849}},
+            {"bac_type": "اقتصاد وتصرف", "formula": "FG+(M+Ge)/2", "historical_scores": {"2022": 79.2334, "2023": 88.8691, "2024": 94.14}},
+            {"bac_type": "العلوم التقنية", "formula": "FG+M", "historical_scores": {"2022": 107.6064, "2023": 150.85, "2024": 120.14}},
+            {"bac_type": "علوم الإعلامية", "formula": "FG+M", "historical_scores": {"2022": 116.85, "2023": 91.0386, "2024": 96.2318}}
+          ]
+        }
+      ]
+    }
+  ]
+}

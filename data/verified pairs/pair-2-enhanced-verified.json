@@ -1,0 +1,2884 @@
+{
+  "metadata": {
+    "pair_id": "2",
+    "extraction_date": "2025-06-29T22:07:15.530Z",
+    "total_programs": 9,
+    "total_institutions": 11,
+    "enhanced_verification_date": "2025-06-29T23:42:44.333Z",
+    "enhanced_verification_stats": {
+      "csv_cross_references": 49,
+      "degree_name_corrections": 9,
+      "total_patches_applied": 51
+    }
+  },
+  "programs": [
+    {
+      "degree_name": "الإجازة في الأنتروبولوجيا 3 سنوات (امد)",
+      "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+      "program_description": null,
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للعلوم الإنسانية بتونس",
+          "university": "جامعة تونس المنار",
+          "specialty": "الأنتروبولوجيا الإجتماعية والثقافية",
+          "specialty_code": "10118",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+(HG+PH)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 107.35,
+                "2023":  103.2372,
+                "2024": 104.02
+                
+              },
+              "minimum_bac_average": 104.02,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":  158.5205,
+                "2023": 153.4594,
+                "2024": 94.809
+              },
+              "minimum_bac_average": 94.809,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":  167.9472,
+                "2023":  130.3688,
+                "2024": 129.775
+              },
+              "minimum_bac_average": 129.775,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+(HG+PH)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 90.9944,
+                "2023": 75.724,
+                "2024": 83.799
+              },
+              "minimum_bac_average": 83.799,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 100.935,
+                "2023":  111.7508,
+                "2024": 131.535
+              },
+              "minimum_bac_average": 131.535,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 102.9066,
+                "2023": 112.227,
+                "2024": 135.794
+              },
+              "minimum_bac_average": 135.794,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 97.7907,
+                "2023": 174.8755,
+                "2024": 116.673
+              },
+              "minimum_bac_average": 116.673,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "كلية الآداب والعلوم الإنسانية بسوسة",
+          "university": "جامعة سوسة",
+          "specialty": "الأنتروبولوجيا",
+          "specialty_code": "30118",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+(HG+PH)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 104.2128,
+                "2023": 106.1547,
+                "2024": 103.62
+              },
+              "minimum_bac_average": 103.62,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 91.1298,
+                "2023": 120.2359,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":  106.7131,
+                "2023": 123.1303,
+                "2024": 130.594
+              },
+              "minimum_bac_average": 130.594,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+(HG+PH)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 73.9616,
+                "2023": 83.9186,
+                "2024": 73.665
+              },
+              "minimum_bac_average": 73.665,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 95.544,
+                "2023": 116.8868,
+                "2024": 115.18
+              },
+              "minimum_bac_average": 115.18,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 116.8905,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 93.3238,
+                "2023": 110.3331,
+                "2024": 133.017
+              },
+              "minimum_bac_average": 133.017,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "المعهد العالي للفنون والحرف بتطاوين",
+          "university": "جامعة قابس",
+          "specialty": "الأنتروبولوجيا الإجتماعية والثقافية",
+          "specialty_code": "56118",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+(HG+PH)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 96.669,
+                "2023": 93.585,
+                "2024": 94.946
+              },
+              "minimum_bac_average": 94.946,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 74.6349,
+                "2023": 91.755,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+(HG+PH)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 83.5148,
+                "2023": 84.5435,
+                "2024": 82.658
+              },
+              "minimum_bac_average": 82.658,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": 84.284
+              },
+              "minimum_bac_average": 84.284,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 91.8683,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في علم الاجتماع",
+      "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+      "program_description": "-الوساطة والضبط والتدخل السوسيولوجي -الديمغرافيا والسياسات العمومية والتنمية المستدامة -الشباب والحراك والإشراك الاجتماعي",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        
+        {
+          "institution_name": "كلية العلوم الإنسانية والإجتماعية بتونس",
+          "university": "جامعة تونس",
+          "specialty": "علم الاجتماع",
+          "specialty_code": "10120",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+(HG+PH)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 111.7883,
+                "2023": 109.5627,
+                "2024": 109.686
+        
+              },
+              "minimum_bac_average": 109.686,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 121.2845,
+                "2023": 128.3947,
+                "2024": 121.37
+              },
+              "minimum_bac_average": 121.37,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 129.7108,
+                "2023": 121.665,
+                "2024": 117.245
+              },
+              "minimum_bac_average": 117.245,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+(HG+PH)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 95.1248,
+                "2023": 89.5082,
+                "2024": 83.136
+              },
+              "minimum_bac_average": 83.136,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 122.0228,
+                "2023": 131.5244,
+                "2024": 121.72
+              },
+              "minimum_bac_average": 121.72,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 108.8939,
+                "2023": 105.6625,
+                "2024": 113.538
+              },
+              "minimum_bac_average": 113.538,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "degree_name": "الإجازة في علم الاجتماع",
+      "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+      "program_description": "-التنمية البشرية والقضايا الاجتماعية -الثقافة والتواصل",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للعلوم الإنسانية بتونس",
+          "university": "جامعة تونس المنار",
+          "specialty": "علم الاجتماع",
+          "specialty_code": "11120",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+(HG+PH)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 111.692,
+                "2023": 109.3273,
+                "2024": 108.15
+                
+              },
+              "minimum_bac_average": 108.15,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 100.725,
+                "2023": 127.395,
+                "2024": 155.846
+              },
+              "minimum_bac_average": 155.846,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 137.8642,
+                "2023": 122.9535,
+                "2024": 118.483
+              },
+              "minimum_bac_average": 118.483,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+(HG+PH)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 95.1598,
+                "2023": 93.2381,
+                "2024": 94.392
+              },
+              "minimum_bac_average": 94.392,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 137.051,
+                "2023": 118.4597,
+                "2024": 120.857
+              },
+              "minimum_bac_average": 120.857,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 90.465,
+                "2023": 118.0531,
+                "2024": 113.939
+              },
+              "minimum_bac_average": 113.939,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في علم الاجتماع 3 سنوات (امد)",
+      "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+      "program_description": "-الوساطة والضبط والتدخل السوسيولوجي -الديمغرافيا والسياسات العمومية والتنمية المستدامة -الشباب والحراك والإشراك الاجتماعي",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "كلية الآداب والعلوم الإنسانية بصفاقس",
+          "university": "جامعة صفاقس",
+          "specialty": "علم الاجتماع",
+          "specialty_code": "40120",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+(HG+PH)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 109.3112,
+                "2023": 100.4715,
+                "2024": 104.515
+              },
+              "minimum_bac_average": 104.515,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 96.69,
+                "2023": 102.7649,
+                "2024": 99.813
+              },
+              "minimum_bac_average": 99.813,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+(HG+PH)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 74.9124,
+                "2023": 77.0784,
+                "2024": 76.139
+              },
+              "minimum_bac_average": 76.139,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 109.2774,
+                "2023": 116.1164,
+                "2024": 82.823
+              },
+              "minimum_bac_average": 82.823,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": 90.704
+              },
+              "minimum_bac_average": 90.704,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+  "degree_name": "الاجازة في الجيوبوليتيك و العلاقات الدولية",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد) [cite: 130]",
+  "institutions": [
+    {
+      "institution_name": "كلية الآداب والفنون والإنسانيات بمنوبة",
+      "university": "جامعة منوبة",
+      "specialty": "الجيوبوليتيك والعلاقات الدولية ",
+      "specialty_code": "10160",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(F+Ang+HG)/3 [cite: 130]",
+          "historical_scores": {
+            "2022": 147.2883,
+            "2023": 141.1567,
+            "2024": 147.29
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(F+Ang)/2 [cite: 130]",
+          "historical_scores": {
+            "2022": 111.03,
+            "2023": 118.64,
+            "2024": 117.475
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(F+Ang)/2 [cite: 130]",
+          "historical_scores": {
+            "2022": 119.095,
+            "2023": 121.31,
+            "2024": 122.325
+          }
+        },
+        {
+          "bac_type": "إقتصاد وتصرف",
+          "formula": null,
+          "historical_scores": {
+            "2022": 103.3983,
+            "2023": 78.8162,
+            "2024": 98.8233
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(F+Ang)/2 [cite: 130]",
+          "historical_scores": {
+            "2022": 150.525,
+            "2023": 169.03,
+            "2024": 117.465
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+(F+Ang)/2 [cite: 130]",
+          "historical_scores": {
+            "2022": 106.65,
+            "2023": 117.31,
+            "2024": 114.3783
+          }
+        }
+      ]
+    }
+  ]
+},
+    {
+    
+      "degree_name": "الإجازة في علم الاجتماع 3 سنوات (امد)",
+      "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+      "program_description": "الوساطة والضبط والتدخل السوسيولوجي",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للدراسات التطبيقية في الانسانيات بقفصة",
+          "university": "جامعة قفصة",
+          "specialty": "علم الاجتماع",
+          "specialty_code": "60120",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+(HG+PH)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 104.2949,
+                "2023": 101.0669,
+                "2024": 100.345
+              },
+              "minimum_bac_average": 100.345,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 97.3751,
+                "2023": 93.5619,
+                "2024": 78.707
+              },
+              "minimum_bac_average": 78.707,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+(HG+PH)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 85.3146,
+                "2023": 74.1016,
+                "2024": 79.524
+              },
+              "minimum_bac_average": 79.524,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 92.99,
+                "2023": 97.7337,
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null,
+                "2023": null,
+                "2024": 87.152
+              },
+              "minimum_bac_average": 87.152,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في علم النفس",
+      "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+      "program_description": "علم النفس",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "كلية العلوم الإنسانية والإجتماعية بتونس",
+          "university": "جامعة تونس",
+          "specialty": "علم النفس",
+          "specialty_code": "10121",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 128.755,
+                "2023": 130.475,
+                "2024": 131.195
+              },
+              "minimum_bac_average": 131.195,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 160.52,
+                "2023": 150.845,
+                "2024": 152.645
+              },
+              "minimum_bac_average": 152.645,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 129.045,
+                "2023": 127.5,
+                "2024": 123.795
+              },
+              "minimum_bac_average": 123.795,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 117.965,
+                "2023": 130.81,
+                "2024": 142.305
+              },
+              "minimum_bac_average": 142.305,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 159.7,
+                "2023": 139.025,
+                "2024": 138.42
+              },
+              "minimum_bac_average": 138.42,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 150.635,
+                "2023": 151.995,
+                "2024": 108.49
+              },
+              "minimum_bac_average": 108.49,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 151.18,
+                "2023": 172.835,
+                "2024": 174.87
+              },
+              "minimum_bac_average": 174.87,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في علم النفس",
+      "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+      "program_description": "علم النفس",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للعلوم الإنسانية بتونس",
+          "university": "جامعة تونس المنار",
+          "specialty": "علم النفس",
+          "specialty_code": "11121",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 124.58,
+                "2023": 122.88,
+                "2024": 128.39
+              },
+              "minimum_bac_average": 128.39,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "scores_csv"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 156.31,
+                "2023": 153.2,
+                "2024": 157.945
+              },
+              "minimum_bac_average": 157.945,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 127.835,
+                "2023": 126.125,
+                "2024": 124.29
+              },
+              "minimum_bac_average": 124.29,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 114.6083,
+                "2023":  121.63,
+                "2024":  137.45
+              },
+              "minimum_bac_average": 137.45,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+             {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 179.455,
+                "2023": 141.715,
+                "2024": 137.71
+              },
+              "minimum_bac_average": 137.71,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم الإعلامية",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 129.5975,
+                "2023": 140.92,
+                "2024":  186.215
+              },
+              "minimum_bac_average": 186.215,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+             {
+              "bac_type": " رياضة",
+              "formula": "FG+PH",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 136.41,
+                "2023": 168.53,
+                "2024":   169.245
+
+              },
+              "minimum_bac_average":  169.245
+,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في الفلسفة",
+      "field": "الفلسفة",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "كلية العلوم الإنسانية والاجتماعية بتونس (جامعة تونس)",
+          "university": "جامعة",
+          "specialty": "الإجازة في الفلسفة 3 سنوات (امد)",
+          "specialty_code": "10122",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+          "bac_type": "آداب",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022":95.608,
+            "2023": 98.6599,
+            "2024": 102.7735
+          }
+        },
+            {
+          "bac_type": "رياضيات",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": null,
+            "2023": 134.18,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": 116.022,
+            "2023": 94.415,
+            "2024": 113.0509
+          }
+        },
+        {
+          "bac_type": "إقتصاد وتصرف",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": 82.5347,
+            "2023": 92.9472,
+            "2024": 116.6675
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": null,
+            "2023": 101.8052,
+            "2024": 106.8016
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": 122.9912,
+            "2023":  120.14
+,
+            "2024": 114.4633
+          }
+        } ,
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": 114.2974,
+            "2023":101.93,
+            "2024": 114.4633
+          }
+        }   
+      ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في الفلسفة 3 سنوات (امد)",
+      "field": "الفلسفة",
+      "program_description": null,
+      "duration": null,
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للعلوم الإنسانية بتونس (جامعة تونس المنار)",
+          "university": "جامعة",
+          "specialty": "الإجازة في الفلسفة 3 سنوات (امد)",
+          "specialty_code": "11122",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+          "bac_type": "آداب",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": 99.2051,
+            "2023": 95.4923,
+            "2024": 100.093
+          }
+        },
+          {
+          "bac_type": "رياضيات",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": null,
+            "2023": 147.6654,
+            "2024": null
+          }
+          },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": 114.9678,
+            "2023": 119.465,
+            "2024": 116.5835
+          }
+        },
+        {
+          "bac_type": "إقتصاد وتصرف",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": 93.593,
+            "2023": 91.6526,
+            "2024": 85.5465
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": 110.7236
+          }
+        },
+        {
+          "bac_type": "العلوم الإعلامية",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        }
+          ]
+        }
+      ]
+    },
+    {
+  "degree_name": "الإجازة في التاريخ",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "program_description": "Spécialisations possibles : الآثار وعلوم التراث, التاريخ الاقتصادي والاجتماعي, تاريخ الفن وعلم الآثار [cite: 121]",
+  "institutions": [
+    {
+      "institution_name": "كلية الآداب والفنون والإنسانيات بمنوبة",
+      "university": "جامعة منوبة",
+      "specialty_code": "11123",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(F+HG)/2 [cite: 121]",
+          "historical_scores": {
+            "2022": 76.6534,
+            "2023": 82.5931,
+            "2024": 72.8966
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+F [cite: 121]",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+F [cite: 121]",
+          "historical_scores": {
+            "2022":  149.1527,
+            "2023": 112.52,
+            "2024": 131.9043
+          }
+        },
+        {
+          "bac_type": "اقتصاد وتصرف",
+         "formula": "FG+(F+HG)/2 [cite: 121]",
+          "historical_scores": {
+            "2022": 75.1982,
+            "2023": 70.6616,
+            "2024": 75.706
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+F [cite: 121]",
+          "historical_scores": {
+            "2022": null,
+            "2023": 97.9372,
+            "2024": 95.6934
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+F [cite: 121]",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+F [cite: 121]",
+          "historical_scores": {
+            "2022": 83.7018,
+            "2023": 131.2034,
+            "2024": null
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في الجغرافيا",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "program_description": "Spécialisation : التهيئة والمحيط والمخاطر [cite: 18]",
+  "institutions": [
+    {
+      "institution_name": "كلية الآداب والفنون والإنسانيات بمنوبة",
+      "university": "جامعة منوبة",
+      "specialty_code": "11124",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(F+HG)/2",
+          "historical_scores": {
+            "2022": 81.8285,
+            "2023": 85.7177,
+            "2024": 73.905
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": 96.3212,
+            "2023": 92.3685,
+            "2024": 101.1045
+          }
+        },
+        {
+          "bac_type": "إقتصاد وتصرف",
+          "formula": "FG+(F+HG)/2",
+          "historical_scores": {
+            "2022": 77.0542,
+            "2023": 76.8017,
+            "2024": 86.8913
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": 93.0881
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في التربية والتعليم",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد) ",
+  "admission_requirements": "السن القصوى 21 سنة في غرة أكتوبر. [cite_start]شعبة تتطلب اختبار. [cite: 30]",
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للدراسات التطبيقية في الإنسانيات بزغوان",
+      "university": "جامعة تونس",
+      "specialty_code": "24477",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(A+F)/2 [cite: 30]",
+          "historical_scores": {
+            "2022": 118.72,
+            "2023": 102.1285,
+            "2024": 121.505
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+         "formula": "FG+(A+F)/2 [cite: 30]",
+          "historical_scores": {
+            "2022": 112.2685,
+            "2023": 101.925,
+            "2024": 117.23
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(A+F)/2 [cite: 30]",
+          "historical_scores": {
+            "2022": 128.22,
+            "2023": 130.02,
+            "2024": 138.13
+          }
+        },
+        {
+          "bac_type": "اقتصاد وتصرف",
+          "formula": "FG+(A+F)/2 [cite: 30]",
+          "historical_scores": {
+            "2022": 142.785,
+            "2023": 130.77,
+            "2024": 154.305
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(A+F)/2 [cite: 30]",
+          "historical_scores": {
+            "2022": 135.16,
+            "2023": 130.67,
+            "2024": 139.83
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+(A+F)/2 [cite: 30]",
+          "historical_scores": {
+            "2022": 111.825,
+            "2023": 116.055,
+            "2024": 125.655
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في التاريخ",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "program_description": "Spécialisations possibles: التاريخ, الآثار وعلوم التراث, تاريخ الفن [cite: 121]",
+  "institutions": [
+    {
+      "institution_name": "كلية الآداب والعلوم الإنسانية بسوسة",
+      "university": "جامعة سوسة",
+      "specialty_code": "30123",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(F+HG)/2",
+          "historical_scores": {
+            "2022": 88.355,
+            "2023": 89.9977,
+            "2024": 87.0149
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": 106.8366,
+            "2023": 106.865,
+            "2024": 108.3108
+          }
+        },
+        {
+          "bac_type": "إقتصاد وتصرف",
+          "formula": "FG+(F+HG)/2",
+          "historical_scores": {
+            "2022": 79.8936,
+            "2023": 77.9816,
+            "2024": 72.9165
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": 81.1166,
+            "2024": 93.7299
+          }
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": 81.8934,
+            "2023": null,
+            "2024": 107.5939
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في الجغرافيا",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد) ",
+  "program_description": "Spécialisations possibles: التنمية الترابية والجماعات المحلية, المخاطر والتراب [cite: 125]",
+  "institutions": [
+    {
+      "institution_name": "كلية الآداب والعلوم الإنسانية بسوسة",
+      "university": "جامعة سوسة",
+      "specialty_code": "30124",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(F+HG)/2 [cite: 125]",
+          "historical_scores": {
+            "2022": 89.3987,
+            "2023": 91.6083,
+            "2024": 76.7546
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+F [cite: 125]",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+F [cite: 125]",
+          "historical_scores": {
+            "2022": 143.9953,
+            "2023": 159.3979,
+            "2024": 114.605
+          }
+        },
+        {
+          "bac_type": "إقتصاد وتصرف",
+          "formula": "FG+(F+HG)/2 [cite: 125]",
+          "historical_scores": {
+            "2022": 70.9986,
+            "2023":72.2701 ,
+            "2024": 78.6524
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+F [cite: 125]",
+          "historical_scores": {
+            "2022": 97.6108,
+            "2023": 93.1998,
+            "2024": 97.163
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+F [cite: 125]",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في التربية والتعليم",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "admission_requirements": "Cette filière peut nécessiter un test et avoir une limite d'âge (21 ans), comme d'autres programmes similaires dans le document. [cite: 30]",
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للدراسات التطبيقية في الانسانيات بالمهدية",
+      "university": "جامعة المنستير",
+      "specialty_code": "36477",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 131.385,
+            "2023": 108.185,
+            "2024": 129.665
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 134.44,
+            "2023": 114.1484,
+            "2024": 135.88
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 143.905,
+            "2023": 143.315,
+            "2024": 151.955
+          }
+        },
+        {
+          "bac_type": "اقتصاد وتصرف",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 154.12,
+            "2023": 145.83,
+            "2024": 165.4
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 142.505,
+            "2023": 147.215,
+            "2024": 154.995
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 125.9,
+            "2023": 128.365,
+            "2024": 134.105
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في الفلسفة",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "institutions": [
+    {
+      "institution_name": "كلية الآداب والعلوم الإنسانية بصفاقس",
+      "university": "جامعة صفاقس",
+      "specialty_code": "40122",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": 92.8865,
+            "2023": 90.5525,
+            "2024": 94.2794
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": 129.4112,
+            "2023": 101.9199,
+            "2024": 120.7549
+          }
+        },
+        {
+          "bac_type": "اقتصاد وتصرف",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": 81.7634,
+            "2023": 82.295,
+            "2024": 99.4831
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": 106.2156
+          }
+        },
+        {
+          "bac_type": "العلوم الإعلامية",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": null,
+            "2023": 91.1184,
+            "2024": null
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في التاريخ",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+ "program_description": "Spécialisations possibles: التاريخ, الآثار وعلوم التراث [cite: 121]",
+  "institutions": [
+    {
+      "institution_name": "كلية الآداب والعلوم الإنسانية بصفاقس",
+      "university": "جامعة صفاقس",
+      "specialty_code": "40123",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+         "formula": "FG+(F+HG)/2 [cite: 121]",
+          "historical_scores": {
+            "2022": 68.7802,
+            "2023": 78.8217,
+            "2024": 80.4766
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+F [cite: 121]",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+F [cite: 121]",
+          "historical_scores": {
+            "2022": 80.8986,
+            "2023": 111.68,
+            "2024": 120.7977
+          }
+        },
+        {
+          "bac_type": "اقتصاد وتصرف",
+         "formula": "FG+(F+HG)/2 [cite: 121]",
+          "historical_scores": {
+            "2022": 74.2966,
+            "2023": 77.5483,
+            "2024": 71.2266
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+         "formula": "FG+F [cite: 121]",
+          "historical_scores": {
+            "2022": 89.6286,
+            "2023": null,
+            "2024": 86.3794
+          }
+        },
+        {
+          "bac_type": "العلوم الإعلامية",
+         "formula": "FG+F [cite: 121]",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+F [cite: 121]",
+          "historical_scores": {
+            "2022": 80.6802,
+            "2023": null,
+            "2024": null
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في الجغرافيا",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "program_description": "Spécialisations possibles: المجال والمخاطر والتنمية المستدامة, الخرائطية ونظم المعلومات الجغرافية",
+  "institutions": [
+    {
+      "institution_name": "كلية الآداب والعلوم الإنسانية بصفاقس",
+      "university": "جامعة صفاقس",
+      "specialty_code": "40124",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(F+HG)/2",
+          "historical_scores": {
+            "2022": 79.7368,
+            "2023": 83.7471,
+            "2024": 74.1015
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": 80.0894,
+            "2023": 101.1222,
+            "2024": 105.9984
+          }
+        },
+        {
+          "bac_type": "اقتصاد وتصرف",
+          "formula": "FG+(F+HG)/2",
+          "historical_scores": {
+            "2022": 75.5261,
+            "2023": 72.0634,
+            "2024": 80.3318
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": 93.8836,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في حفظ الممتلكات الثقافية",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "institutions": [
+    {
+      "institution_name": "كلية الآداب والعلوم الإنسانية بصفاقس",
+      "university": "جامعة صفاقس",
+      "specialty_code": "40161",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(F+HG)/2",
+          "historical_scores": {
+            "2022": 92.1,
+            "2023": 85.3533,
+            "2024": 89.35
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": 98.7783,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "اقتصاد وتصرف",
+          "formula": "FG+(F+HG)/2",
+          "historical_scores": {
+            "2022": 70.9669,
+            "2023": 70.6498,
+            "2024": 76.4267
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "العلوم الإعلامية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": 89.435,
+            "2023": null,
+            "2024": null
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في التربية والتعليم",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "admission_requirements": "Cette filière peut nécessiter un test et avoir une limite d'âge (21 ans)[cite: 137].",
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للغات بقابس",
+      "university": "جامعة قابس",
+      "specialty_code": "50477",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 127.275,
+            "2023": 97.44,
+            "2024": 126.295
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 124.59,
+            "2023": 90.885,
+            "2024": 122.95
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 137.595,
+            "2023": 134.455,
+            "2024": 143.125
+          }
+        },
+        {
+          "bac_type": "إقتصاد وتصرف",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 149.745,
+            "2023": 137.56,
+            "2024": 160.01
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 137.565,
+            "2023": 136.895,
+            "2024": 142.745
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 136.05,
+            "2023": 79.7251,
+            "2024": 123.435
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في التربية والتعليم",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "admission_requirements": "Cette filière peut nécessiter un test et avoir une limite d'âge (21 ans).",
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للعلوم الإنسانية بمدنين",
+      "university": "جامعة قابس",
+      "specialty_code": "54477",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 118.93,
+            "2023": 96.485,
+            "2024": 117.825
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 113.415,
+            "2023": 94.7535,
+            "2024": 104.405
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 125.49,
+            "2023": 127.29,
+            "2024": 135.945
+          }
+        },
+        {
+          "bac_type": "اقتصاد وتصرف",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 143.355,
+            "2023": 130.125,
+            "2024": 153.42
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 128.65,
+            "2023": 129.36,
+            "2024": 137.97
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 133.79,
+            "2023": 104.855,
+            "2024": 120.25
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في التربية والتعليم",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "admission_requirements": "Cette filière peut nécessiter un test et avoir une limite d'âge (21 ans).",
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للفنون والحرف بتطاوين",
+      "university": "جامعة قابس",
+      "specialty_code": "56477",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 115.255,
+            "2023":  97.7699,
+            "2024": 115.59
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 100.3684,
+            "2023": 80.0983,
+            "2024": 97.94
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 119.95,
+            "2023": 122.69,
+            "2024": 134.205
+          }
+        },
+        {
+          "bac_type": "إقتصاد وتصرف",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 138.06,
+            "2023": 129.255,
+            "2024": 151.92
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022":  126.99 ,
+            "2023":128.28,
+            "2024": 136.425
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 124.825,
+            "2023":  113.24,
+            "2024": 125.78
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في التربية والتعليم",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "admission_requirements": "Cette filière peut nécessiter un test et avoir une limite d'âge (21 ans).",
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للعلوم الاجتماعية والتربية بقفصة",
+      "university": "جامعة قفصة",
+      "specialty_code": "60477",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 114.115,
+            "2023": 102.765,
+            "2024": 116.21
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 91.98,
+            "2023": 80.0186,
+            "2024": 99.6052
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 120.7,
+            "2023": 123.735,
+            "2024": 137.02
+          }
+        },
+        {
+          "bac_type": "إقتصاد وتصرف",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 136.04,
+            "2023": 128.12,
+            "2024": 149.35
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 129.195,
+            "2023": 131.85,
+            "2024": 141.725
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 116.875,
+            "2023": 113.875,
+            "2024": 121.905
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في التربية والتعليم",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "admission_requirements": "Cette filière peut nécessiter un test et avoir une limite d'âge (21 ans).",
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للدراسات التطبيقية في الإنسانيات بتوزر",
+      "university": "جامعة قفصة",
+      "specialty_code": "63477",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 114.74,
+            "2023": 99.8884,
+            "2024": 114.5
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 97.7868,
+            "2023": 90.9649,
+            "2024": 96.1883
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 119.94,
+            "2023": 122.765,
+            "2024": 133.745
+          }
+        },
+        {
+          "bac_type": "إقتصاد وتصرف",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 135.85,
+            "2023": 129.715,
+            "2024": 147.62
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 127.47,
+            "2023": 129.695,
+            "2024": 136.81
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 101.83,
+            "2023": 119.795,
+            "2024": 117.16
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في الفلسفة",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "institutions": [
+    {
+      "institution_name": "كلية الآداب والعلوم الإنسانية بالقيروان",
+      "university": "جامعة القيروان",
+      "specialty_code": "70122",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022":  82.376 ,
+            "2023": 86.955,
+            "2024": 76.5119
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": 99.6138,
+            "2023": 102.9414,
+            "2024": 105.3539
+          }
+        },
+        {
+          "bac_type": "اقتصاد وتصرف",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": null,
+            "2023": 83.5586,
+            "2024": 91.29
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": 83.5566
+          }
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+PH",
+          "historical_scores": {
+            "2022": null,
+            "2023": 124.9653,
+            "2024": null
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في العلوم الإسلامية",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (امد)",
+  "program_description": "Spécialisations possibles: الدراسات الإسلامية, الأديان المقارنة وحوار الحضارات, الفقه المقارن والقانون",
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للعلوم الإسلامية بالقيروان",
+      "university": "جامعة الزيتونة",
+      "specialty_code": "70138",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+A",
+          "historical_scores": {
+            "2022": 99.1696,
+            "2023": 99.1642,
+            "2024": 101.2434
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+A",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+A",
+          "historical_scores": {
+            "2022": 109.4771,
+            "2023": 115.3835,
+            "2024": 126.7
+          }
+        },
+        {
+          "bac_type": "إقتصاد وتصرف",
+          "formula": "FG+A",
+          "historical_scores": {
+            "2022": 111.2051,
+            "2023": 93.4644,
+            "2024": 107.3692
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+A",
+          "historical_scores": {
+            "2022": 107.1143,
+            "2023": 114.795,
+            "2024": 101.41
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+A",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+A",
+          "historical_scores": {
+            "2022": 97.8586,
+            "2023": null,
+            "2024": null
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في الآثار",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "institutions": [
+    {
+      "institution_name": "كلية الآداب والعلوم الإنسانية بالقيروان",
+      "university": "جامعة القيروان",
+      "specialty_code": "70167",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(F+HG)/2",
+          "historical_scores": {
+            "2022": 83.5983,
+            "2023": 82.3587,
+            "2024": 82.5525
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": 95.5367,
+            "2023": 103.3462,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "إقتصاد وتصرف",
+          "formula": "FG+(F+HG)/2",
+          "historical_scores": {
+            "2022": 82.3811,
+            "2023": 81.1042,
+            "2024": 74.6002
+          }
+        },
+        {
+          "bac_type": "العلوم الإعلامية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": 80.4998
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": 96.7762,
+            "2023": null,
+            "2024": null
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في التربية والتعليم",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "admission_requirements": "Cette filière peut nécessiter un test et avoir une limite d'âge (21 ans).",
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للدراسات التطبيقية في الانسانيات بسبيطلة",
+      "university": "جامعة القيروان",
+      "specialty_code": "73477",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 114.785,
+            "2023": 101.5767,
+            "2024": 117.21
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 101.76,
+            "2023": 81.4318,
+            "2024": 102.8402
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 122.9,
+            "2023": 125.545,
+            "2024": 137.37
+          }
+        },
+        {
+          "bac_type": "إقتصاد وتصرف",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 136.865,
+            "2023": 127.73,
+            "2024": 150.705
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 131.215,
+            "2023": 138.39,
+            "2024": 140.635
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 114.31,
+            "2023": 111.275,
+            "2024": 122.055
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في التاريخ",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "program_description": "Spécialisations possibles: التاريخ, الآثار وعلوم التراث",
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للعلوم الإنسانية بجندوبة",
+      "university": "جامعة جندوبة",
+      "specialty_code": "80123",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(F+HG)/2",
+          "historical_scores": {
+            "2022": 77.2846,
+            "2023": 70.2082,
+            "2024": 76.2902
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": 104.0967,
+            "2023": 104.9168,
+            "2024": 100.8082
+          }
+        },
+        {
+          "bac_type": "اقتصاد وتصرف",
+          "formula": "FG+(F+HG)/2",
+          "historical_scores": {
+            "2022": 71.6234,
+            "2023": 73.4368,
+            "2024": 83.8456
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": 150.854,
+            "2023": null,
+            "2024": 78.4773
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "degree_name": "الاجازة في جغرافية البيئة",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للعلوم الإنسانية بجندوبة",
+      "university": "جامعة جندوبة",
+      "specialty_code": "80159",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(F+HG)/2",
+          "historical_scores": {
+            "2022": 79.0185,
+            "2023":  83.8732 ,
+            "2024": 85.3333
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": 84.9781,
+            "2023": null,
+            "2024": null
+          }
+        },
+        {
+          "bac_type": "إقتصاد وتصرف",
+          "formula": "FG+(F+HG)/2",
+          "historical_scores": {
+            "2022": 78.1851,
+            "2023": 77.4601,
+            "2024": 80.385
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": 89.3402
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+F",
+          "historical_scores": {
+            "2022": 72.3518,
+            "2023": null,
+            "2024": null
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في التربية والتعليم",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "admission_requirements": "Cette filière peut nécessiter un test et avoir une limite d'âge (21 ans).",
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للعلوم الإنسانية بجندوبة",
+      "university": "جامعة جندوبة",
+      "specialty_code": "80477",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 120.37,
+            "2023": 99.4983,
+            "2024": 121.315
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 107.505,
+            "2023": 80.8999,
+            "2024": 104.57
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 121.345,
+            "2023": 125.675,
+            "2024": 135.955
+          }
+        },
+        {
+          "bac_type": "اقتصاد وتصرف",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 140.275,
+            "2023": 130.595,
+            "2024": 149.805
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 132.92,
+            "2023": 132.985,
+            "2024": 137.095
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 115.175,
+            "2023": 102.375,
+            "2024": 124.765
+          }
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في التربية والتعليم",
+  "field": "العلوم الإنسانية والاجتماعية والدينية والتربية",
+  "duration": "3 سنوات (آمد)",
+  "admission_requirements": "Cette filière peut nécessiter un test et avoir une limite d'âge (21 ans).",
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للدراسات التطبيقية في الإنسانيات بالكاف",
+      "university": "جامعة جندوبة",
+      "specialty_code": "82477",
+      "bac_requirements": [
+        {
+          "bac_type": "آداب",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 123.81,
+            "2023": 111.115,
+            "2024": 130.33
+          }
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 103.38,
+            "2023": 106.3802,
+            "2024": 117.04
+          }
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 125.935,
+            "2023": 135.315,
+            "2024": 144.725
+          }
+        },
+        {
+          "bac_type": "اقتصاد وتصرف",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 142.225,
+            "2023": 131.635,
+            "2024": 157.01
+          }
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 133.415,
+            "2023": 140.865,
+            "2024": 150.15
+          }
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+(A+F)/2",
+          "historical_scores": {
+            "2022": 112.1875,
+            "2023":115.91,
+            "2024": 129.67
+          }
+        }
+      ]
+    }
+  ]
+}
+
+  ]
+}

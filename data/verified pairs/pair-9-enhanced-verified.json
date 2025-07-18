@@ -1,0 +1,3371 @@
+
+{
+  "metadata": {
+    "pair_id": "9",
+    "extraction_date": "2025-06-28T22:34:04.369Z",
+    "total_programs": 17,
+    "total_institutions": 34,
+    "enhanced_verification_date": "2025-06-29T23:43:21.284Z",
+    "enhanced_verification_stats": {
+      "csv_cross_references": 403,
+      "degree_name_corrections": 20,
+      "total_patches_applied": 405
+    }
+  },
+  "programs": [
+    {
+      "degree_name": "الإجازة في البيوتكنولوجيا الطبية",
+      "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+      "program_description": "3 سنوات (امد)",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد العالي للتكنولوجيات الطبية بتونس",
+          "university": "جامعة تونس المنار",
+          "specialty": "الإنتاج البيوطبي - التشخيص البيوطبي",
+          "specialty_code": "10545",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 121.74,
+                "2023": 131.41,
+                "2024": 120.87
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 127.06,
+                "2023": 130.3,
+                "2024": 122.43
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في الصحة والسلامة المهنية 3 سنوات (امد)",
+      "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+      "program_description": "3 سنوات (امد)",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المعهد الوطني للشغل والدراسات الإجتماعية بتونس",
+          "university": "جامعة قرطاج",
+          "specialty": "الصحة والسلامة المهنية",
+          "specialty_code": "10547",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 117.1,
+                "2023": 114.985,
+                "2024": 111.84
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "إقتصاد وتصرف",
+              "formula": "FG+Ge",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 106.41,
+                "2023": 104.26,
+                "2024": 110.68
+              },
+              "minimum_bac_average": 110.68,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+SP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 100.36,
+                "2023": 115.495,
+                "2024": 108.805
+              },
+              "minimum_bac_average": 108.805,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الطب",
+      "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+      "program_description": "9 سنوات علوم الحياة والأرض إجبارية (*)",
+      "duration": "9 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "كلية الطب بتونس",
+          "university": "جامعة تونس المنار",
+          "specialty": "الطب",
+          "specialty_code": "10700",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب (*)",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 162.33,
+                "2023": 163.79,
+                "2024": 173.59
+              },
+              "minimum_bac_average": 173.59,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 181.99,
+                "2023": 183.325,
+                "2024": 188.47
+              },
+              "minimum_bac_average": 188.47,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 187.805,
+                "2023": 186.645,
+                "2024": 181.64
+              },
+              "minimum_bac_average": 181.64,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+SB",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 191.115,
+                "2023":184.52,
+                "2024": 193.34
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "كلية الطب بسوسة",
+          "university": "جامعة سوسة",
+          "specialty": "الطب",
+          "specialty_code": "30700",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب (*)",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 147.98,
+                "2023": 162.055,
+                "2024": 174.76
+              },
+              "minimum_bac_average": 174.76,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 178.82,
+                "2023": 183.6,
+                "2024": 188.55
+              },
+              "minimum_bac_average": 188.55,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 184.945,
+                "2023": 185.37,
+                "2024": 183.59
+              },
+              "minimum_bac_average": 183.52,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+SB",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 182.265,
+                "2023": 189.08,
+                "2024": 194.935
+              },
+              "minimum_bac_average":194.935,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "كلية الطب بالمنستير",
+          "university": "جامعة المنستير",
+          "specialty": "الطب",
+          "specialty_code": "34700",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب (*)",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":  146.92,
+                "2023": 167.615,
+                "2024": 174.815
+              },
+              "minimum_bac_average": 174.815,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":178.785,
+                "2023": 181.95,
+                "2024": 186.63
+              },
+              "minimum_bac_average":186.63,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 185.56,
+                "2023": 185.275,
+                "2024": 182.67
+              },
+              "minimum_bac_average": 182.67,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+SB",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":183.855,
+                "2023": 189.705,
+                "2024": 199.73
+              },
+              "minimum_bac_average": 199.73,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+  "degree_name": "الإجازة في علوم التوليد - قابلة",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد) علوم الحياة والأرض إجبارية (*) خاص بالإناث",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بالمنستير",
+      "university": "جامعة المنستير",
+      "specialty": "علوم التوليد - قابلة",
+      "specialty_code": "34799",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "آداب (*)",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 116.86,
+            "2023": 157.2633,
+            "2024": 159.3498
+          },
+          "minimum_bac_average":  159.3498,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), خاص بالإناث",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 133.765,
+            "2023": 148.1629,
+            "2024": 148.3876
+          },
+          "minimum_bac_average": 148.3876,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), خاص بالإناث",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 157.325,
+            "2023": 149.305,
+            "2024": 144.1879
+          },
+          "minimum_bac_average": 144.1879,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), خاص بالإناث",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+SB",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 161,
+            "2023": 181.3811,
+            "2024": 191.5568
+          },
+          "minimum_bac_average": 191.5568,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), خاص بالإناث",
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في الهندسة البيوطبية",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (امد)",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للبيوتكنولوجيا بصفاقس",
+      "university": "جامعة صفاقس",
+      "specialty": "تقنيات المعدات البيوطبية - تقنيات معدات التصوير الطبي",
+      "specialty_code": "40759",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(SP+SVT)/2",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 119.733,
+            "2023": 121.659,
+            "2024": 123.0928
+          },
+          "minimum_bac_average": 123.0928,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(SP+SVT)/2",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 121.6697,
+            "2023": 125.8427,
+            "2024": 123.157
+          },
+          "minimum_bac_average": 123.157,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+SP",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 132.7389,
+            "2023": 130.1441,
+            "2024": 132.6051
+          },
+          "minimum_bac_average": 132.6051,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+SP",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 135.8579,
+            "2023": 148.2057,
+            "2024": 116.9029
+          },
+          "minimum_bac_average": 116.9029,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في علوم التمريض - اناث",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد) علوم الحياة والأرض إجبارية (*) تربية بدنية إجبارية",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي لعلوم التمريض بصفاقس",
+      "university": "جامعة صفاقس",
+      "specialty": "علوم التمريض - اناث",
+      "specialty_code": "40797",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "آداب (*)",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 146.2262,
+            "2023": 161.1153,
+            "2024": 161.7252
+          },
+          "minimum_bac_average": 161.7252,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 142.355,
+            "2023": 153.3631,
+            "2024": 159.751
+          },
+          "minimum_bac_average": 159.751,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 158.8255,
+            "2023": 156.311,
+            "2024": 156.8674
+          },
+          "minimum_bac_average": 156.8674,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+SB",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 187.4533,
+            "2023": 188.32,
+            "2024": 190.6847
+          },
+          "minimum_bac_average": 190.6847,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في علوم التوليد - قابلة",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد) علوم الحياة والأرض إجبارية (*) خاص بالإناث",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بصفاقس",
+      "university": "جامعة صفاقس",
+      "specialty": "علوم التوليد - قابلة",
+      "specialty_code": "40799",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "آداب (*)",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 142.8397,
+            "2023": 142.6738,
+            "2024": 159.7243
+          },
+          "minimum_bac_average": 159.7243,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), خاص بالإناث",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 146.2476,
+            "2023": 146.0497,
+            "2024": 146.7024
+          },
+          "minimum_bac_average": 146.7024,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), خاص بالإناث",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 156.9262,
+            "2023": 152.3841,
+            "2024": 143.7866
+          },
+          "minimum_bac_average": 143.7866,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), خاص بالإناث",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+SB",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 168.7069,
+            "2023": 181.1189,
+            "2024": 197.5113
+          },
+          "minimum_bac_average": 197.5113,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), خاص بالإناث",
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في علوم التمريض - ذكور",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد) علوم الحياة والأرض إجبارية (*) تربية بدنية إجبارية",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي لعلوم التمريض بصفاقس",
+      "university": "جامعة صفاقس",
+      "specialty": "علوم التمريض - ذكور",
+      "specialty_code": "41797",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "آداب (*)",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 112.4463,
+            "2023": 117.2453,
+            "2024": 135.8258
+          },
+          "minimum_bac_average":135.8258,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 118.09,
+            "2023": 131.7759,
+            "2024": 142.2886
+          },
+          "minimum_bac_average": 142.2886,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 132.01,
+            "2023": 129.525,
+            "2024": 129.7215
+          },
+          "minimum_bac_average": 129.7215,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+SB",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 188.6838,
+            "2023": 180.3218,
+            "2024": 196.5537
+          },
+          "minimum_bac_average": 196.5537,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في أدواتية قاعة العمليات الجراحية",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد)",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بصفاقس",
+      "university": "جامعة صفاقس",
+      "specialty": "أدواتية قاعة العمليات الجراحية",
+      "specialty_code": "40750",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 133.8035,
+            "2023": 129.24,
+            "2024": 133.96
+          },
+          "minimum_bac_average": 133.96,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 152.0684,
+            "2023": 143.9204,
+            "2024": 142.0586
+          },
+          "minimum_bac_average": 142.0586,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+        {
+          "institution_name": "كلية الطب بصفاقس",
+          "university": "جامعة صفاقس",
+          "specialty": "الطب",
+          "specialty_code": "40700",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب (*)",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 140.1,
+                "2023":158.175,
+                "2024": 166.62
+              },
+              "minimum_bac_average": 166.62,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 177.105,
+                "2023":  179.37,
+                "2024": 184.695
+              },
+              "minimum_bac_average": 184.695,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 182.26,
+                "2023": 182.06,
+                "2024": 178.635
+              },
+              "minimum_bac_average": 178.635,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+SB",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 178.4,
+                "2023": 184.605,
+                "2024": 193.3
+              },
+              "minimum_bac_average": 193.3,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "degree_name": "الصيدلة",
+      "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+      "program_description": "6 سنوات علوم الحياة والأرض إجبارية (*)",
+      "duration": "6 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "كلية الصيدلة بالمنستير",
+          "university": "جامعة المنستير",
+          "specialty": "الصيدلة",
+          "specialty_code": "34701",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب (*)",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 140.11,
+                "2023": 155.405,
+                "2024": 167.305
+              },
+              "minimum_bac_average": 167.305,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 169.6,
+                "2023": 169.19,
+                "2024": 176.08
+              },
+              "minimum_bac_average":  176.08,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 178.77,
+                "2023": 175.51,
+                "2024": 172.19
+              },
+              "minimum_bac_average":  172.19,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+(SP+SB)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 176.81,
+                "2023": 185.03,
+                "2024": 189.54
+              },
+              "minimum_bac_average":  189.54,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+  "degree_name": "الإجازة في الرعاية الصحية الإستعجالية والانعاش",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد) علوم الحياة والأرض إجبارية (*)",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بسوسة",
+      "university": "جامعة سوسة",
+      "specialty": "الرعاية الصحية الإستعجالية والانعاش",
+      "specialty_code": "30760",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "آداب (*)",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 133.565,
+            "2023": 143.325,
+            "2024": 169.5629
+          },
+          "minimum_bac_average": 169.5629,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 140.285,
+            "2023": 137.17,
+            "2024": 149.1152
+          },
+          "minimum_bac_average": 149.1152,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 147.215,
+            "2023": 145.81,
+            "2024": 149.335
+          },
+          "minimum_bac_average": 149.335,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+SB",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 177.25,
+            "2023": 181.69,
+            "2024": 188.4324
+          },
+          "minimum_bac_average": 188.4324,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+    {
+  "degree_name": "الإجازة في علوم التوليد - قابلة",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد) علوم الحياة والأرض إجبارية (*) خاص بالإناث",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بتونس",
+      "university": "جامعة تونس المنار",
+      "specialty": "علوم التوليد - قابلة",
+      "specialty_code": "10799",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "آداب (*)",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 152.7211,
+            "2023": 147.8954,
+            "2024": 157.0867
+          },
+          "minimum_bac_average": 157.0867,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), خاص بالإناث",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 140.705,
+            "2023": 147.8045,
+            "2024": 159.875
+          },
+          "minimum_bac_average": 159.875,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), خاص بالإناث",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 167.76,
+            "2023": 155.5513,
+            "2024": 152.5767
+          },
+          "minimum_bac_average": 152.5767,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), خاص بالإناث",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+SB",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 179.3855,
+            "2023": 182.2852,
+            "2024": 187.0681
+          },
+          "minimum_bac_average": null,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), خاص بالإناث",
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+    {
+  "degree_name": "الإجازة في علوم التمريض - اناث",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد) علوم الحياة والأرض إجبارية (*) تربية بدنية إجبارية",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي لعلوم التمريض بتونس",
+      "university": "جامعة تونس المنار",
+      "specialty": "علوم التمريض - اناث",
+      "specialty_code": "10797",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "آداب (*)",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 151.0894,
+            "2023": 145.335,
+            "2024": 174.7096
+          },
+          "minimum_bac_average": 174.7096,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 145.335,
+            "2023": 154.615,
+            "2024": 158.7506
+          },
+          "minimum_bac_average": 158.7506,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 162.3565,
+            "2023": 162.5598,
+            "2024": 160.54
+          },
+          "minimum_bac_average": 160.54,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+SB",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 188.1274,
+            "2023": 177.645,
+            "2024": 190.7436
+          },
+          "minimum_bac_average": 190.7436,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+    {
+      "degree_name": "طب الأسنان",
+      "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+      "program_description": "6 سنوات علوم الحياة والأرض إجبارية (*)",
+      "duration": "6 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "كلية طب الأسنان بالمنستير",
+          "university": "جامعة المنستير",
+          "specialty": "طب الأسنان",
+          "specialty_code": "34702",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب (*)",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 158,
+                "2023": 158.775,
+                "2024": 182.91
+              },
+              "minimum_bac_average": 182.91,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":  173.415,
+                "2023": 177.65,
+                "2024": 182.85
+              },
+              "minimum_bac_average": 182.85,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 180.625,
+                "2023": 180.325,
+                "2024": 177.315
+              },
+              "minimum_bac_average": 177.315,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+SB",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 186.545,
+                "2023": 185.865,
+                "2024": 190.015
+              },
+              "minimum_bac_average": 190.015,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في مبحث وتدريم القدم",
+      "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+      "program_description": "3 سنوات (امد)",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بسوسة",
+          "university": "جامعة سوسة",
+          "specialty": "مبحث وتدريم القدم",
+          "specialty_code": "30739",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 118.68,
+                "2023": 133.405,
+                "2024": 106.945
+              },
+              "minimum_bac_average": 106.945,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 136.53,
+                "2023":130.365,
+                "2024": 126.695
+              },
+              "minimum_bac_average": 126.695,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "العلوم التقنية",
+              "formula": "FG+SP",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 135.775,
+                "2023": 141.775,
+                "2024": 110.48
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+  "degree_name": "الإجازة في علوم التمريض - اناث",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد) علوم الحياة والأرض إجبارية (*) تربية بدنية إجبارية",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي لعلوم التمريض بسوسة",
+      "university": "جامعة سوسة",
+     "specialty": "علوم التمريض - اناث",
+     "specialty_code": "30797",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+         "bac_type": "آداب (*)",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+           "2022": 138.285,
+           "2023": 169.92,
+            "2024": 169.6004
+          },
+          "minimum_bac_average":169.6004,
+         "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+         "bac_type": "رياضيات",
+         "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 146.6221,
+           "2023": 155.6262,
+           "2024": 156.2307
+          },
+          "minimum_bac_average": 156.2307,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+         "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+           "2022": 160.484,
+          "2023": 154.6364,
+           "2024": 156.025 
+          },
+          "minimum_bac_average": 156.025,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+SB",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 183.6013,
+            "2023": 194.8149,
+            "2024": 197.2438
+          },
+          "minimum_bac_average": 197.2438,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+    {
+      "degree_name": "الإجازة في التبنيج والإنعاش",
+      "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+      "program_description": "3 سنوات (امد)",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بتونس",
+          "university": "جامعة تونس المنار",
+          "specialty": "التبنيج والإنعاش",
+          "specialty_code": "10740",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 152.9886,
+                "2023": 164.0952,
+                "2024": 186.822
+              },
+              "minimum_bac_average": 186.822,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 180.4502,
+                "2023":171.9651,
+                "2024": 169.777
+              },
+              "minimum_bac_average": 169.777,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بالمنستير",
+          "university": "جامعة المنستير",
+          "specialty": "التبنيج والإنعاش",
+          "specialty_code": "34740",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 148.83,
+                "2023": 167.71,
+                "2024": 172.634
+              },
+              "minimum_bac_average":172.634,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 173.91,
+                "2023": 169.0279,
+                "2024": 162.32
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بصفاقس",
+          "university": "جامعة صفاقس",
+          "specialty": "التبنيج والإنعاش",
+          "specialty_code": "40740",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 159.1465,
+                "2023": 163.4318,
+                "2024": 163.951
+              },
+              "minimum_bac_average": 163.9508,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 177.7431,
+                "2023": 169.3596,
+                "2024": 156.215
+              },
+              "minimum_bac_average": 156.215,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بقفصة",
+          "university": "جامعة قفصة",
+          "specialty": "التبنيج والإنعاش",
+          "specialty_code": "60740",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null, 
+                "2023": null,
+                "2024": 144.429
+              },
+              "minimum_bac_average": 144.429,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null, 
+                "2023": null, 
+                "2024": 142.776
+              },
+              "minimum_bac_average": 142.776,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بسوسة",
+          "university": "جامعة سوسة",
+          "specialty": " الإجازة في أدواتية قاعة العمليات الجراحية",
+          "specialty_code": "30750",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": null,
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 132.2681, 
+                "2023": 138.6185,
+                "2024": 135.6974 
+              },
+              "minimum_bac_average": 135.6974,
+              "additional_requirements": null,
+              "notes": "Code 30740 for Sousse not found in PDF.",
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": null,
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 146.54,
+                "2023": 141.98,
+                "2024": 141.7108
+              },
+              "minimum_bac_average": 141.7108,
+              "additional_requirements": null,
+              "notes": "Code 30740 for Sousse not found in PDF.",
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بالمنستير",
+          "university": "جامعة المنستير",
+          "specialty": "الإجازة في التبنيج والإنعاش",
+          "specialty_code": "34740",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":148.83,
+                "2023":167.71,
+                "2024": 172.6338
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":173.91,
+                "2023":169.0279,
+                "2024": 162.32
+
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بصفاقس",
+          "university": "جامعة صفاقس",
+          "specialty": " الإجازة في التصوير الطبي والمداواة بالأشعة",
+          "specialty_code": "40740",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 151.191,
+                "2023": 147.9917,
+                "2024": 124.8262
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 162.6507,
+                "2023": 153.5771,
+                "2024": 139.415
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بقفصة",
+          "university": "جامعة قفصة",
+          "specialty": "الإجازة في التبنيج والإنعاش",
+          "specialty_code": "60740",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null, 
+                "2023": null, 
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null, 
+                "2023": null, 
+                "2024": null
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في التصوير الطبي والمداواة بالأشعة",
+      "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+      "program_description": "3 سنوات (امد)",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بتونس",
+          "university": "جامعة تونس المنار",
+          "specialty": "التصوير الطبي والمداواة بالأشعة",
+          "specialty_code": "10741",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":155.1393,
+                "2023": 152.78,
+                "2024": 155.595
+              },
+              "minimum_bac_average": 155.595,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 170.4617,
+                "2023": 159.2802,
+                "2024": 154.128
+              },
+              "minimum_bac_average": 154.128,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بالمنستير",
+          "university": "جامعة المنستير",
+          "specialty": "التصوير الطبي والمداواة بالأشعة",
+          "specialty_code": "34741",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 150.335,
+                "2023": 146.0818,
+                "2024": 154.1121
+              },
+              "minimum_bac_average": 154.1121,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 162.8166,
+                "2023": 157.495,
+                "2024": 143.2
+              },
+              "minimum_bac_average": 143.2,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بصفاقس",
+          "university": "جامعة صفاقس",
+          "specialty": "التصوير الطبي والمداواة بالأشعة",
+          "specialty_code": "40741",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 151.191,
+                "2023": 147.9917,
+                "2024": 124.8262
+              },
+              "minimum_bac_average": 124.8262,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 162.6507,
+                "2023": 153.5771,
+                "2024": 139.415
+              },
+              "minimum_bac_average": 139.415,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بقفصة",
+          "university": "جامعة قفصة",
+          "specialty": "التصوير الطبي والمداواة بالأشعة",
+          "specialty_code": "60741",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null, 
+                "2023": null, 
+                "2024": 131.23
+              },
+              "minimum_bac_average": 131.23,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null, 
+                "2023": null, 
+                "2024": 135.863
+              },
+              "minimum_bac_average": 135.863,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+  "degree_name": "الإجازة في الرعاية الصحية للطفل",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد) علوم الحياة والأرض إجبارية (*)",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بسوسة",
+      "university": "جامعة سوسة",
+      "specialty": "الرعاية الصحية للطفل",
+      "specialty_code": "30754",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "آداب (*)",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 155.5727,
+            "2023": 123.264,
+            "2024": 164.3039
+          },
+          "minimum_bac_average": 164.3039,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 119.84,
+            "2023": 141.3952,
+            "2024": 137.5111
+          },
+          "minimum_bac_average": 137.5111,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 145.0171,
+            "2023": 141.4487,
+            "2024": 140.3947
+          },
+          "minimum_bac_average": 140.3947,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+SB",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 159.2802,
+            "2023": 188.0204,
+            "2024": 183.3499
+          },
+          "minimum_bac_average": 183.3499,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+    {
+      "degree_name": "الإجازة في حفظ الصحة والوقاية والمحيط",
+      "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+      "program_description": "3 سنوات (امد) علوم الحياة والأرض إجبارية (*)",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بتونس",
+          "university": "جامعة تونس المنار",
+          "specialty": "حفظ الصحة والوقاية والمحيط",
+          "specialty_code": "10742",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب (*)",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 104.255,
+                "2023": 108.87,
+                "2024": 112.445
+              },
+              "minimum_bac_average": 112.445,
+              "additional_requirements": null,
+              "notes": "Bac type 'آداب' not listed for 10742 in the PDF, but scores for 'رياضيات' match. Assuming typo.",
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 104.5517,
+                "2023":111.695,
+                "2024":107.6852
+              },
+              "minimum_bac_average": 107.6852,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 122.105,
+                "2023": 117.93,
+                "2024":120.115
+              },
+              "minimum_bac_average": 120.115,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 133.94,
+                "2023": 151.14,
+                "2024": 170.645
+              },
+              "minimum_bac_average": 170.645,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في البيولوجيا الطبية",
+      "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+      "program_description": "3 سنوات (امد)",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بتونس",
+          "university": "جامعة تونس المنار",
+          "specialty": "البيولوجيا الطبية",
+          "specialty_code": "10545",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 121.74,
+                "2023": 131.41,
+                "2024": 120.87
+              },
+              "minimum_bac_average": 120.87,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 130.3,
+                "2023": 127.06,
+                "2024": 122.43
+              },
+              "minimum_bac_average":122.43,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بالمنستير",
+          "university": "جامعة المنستير",
+          "specialty": "البيولوجيا الطبية",
+          "specialty_code": "34743",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 131.9,
+                "2023": 145.0492,
+                "2024": 151.3087
+              },
+              "minimum_bac_average": 151.3087,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 156.8941,
+                "2023": 148.1736,
+                "2024": 142.88
+              },
+              "minimum_bac_average":  142.88,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بصفاقس",
+          "university": "جامعة صفاقس",
+          "specialty": "البيولوجيا الطبية",
+          "specialty_code": "40743",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 133.9426,
+                "2023": 132.5302,
+                "2024": 141.1651
+              },
+              "minimum_bac_average": 141.1651,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 152.9351,
+                "2023": 143.69,
+                "2024": 135.2587
+              },
+              "minimum_bac_average": 135.2587,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بقفصة",
+          "university": "جامعة قفصة",
+          "specialty": "البيولوجيا الطبية",
+          "specialty_code": "60743",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null, 
+                "2023": null,
+                "2024": 120.0114
+              },
+              "minimum_bac_average": 120.0114,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(SP+SVT)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": null, 
+                "2023": null, 
+                "2024": 127.6724
+              },
+              "minimum_bac_average": 127.6724,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+  "degree_name": "الإجازة في الرعاية الصحية الإستعجالية والانعاش",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد) علوم الحياة والأرض إجبارية (*)",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بقفصة",
+      "university": "جامعة قفصة",
+      "specialty": "الرعاية الصحية الإستعجالية والانعاش",
+      "specialty_code": "60760",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "آداب (*)",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": 130.005
+          },
+          "minimum_bac_average": 130.005,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": null,
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": 117.69
+          },
+          "minimum_bac_average": 117.69,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": null,
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": 133.5788
+          },
+          "minimum_bac_average": 133.5788,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": null,
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": null,
+            "2023": null,
+            "2024": 183.0449
+          },
+          "minimum_bac_average": 183.0449,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في علوم التمريض - اناث",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدطة",
+  "program_description": "3 سنوات (آمد) علوم الحياة والأرض إجبارية (*) تربية بدنية إجبارية",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي لعلوم التمريض بالكاف",
+      "university": "جامعة جندوبة",
+      "specialty": "علوم التمريض - اناث",
+      "specialty_code": "82797",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "آداب (*)",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 125.305,
+            "2023": 159.7885,
+            "2024": 165.861
+          },
+          "minimum_bac_average": 165.861,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 138.745,
+            "2023": 145.42,
+            "2024": 149.559
+          },
+          "minimum_bac_average": 149.559,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 155.2035,
+            "2023": 153.85,
+            "2024": 154.786
+          },
+          "minimum_bac_average": 154.786,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+SB",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 179.1662,
+            "2023": 185.9928,
+            "2024": 185.586
+          },
+          "minimum_bac_average": 185.586,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في علوم التمريض - ذكور",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد) علوم الحياة والأرض إجبارية (*) تربية بدنية إجبارية",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي لعلوم التمريض بالكاف",
+      "university": "جامعة جندوبة",
+      "specialty": "علوم التمريض - ذكور",
+      "specialty_code": "83797",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "آداب (*)",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 142.8236,
+            "2023": 129.6305,
+            "2024": 136.9119
+          },
+          "minimum_bac_average": 136.9119,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 106.5632,
+            "2023": 127.965,
+            "2024": 130.535
+          },
+          "minimum_bac_average": 130.535,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 122.4401,
+            "2023": 127.3461,
+            "2024": 130.4598
+          },
+          "minimum_bac_average": 130.4598,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+SB",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 171.5692,
+            "2023": 190.4226,
+            "2024": 192.0811
+          },
+          "minimum_bac_average": 192.0811,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+    {
+  "degree_name": "الإجازة في علوم التمريض - ذكور",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد) - شعبة تتطلب اختبار - علوم الحياة والأرض إجبارية (*) - تربية بدنية إجبارية",
+  "duration": "3 سنوات",
+  "admission_requirements": "شعبة تتطلب اختبار",
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي لعلوم التمريض بتونس",
+      "university": "جامعة تونس المنار",
+      "specialty": "علوم التمريض - ذكور",
+      "specialty_code": "11797",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "آداب (*)",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 133.185,
+            "2023": 101.125,
+            "2024": 138.725
+          },
+          "minimum_bac_average": 138.725,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": "شعبة تتطلب اختبار",
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 121.9105,
+            "2023": 135.2,
+            "2024": 139.675
+          },
+          "minimum_bac_average": 139.675,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": "شعبة تتطلب اختبار",
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 137.2436,
+            "2023": 137.87,
+            "2024": 133.7233
+          },
+          "minimum_bac_average": 133.7233,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": "شعبة تتطلب اختبار",
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+SB",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 176.3681,
+            "2023": 194.9968,
+            "2024": 188.09
+          },
+          "minimum_bac_average": 188.09,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": "شعبة تتطلب اختبار",
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+    {
+      "degree_name": "الإجازة في العلاج الطبيعي",
+      "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+      "program_description": "3 سنوات (امد) علوم الحياة والأرض إجبارية (*) تربية بدنية إجبارية",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بالمنستير",
+          "university": "جامعة المنستير",
+          "specialty": "العلاج الطبيعي",
+          "specialty_code": "34744",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب (*)",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022":  132.5677,
+                "2023": 150.1852,
+                "2024": 163.876
+              },
+              "minimum_bac_average":163.876,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 157.23,
+                "2023": 158.6275,
+                "2024": 167.805
+              },
+              "minimum_bac_average": 167.805,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 175.33,
+                "2023": 164.8817,
+                "2024": 163.646
+              },
+              "minimum_bac_average": 163.646,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+SB",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 168.739,
+                "2023": 196.2541,
+                "2024": 191.626
+              },
+              "minimum_bac_average": 191.626,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        },
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بصفاقس",
+          "university": "جامعة صفاقس",
+          "specialty": "العلاج الطبيعي",
+          "specialty_code": "40744",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب (*)",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 133.6591,
+                "2023": 141.8339,
+                "2024": 160.864
+              },
+              "minimum_bac_average": 160.864,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 160.1416,
+                "2023": 154.7167,
+                "2024": 149.821
+              },
+              "minimum_bac_average": 149.821,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 159.6173,
+                "2023": 150.435,
+                "2024": 147.163
+              },
+              "minimum_bac_average": 147.163,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+SB",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 186.7685,
+                "2023": 195.7672,
+                "2024": 195.596
+              },
+              "minimum_bac_average": 195.596,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+  "degree_name": "الإجازة في علوم التمريض - اناث",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد) علوم الحياة والأرض إجبارية (*) تربية بدنية إجبارية",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي لعلوم التمريض بقابس",
+      "university": "جامعة قابس",
+      "specialty": "علوم التمريض - اناث",
+      "specialty_code": "50797",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "آداب (*)",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 148.7782,
+            "2023": 137.2596,
+            "2024": 163.6512
+          },
+          "minimum_bac_average":  163.6512,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 142.8985,
+            "2023": 145.718,
+            "2024": 162.7042
+          },
+          "minimum_bac_average": 162.7042,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 156.6373,
+            "2023": 156.4822,
+            "2024": 154.1496
+          },
+          "minimum_bac_average": 154.1496,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+SB",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 171.414,
+            "2023": 188.304,
+            "2024": 191.0646
+          },
+          "minimum_bac_average": 191.0646,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+
+    {
+      "degree_name": "الإجازة في تقويم النطق والكلام",
+      "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+      "program_description": "3 سنوات (امد) علوم الحياة والأرض إجبارية (*)",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بتونس",
+          "university": "جامعة تونس المنار",
+          "specialty": "تقويم النطق والكلام",
+          "specialty_code": "10745",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب (*)",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 111.835,
+                "2023": 119.91,
+                "2024": 124.605
+              },
+              "minimum_bac_average": 124.605,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 130.41,
+                "2023": 144.675,
+                "2024": 148.115
+              },
+              "minimum_bac_average": 148.115,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 145.235,
+                "2023": 142.165,
+                "2024": 141.12
+              },
+              "minimum_bac_average": null,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+  "degree_name": "الإجازة في بدائل الأسنان",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد) علوم الحياة والأرض إجبارية (*)",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بالمنستير",
+      "university": "جامعة المنستير",
+      "specialty": "بدائل الأسنان",
+      "specialty_code": "34752",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "آداب (*)",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022":115.325,
+            "2023":119.895 ,
+            "2024": 144.32
+          },
+          "minimum_bac_average": 144.32,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 131.11,
+            "2023": 151.26,
+            "2024": 148.29
+          },
+          "minimum_bac_average": 148.29,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 144.925,
+            "2023": 142.415,
+            "2024": 135.24
+          },
+          "minimum_bac_average": 135.24,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+SB",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 164.205,
+            "2023": 174.39,
+            "2024": 182.72
+          },
+          "minimum_bac_average": 182.72,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في علوم التمريض - ذكور",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد) - شعبة تتطلب اختبار - علوم الحياة والأرض إجبارية (*) - تربية بدنية إجبارية",
+  "duration": "3 سنوات",
+  "admission_requirements": "شعبة تتطلب اختبار",
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي لعلوم التمريض بقابس",
+      "university": "جامعة قابس",
+      "specialty": "علوم التمريض - ذكور",
+      "specialty_code": "51797",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "آداب (*)",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 148.1362,
+            "2023": 107.92,
+            "2024": 141.9783
+          },
+          "minimum_bac_average": 141.9783,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": "شعبة تتطلب اختبار",
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 122.5846,
+            "2023": 133.7875,
+            "2024": 126.0193
+          },
+          "minimum_bac_average": 126.0193,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": "شعبة تتطلب اختبار",
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 134.499,
+            "2023": 131.2837,
+            "2024": 127.9132
+          },
+          "minimum_bac_average": 127.9132,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": "شعبة تتطلب اختبار",
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+SB",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 159.21,
+            "2023": 180.172,
+            "2024": 181.8037
+          },
+          "minimum_bac_average": 181.8037,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*), تربية بدنية إجبارية",
+          "notes": "شعبة تتطلب اختبار",
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+    {
+  "degree_name": "الإجازة في البيولوجيا الطبية",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد)",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بتونس",
+      "university": "جامعة تونس المنار",
+      "specialty": "البيولوجيا الطبية",
+      "specialty_code": "10743",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(SP+SVT)/2",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 134.7023,
+            "2023": 146.9431,
+            "2024": 152.6248
+          },
+          "minimum_bac_average": 152.6248,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(SP+SVT)/2",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 161.0671,
+            "2023": 147.8954,
+            "2024": 148.8798
+          },
+          "minimum_bac_average": 148.8798,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+
+    {
+      "degree_name": "الإجازة في أجهزة جراحة العظام",
+      "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+      "program_description": "3 سنوات (امد)",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بتونس",
+          "university": "جامعة تونس المنار",
+          "specialty": "أجهزة جراحة العظام",
+          "specialty_code": "10746",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 124.32,
+                "2023": 125.555,
+                "2024": 117.98
+              },
+              "minimum_bac_average":117.98,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 136.87,
+                "2023": 135.63,
+                "2024": 130.725
+              },
+              "minimum_bac_average":130.725,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في التغذية البشرية",
+      "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+      "program_description": "3 سنوات (امد) علوم الحياة والأرض إجبارية (*)",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بتونس",
+          "university": "جامعة تونس المنار",
+          "specialty": "التغذية البشرية",
+          "specialty_code": "10747",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب (*)",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 139.445,
+                "2023": 135.13,
+                "2024": 147.59
+              },
+              "minimum_bac_average": 147.59,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 142.78,
+                "2023": 142.015,
+                "2024": 148.81
+              },
+              "minimum_bac_average":148.81,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 151.4,
+                "2023": 144.26,
+                "2024": 141.995
+              },
+              "minimum_bac_average": 141.995,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في العلاج بالعمل",
+      "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+      "program_description": "3 سنوات (امد) علوم الحياة والأرض إجبارية (*)",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بتونس",
+          "university": "جامعة تونس المنار",
+          "specialty": "العلاج بالعمل",
+          "specialty_code": "10748",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "آداب (*)",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 134.785,
+                "2023": 126.795,
+                "2024": 122.985
+
+              },
+              "minimum_bac_average": 122.985,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 108.3,
+                "2023": 126.25,
+                "2024":115.97
+              },
+              "minimum_bac_average": 115.97,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 130.76,
+                "2023": 131.54,
+                "2024": 128.265
+              },
+              "minimum_bac_average": 128.265,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "رياضة",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 144.82,
+                "2023": 170.365,
+                "2024": 165.6
+              },
+              "minimum_bac_average": 165.6,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في المبصريات والنظارات الطبية",
+      "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+      "program_description": "3 سنوات (امد)",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بصفاقس",
+          "university": "جامعة صفاقس",
+          "specialty": "المبصريات والنظارات الطبية",
+          "specialty_code": "40749",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 131.325,
+                "2023": 118.72,
+                "2024": 119.675
+              },
+              "minimum_bac_average": 119.675,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+(M+SP)/2",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 150.125,
+                "2023": 130.535,
+                "2024": 127.845
+              },
+              "minimum_bac_average": 127.845,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "extracted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "degree_name": "الإجازة في أدواتية قاعة العمليات الجراحية",
+      "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+      "program_description": "3 سنوات (امد)",
+      "duration": "3 سنوات",
+      "admission_requirements": null,
+      "institutions": [
+        {
+          "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بتونس",
+          "university": "جامعة تونس المنار",
+          "specialty": "أدواتية قاعة العمليات الجراحية",
+          "specialty_code": "10750",
+          "location": null,
+          "contact_info": null,
+          "bac_requirements": [
+            {
+              "bac_type": "رياضيات",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 140.6301,
+                "2023": 146.6061,
+                "2024": 146.055
+              },
+              "minimum_bac_average":146.055,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            },
+            {
+              "bac_type": "علوم تجريبية",
+              "formula": "FG+SVT",
+              "formula_explanation": null,
+              "historical_scores": {
+                "2022": 156.7015,
+                "2023": 145.4237,
+                "2024":148.9119
+              },
+              "minimum_bac_average":148.9119,
+              "additional_requirements": null,
+              "notes": null,
+              "data_source": "main_csv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+  "degree_name": "الإجازة في الرعاية الصحية للطفل",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (امد) علوم الحياة والأرض إجبارية (*)",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المدرسة العليا لعلوم وتقنيات الصحة بتونس",
+      "university": "جامعة تونس المنار",
+      "specialty": "الرعاية الصحية للطفل",
+      "specialty_code": "10754",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "آداب (*)",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 125.8695,
+            "2023": 128.919,
+            "2024": 164.0524
+          },
+          "minimum_bac_average": 164.0524,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 136.2859,
+            "2023": 136.51,
+            "2024": 133.1187
+          },
+          "minimum_bac_average":133.1187,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+SVT",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 152.2557,
+            "2023": 145.948,
+            "2024": 143.4068
+          },
+          "minimum_bac_average": 143.4068,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "رياضة",
+          "formula": "FG+SB",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 145.948,
+            "2023": 170.5366,
+            "2024": 180.2415
+          },
+          "minimum_bac_average": 180.2415,
+          "additional_requirements": "علوم الحياة والأرض إجبارية (*)",
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+    {
+  "degree_name": "الإجازة في تركيب و إستعمال آلة سمع",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (آمد) [cite: 14]",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للتكنولوجيات الطبية بتونس",
+      "university": "جامعة تونس المنار",
+      "specialty": "تركيب و إستعمال آلة سمع",
+      "specialty_code": "10753",
+      "location": null,
+      "contact_info": null,
+      "notes": "بالاشتراك مع المدرسة العليا العلوم وتقنيات الصحة بتونس [cite: 14]",
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(SP+SVT)/2",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 127.67,
+            "2023": 130.98,
+            "2024": 121.23
+          },
+          "minimum_bac_average":  121.23,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(SP+SVT)/2",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 133.71,
+            "2023": 127.61,
+            "2024": 125.75
+          },
+          "minimum_bac_average": 125.75,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+},
+{
+  "degree_name": "الإجازة في الهندسة البيوطبية",
+  "field": "علوم الصحة والطب وطب الأسنان والصيدلة",
+  "program_description": "3 سنوات (امد)",
+  "duration": "3 سنوات",
+  "admission_requirements": null,
+  "institutions": [
+    {
+      "institution_name": "المعهد العالي للتكنولوجيات الطبية بتونس",
+      "university": "جامعة تونس المنار",
+      "specialty": "تكنولوجيات التصوير الطبي - الإعلامية الطبية - الأنظمة الإلكترونية المحمولة - تكنولوجيات الأجهزة الطبية",
+      "specialty_code": "10759",
+      "location": null,
+      "contact_info": null,
+      "bac_requirements": [
+        {
+          "bac_type": "رياضيات",
+          "formula": "FG+(SP+SVT)/2",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 135.5904,
+            "2023": 145.8517,
+            "2024": 144.0648
+          },
+          "minimum_bac_average": 144.0648,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم تجريبية",
+          "formula": "FG+(SP+SVT)/2",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 134.4,
+            "2023": 134.0068,
+            "2024": 130.7326
+          },
+          "minimum_bac_average": 130.7326,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "العلوم التقنية",
+          "formula": "FG+SP",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 136.0452,
+            "2023": 147.28,
+            "2024": 141.03
+          },
+          "minimum_bac_average": 141.03,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "extracted"
+        },
+        {
+          "bac_type": "علوم الإعلامية",
+          "formula": "FG+SP",
+          "formula_explanation": null,
+          "historical_scores": {
+            "2022": 125.511,
+            "2023": 133.2953,
+            "2024": 134.5739
+          },
+          "minimum_bac_average": 134.5739,
+          "additional_requirements": null,
+          "notes": null,
+          "data_source": "extracted"
+        }
+      ]
+    }
+  ]
+}
+
+  ]
+}
