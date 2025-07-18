@@ -1,0 +1,85 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model UniversityProgram {
+  id                  String   @id @default(cuid())
+  
+  // Core identifiers from finale-plus
+  program_code        String   // "10101" (formerly ramz_code)
+  program_id          String   @unique // "110101" (formerly ramz_id) - unique identifier for this program+bac combination
+  program_link        String   // Link to the program details (formerly ramz_link)
+  
+  // University information
+  university_id       String   // "01"
+  university_name     String   // "جامعة تونس"
+  
+  // Institution details
+  institution         String   // "كلية العلوم الإنسانية والإجتماعية بتونس"
+  location            String   // "تونس"
+  
+  // Program details
+  specialization      String   // "الإجازة في العربية"
+  field_of_study      String   // "الآداب واللغات والمراحل التحضيرية الأدبية"
+  criteria            String?  // "FG+AR"
+  
+  // Bac requirements
+  bac_type_id         String   // "1"
+  bac_type_name       String   // "آداب"
+  
+  // Special programs indicator
+  seven_percent       String?  // "نعم" or null
+  
+  // Historical admission scores (stored as JSON)
+  historical_scores   Json?    // {"2011": 94.5, "2012": 96.725, ...}
+  
+  // Calculated fields for easy access
+  latest_score        Float?   // Most recent year's score
+  latest_year         String?  // Year of the latest score
+  average_score       Float?   // Average across all years
+  
+  // Search optimization
+  raw_text            String   // Concatenated searchable text
+  
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+  
+  @@map("university_programs")
+  @@index([university_name])
+  @@index([bac_type_name])
+  @@index([specialization])
+  @@index([latest_score])
+  @@index([program_code])
+}
+
+// Model for storing chat sessions
+model ChatSession {
+  id        String   @id @default(cuid())
+  userId    String?  // Optional user identification
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  messages  ChatMessage[]
+  
+  @@map("chat_sessions")
+}
+
+model ChatMessage {
+  id         String   @id @default(cuid())
+  sessionId  String
+  role       String   // 'user' or 'assistant'
+  content    String
+  createdAt  DateTime @default(now())
+  
+  session    ChatSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+  
+  @@map("chat_messages")
+}
